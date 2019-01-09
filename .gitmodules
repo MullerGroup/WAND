@@ -1,0 +1,6 @@
+[submodule "WAND_Radio"]
+	path = WAND_Radio
+	url = https://github.com/MullerGroup/WAND_Radio.git
+[submodule "WAND_GUI"]
+	path = WAND_GUI
+	url = https://github.com/MullerGroup/WAND_GUI.git
