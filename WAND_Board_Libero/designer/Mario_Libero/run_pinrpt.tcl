@@ -1,0 +1,10 @@
+DESIGN=Mario_Libero
+DESDIR=P:\OMNI\Libero\Mario-CM_Flex-EMG_golden\designer\Mario_Libero
+TARGET_DIR=P:\OMNI\Libero\Mario-CM_Flex-EMG_golden\designer\Mario_Libero
+FAM=SmartFusion2
+DIE=PA4M6000
+PACKAGE=fcs325
+PINRPT_BY_NAME=1
+PINRPT_BY_NUMBER=1
+BANK_REPORT=1
+IOREG_REPORT=1

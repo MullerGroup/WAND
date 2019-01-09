@@ -1,0 +1,104 @@
+#--  Synopsys, Inc.
+#--  Version J-2015.03M-SP1-2
+#--  Project file P:\OMNI\Libero\Mario-CM_Flex-EMG_golden\Mario_SF2\synthesis\Mario_Libero_syn.prj
+
+#project files
+add_file -verilog "P:/OMNI/Libero/Mario-CM_Flex-EMG_golden/Mario_SF2/component/work/Mario_Libero/FCCC_0/Mario_Libero_FCCC_0_FCCC.v"
+add_file -verilog "P:/OMNI/Libero/Mario-CM_Flex-EMG_golden/Mario_SF2/component/work/Mario_Libero_MSS/Mario_Libero_MSS_syn.v"
+add_file -verilog "P:/OMNI/Libero/Mario-CM_Flex-EMG_golden/Mario_SF2/component/work/Mario_Libero_MSS/Mario_Libero_MSS.v"
+add_file -verilog "P:/OMNI/Libero/Mario-CM_Flex-EMG_golden/Mario_SF2/component/Actel/SgCore/OSC/2.0.101/osc_comps.v"
+add_file -verilog "P:/OMNI/Libero/Mario-CM_Flex-EMG_golden/Mario_SF2/component/work/Mario_Libero/OSC_0/Mario_Libero_OSC_0_OSC.v"
+add_file -verilog "P:/OMNI/Libero/Mario-CM_Flex-EMG_golden/Mario_SF2/hdl/am.v"
+add_file -verilog "P:/OMNI/Libero/Mario-CM_Flex-EMG_golden/Mario_SF2/hdl/cm_demux.v"
+add_file -verilog "P:/OMNI/Libero/Mario-CM_Flex-EMG_golden/Mario_SF2/component/work/ACKFIFO/ACKFIFO_0/rtl/vlog/core/corefifo_doubleSync.v"
+add_file -verilog "P:/OMNI/Libero/Mario-CM_Flex-EMG_golden/Mario_SF2/component/work/ACKFIFO/ACKFIFO_0/rtl/vlog/core/corefifo_grayToBinConv.v"
+add_file -verilog "P:/OMNI/Libero/Mario-CM_Flex-EMG_golden/Mario_SF2/component/work/ACKFIFO/ACKFIFO_0/rtl/vlog/core/corefifo_async.v"
+add_file -verilog "P:/OMNI/Libero/Mario-CM_Flex-EMG_golden/Mario_SF2/component/work/ACKFIFO/ACKFIFO_0/rtl/vlog/core/corefifo_fwft.v"
+add_file -verilog "P:/OMNI/Libero/Mario-CM_Flex-EMG_golden/Mario_SF2/component/work/ACKFIFO/ACKFIFO_0/rtl/vlog/core/corefifo_sync.v"
+add_file -verilog "P:/OMNI/Libero/Mario-CM_Flex-EMG_golden/Mario_SF2/component/work/ACKFIFO/ACKFIFO_0/rtl/vlog/core/corefifo_sync_scntr.v"
+add_file -verilog "P:/OMNI/Libero/Mario-CM_Flex-EMG_golden/Mario_SF2/component/work/ACKFIFO/ACKFIFO_0/rtl/vlog/core/ACKFIFO_ACKFIFO_0_USRAM_top.v"
+add_file -verilog "P:/OMNI/Libero/Mario-CM_Flex-EMG_golden/Mario_SF2/component/work/ACKFIFO/ACKFIFO_0/rtl/vlog/core/ACKFIFO_ACKFIFO_0_ram_wrapper.v"
+add_file -verilog "P:/OMNI/Libero/Mario-CM_Flex-EMG_golden/Mario_SF2/component/work/ACKFIFO/ACKFIFO_0/rtl/vlog/core/COREFIFO.v"
+add_file -verilog "P:/OMNI/Libero/Mario-CM_Flex-EMG_golden/Mario_SF2/component/work/ACKFIFO/ACKFIFO.v"
+add_file -verilog "P:/OMNI/Libero/Mario-CM_Flex-EMG_golden/Mario_SF2/component/work/ADCFIFO/ADCFIFO_0/rtl/vlog/core/corefifo_doubleSync.v"
+add_file -verilog "P:/OMNI/Libero/Mario-CM_Flex-EMG_golden/Mario_SF2/component/work/ADCFIFO/ADCFIFO_0/rtl/vlog/core/corefifo_grayToBinConv.v"
+add_file -verilog "P:/OMNI/Libero/Mario-CM_Flex-EMG_golden/Mario_SF2/component/work/ADCFIFO/ADCFIFO_0/rtl/vlog/core/corefifo_async.v"
+add_file -verilog "P:/OMNI/Libero/Mario-CM_Flex-EMG_golden/Mario_SF2/component/work/ADCFIFO/ADCFIFO_0/rtl/vlog/core/corefifo_fwft.v"
+add_file -verilog "P:/OMNI/Libero/Mario-CM_Flex-EMG_golden/Mario_SF2/component/work/ADCFIFO/ADCFIFO_0/rtl/vlog/core/corefifo_sync.v"
+add_file -verilog "P:/OMNI/Libero/Mario-CM_Flex-EMG_golden/Mario_SF2/component/work/ADCFIFO/ADCFIFO_0/rtl/vlog/core/corefifo_sync_scntr.v"
+add_file -verilog "P:/OMNI/Libero/Mario-CM_Flex-EMG_golden/Mario_SF2/component/work/ADCFIFO/ADCFIFO_0/rtl/vlog/core/ADCFIFO_ADCFIFO_0_LSRAM_top.v"
+add_file -verilog "P:/OMNI/Libero/Mario-CM_Flex-EMG_golden/Mario_SF2/component/work/ADCFIFO/ADCFIFO_0/rtl/vlog/core/ADCFIFO_ADCFIFO_0_ram_wrapper.v"
+add_file -verilog "P:/OMNI/Libero/Mario-CM_Flex-EMG_golden/Mario_SF2/component/work/ADCFIFO/ADCFIFO_0/rtl/vlog/core/COREFIFO.v"
+add_file -verilog "P:/OMNI/Libero/Mario-CM_Flex-EMG_golden/Mario_SF2/component/work/ADCFIFO/ADCFIFO.v"
+add_file -verilog "P:/OMNI/Libero/Mario-CM_Flex-EMG_golden/Mario_SF2/hdl/deserializer.v"
+add_file -verilog "P:/OMNI/Libero/Mario-CM_Flex-EMG_golden/Mario_SF2/hdl/nmic_rx.v"
+add_file -verilog "P:/OMNI/Libero/Mario-CM_Flex-EMG_golden/Mario_SF2/hdl/nmic_tx.v"
+add_file -verilog "P:/OMNI/Libero/Mario-CM_Flex-EMG_golden/Mario_SF2/hdl/nm_channel.v"
+add_file -verilog "P:/OMNI/Libero/Mario-CM_Flex-EMG_golden/Mario_SF2/hdl/nmic_if.v"
+add_file -verilog "P:/OMNI/Libero/Mario-CM_Flex-EMG_golden/Mario_SF2/hdl/cmam.v"
+add_file -verilog "P:/OMNI/Libero/Mario-CM_Flex-EMG_golden/Mario_SF2/hdl/cmam_if_wrap.v"
+add_file -verilog -lib COREAPB3_LIB "P:/OMNI/Libero/Mario-CM_Flex-EMG_golden/Mario_SF2/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3_muxptob3.v"
+add_file -verilog -lib COREAPB3_LIB "P:/OMNI/Libero/Mario-CM_Flex-EMG_golden/Mario_SF2/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3_iaddr_reg.v"
+add_file -verilog -lib COREAPB3_LIB "P:/OMNI/Libero/Mario-CM_Flex-EMG_golden/Mario_SF2/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3.v"
+add_file -verilog "P:/OMNI/Libero/Mario-CM_Flex-EMG_golden/Mario_SF2/component/work/Mario_Libero/Mario_Libero.v"
+
+
+
+#implementation: "synthesis"
+impl -add synthesis -type fpga
+
+#
+#implementation attributes
+
+set_option -vlog_std v2001
+
+#device options
+set_option -technology SmartFusion2
+set_option -part M2S060T
+set_option -package FCSBGA325
+set_option -speed_grade STD
+set_option -part_companion ""
+
+#compilation/mapping options
+set_option -use_fsm_explorer 0
+set_option -top_module "Mario_Libero"
+
+# mapper_options
+set_option -frequency 100.000
+set_option -write_verilog 0
+set_option -write_vhdl 0
+set_option -srs_instrumentation 1
+
+# actel_options
+set_option -rw_check_on_ram 0
+
+# Microsemi G4
+set_option -run_prop_extract 1
+set_option -maxfan 10000
+set_option -clock_globalthreshold 2
+set_option -async_globalthreshold 12
+set_option -globalthreshold 5000
+set_option -low_power_ram_decomp 0
+set_option -disable_io_insertion 0
+set_option -opcond COMTC
+set_option -retiming 0
+set_option -report_path 4000
+set_option -update_models_cp 0
+set_option -preserve_registers 0
+
+# sequential_optimization_options
+set_option -symbolic_fsm_compiler 1
+
+# Compiler Options
+set_option -compiler_compatible 0
+set_option -resource_sharing 1
+
+# Compiler Options
+set_option -auto_infer_blackbox 0
+
+#automatic place and route (vendor) options
+set_option -write_apr_constraint 1
+
+#set result format/file last
+project -result_file "./Mario_Libero.edn"
+impl -active "synthesis"

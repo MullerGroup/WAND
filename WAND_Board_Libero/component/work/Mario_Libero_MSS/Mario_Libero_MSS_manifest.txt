@@ -1,0 +1,37 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.7 SP3 (Version 11.7.3.8)
+
+Date      :  Thu Mar 16 15:32:06 2017
+Project   :  C:\Users\subnets\Desktop\Mario_SF2\Mario_SF2
+Component :  Mario_Libero_MSS
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/subnets/Desktop/Mario_SF2/Mario_SF2/component/work/Mario_Libero_MSS/Mario_Libero_MSS.v
+
+HDL source files for Synopsys SynplifyPro Synthesis tool:
+    C:/Users/subnets/Desktop/Mario_SF2/Mario_SF2/component/work/Mario_Libero_MSS/Mario_Libero_MSS_syn.v
+
+HDL source files for Mentor Precision Synthesis tool:
+    C:/Users/subnets/Desktop/Mario_SF2/Mario_SF2/component/work/Mario_Libero_MSS/Mario_Libero_MSS_pre.v
+
+Stimulus files for all Simulation tools:
+    C:/Users/subnets/Desktop/Mario_SF2/Mario_SF2/component/Actel/SmartFusion2MSS/MSS/1.1.400/peripheral_init.bfm
+    C:/Users/subnets/Desktop/Mario_SF2/Mario_SF2/component/work/Mario_Libero_MSS/CM3_compile_bfm.tcl
+    C:/Users/subnets/Desktop/Mario_SF2/Mario_SF2/component/work/Mario_Libero_MSS/test.bfm
+    C:/Users/subnets/Desktop/Mario_SF2/Mario_SF2/component/work/Mario_Libero_MSS/user.bfm
+
+Firmware files for all Software IDE tools:
+    C:/Users/subnets/Desktop/Mario_SF2/Mario_SF2/component/work/Mario_Libero_MSS/sys_config_mddr_define.h
+    C:/Users/subnets/Desktop/Mario_SF2/Mario_SF2/component/work/Mario_Libero_MSS/sys_config_mss_clocks.h
+
+Configuration files to be used for Programming:
+    C:/Users/subnets/Desktop/Mario_SF2/Mario_SF2/component/work/Mario_Libero_MSS/ENVM.cfg
+
+Configuration files to be used for all Simulation tools:
+    C:/Users/subnets/Desktop/Mario_SF2/Mario_SF2/component/work/Mario_Libero_MSS/ENVM.cfg
+    C:/Users/subnets/Desktop/Mario_SF2/Mario_SF2/component/work/Mario_Libero_MSS/MDDR_init.bfm
+
+Configuration files to be used for Power Analysis:
+    C:/Users/subnets/Desktop/Mario_SF2/Mario_SF2/component/work/Mario_Libero_MSS/MDDR_init.reg
+

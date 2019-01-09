@@ -1,0 +1,28 @@
+
+===============================================================================.
+
+Info: Global design data: 
+      Total globals:                       2 
+      Globals that cannot be demoted:      1 
+      Globals considered for demotion:     1 
+
+
+Info: List of globals that cannot be demoted: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    1003   0      1      'FCCC_0/GL0_INST' 
+
+Info: List of globals considered for demotion: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    0      707    21     'Mario_Libero_MSS_0/MSS_ADLIB_INST_RNIERND' 
+
+Info: Demotion information: 
+      Disconnected 21 data pins from global 'Mario_Libero_MSS_0/MSS_ADLIB_INST_RNIERND'. 
+Info: CMPG4-302: Added 0 row global instances.
+Info: CMPG4-303: Deleted 0 global instances.
+
+===============================================================================.
+
+INFO: Reading User PDC file P:/OMNI/Libero/Mario-CM_Flex-EMG_golden/constraint/io/Mario_Libero.io.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file P:/OMNI/Libero/Mario-CM_Flex-EMG_golden/constraint/fp/Mario_Libero.fp.pdc. 0 error(s) and 0 warning(s)

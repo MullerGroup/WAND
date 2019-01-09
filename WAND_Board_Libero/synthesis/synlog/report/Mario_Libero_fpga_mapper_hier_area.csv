@@ -1,0 +1,68 @@
+
+. Module name, SLE, CFG, ARI1, BUFFER, MACC, RAM1K18, RAM64X18, GLOBAL, IO
+. Mario_Libero, 982, 1512, 303, 0, 0, 4, 4, 2, 22
+.	. CoreAPB3_Z5, 0, 2, 0, 0, 0, 0, 0, 0, 0
+.	. Mario_Libero_FCCC_0_FCCC, 0, 1, 0, 0, 0, 0, 0, 1, 0
+.	. Mario_Libero_MSS, 0, 0, 0, 0, 0, 0, 0, 1, 8
+.	. Mario_Libero_OSC_0_OSC, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	. cmam_if_wrap, 982, 1509, 303, 0, 0, 4, 4, 0, 0
+.	.	. cmam, 982, 1506, 303, 0, 0, 4, 4, 0, 0
+.	.	.	. am, 39, 76, 13, 0, 0, 0, 0, 0, 0
+.	.	.	. nmic_if, 943, 1430, 290, 0, 0, 4, 4, 0, 0
+.	.	.	.	. cm_demux, 19, 116, 10, 0, 0, 0, 0, 0, 0
+.	.	.	.	. nm_channel_3, 225, 275, 70, 0, 0, 1, 1, 0, 0
+.	.	.	.	.	. ACKFIFO, 43, 20, 19, 0, 0, 0, 1, 0, 0
+.	.	.	.	.	.	. ACKFIFO_ACKFIFO_0_COREFIFO_Z1, 43, 20, 19, 0, 0, 0, 1, 0, 0
+.	.	.	.	.	.	.	. ACKFIFO_ACKFIFO_0_corefifo_sync_scntr_Z2, 23, 16, 19, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. ACKFIFO_ACKFIFO_0_ram_wrapper_16s_16s_6_6_1s_1s_3s, 0, 0, 0, 0, 0, 0, 1, 0, 0
+.	.	.	.	.	.	.	.	. ACKFIFO_ACKFIFO_0_USRAM_top, 0, 0, 0, 0, 0, 0, 1, 0, 0
+.	.	.	.	.	. ADCFIFO, 55, 25, 32, 0, 0, 1, 0, 0, 0
+.	.	.	.	.	.	. ADCFIFO_ADCFIFO_0_COREFIFO_Z3, 55, 25, 32, 0, 0, 1, 0, 0, 0
+.	.	.	.	.	.	.	. ADCFIFO_ADCFIFO_0_corefifo_sync_scntr_Z4, 35, 21, 32, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. ADCFIFO_ADCFIFO_0_ram_wrapper_16s_16s_10_10_1s_1s_2s, 0, 0, 0, 0, 0, 1, 0, 0, 0
+.	.	.	.	.	.	.	.	. ADCFIFO_ADCFIFO_0_LSRAM_top, 0, 0, 0, 0, 0, 1, 0, 0, 0
+.	.	.	.	.	. nmic_rx_3, 75, 150, 11, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. deserializer_3, 39, 55, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. nmic_tx_3, 17, 79, 8, 0, 0, 0, 0, 0, 0
+.	.	.	.	. nm_channel_3_0, 225, 274, 70, 0, 0, 1, 1, 0, 0
+.	.	.	.	.	. ACKFIFO_0, 43, 20, 19, 0, 0, 0, 1, 0, 0
+.	.	.	.	.	.	. ACKFIFO_ACKFIFO_0_COREFIFO_Z1_0, 43, 20, 19, 0, 0, 0, 1, 0, 0
+.	.	.	.	.	.	.	. ACKFIFO_ACKFIFO_0_corefifo_sync_scntr_Z2_0, 23, 15, 19, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. ACKFIFO_ACKFIFO_0_ram_wrapper_16s_16s_6_6_1s_1s_3s_0, 0, 0, 0, 0, 0, 0, 1, 0, 0
+.	.	.	.	.	.	.	.	. ACKFIFO_ACKFIFO_0_USRAM_top_0, 0, 0, 0, 0, 0, 0, 1, 0, 0
+.	.	.	.	.	. ADCFIFO_0, 55, 26, 32, 0, 0, 1, 0, 0, 0
+.	.	.	.	.	.	. ADCFIFO_ADCFIFO_0_COREFIFO_Z3_0, 55, 26, 32, 0, 0, 1, 0, 0, 0
+.	.	.	.	.	.	.	. ADCFIFO_ADCFIFO_0_corefifo_sync_scntr_Z4_0, 35, 20, 32, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. ADCFIFO_ADCFIFO_0_ram_wrapper_16s_16s_10_10_1s_1s_2s_0, 0, 0, 0, 0, 0, 1, 0, 0, 0
+.	.	.	.	.	.	.	.	. ADCFIFO_ADCFIFO_0_LSRAM_top_0, 0, 0, 0, 0, 0, 1, 0, 0, 0
+.	.	.	.	.	. nmic_rx_3_0, 75, 150, 11, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. deserializer_3_0, 39, 55, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. nmic_tx_3_0, 17, 77, 8, 0, 0, 0, 0, 0, 0
+.	.	.	.	. nm_channel_3_1, 225, 271, 70, 0, 0, 1, 1, 0, 0
+.	.	.	.	.	. ACKFIFO_1, 43, 20, 19, 0, 0, 0, 1, 0, 0
+.	.	.	.	.	.	. ACKFIFO_ACKFIFO_0_COREFIFO_Z1_1, 43, 20, 19, 0, 0, 0, 1, 0, 0
+.	.	.	.	.	.	.	. ACKFIFO_ACKFIFO_0_corefifo_sync_scntr_Z2_1, 23, 16, 19, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. ACKFIFO_ACKFIFO_0_ram_wrapper_16s_16s_6_6_1s_1s_3s_1, 0, 0, 0, 0, 0, 0, 1, 0, 0
+.	.	.	.	.	.	.	.	. ACKFIFO_ACKFIFO_0_USRAM_top_1, 0, 0, 0, 0, 0, 0, 1, 0, 0
+.	.	.	.	.	. ADCFIFO_1, 55, 25, 32, 0, 0, 1, 0, 0, 0
+.	.	.	.	.	.	. ADCFIFO_ADCFIFO_0_COREFIFO_Z3_1, 55, 25, 32, 0, 0, 1, 0, 0, 0
+.	.	.	.	.	.	.	. ADCFIFO_ADCFIFO_0_corefifo_sync_scntr_Z4_1, 35, 21, 32, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. ADCFIFO_ADCFIFO_0_ram_wrapper_16s_16s_10_10_1s_1s_2s_1, 0, 0, 0, 0, 0, 1, 0, 0, 0
+.	.	.	.	.	.	.	.	. ADCFIFO_ADCFIFO_0_LSRAM_top_1, 0, 0, 0, 0, 0, 1, 0, 0, 0
+.	.	.	.	.	. nmic_rx_3_1, 75, 147, 11, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. deserializer_3_1, 39, 55, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. nmic_tx_3_1, 17, 78, 8, 0, 0, 0, 0, 0, 0
+.	.	.	.	. nm_channel_3_2, 225, 275, 70, 0, 0, 1, 1, 0, 0
+.	.	.	.	.	. ACKFIFO_2, 43, 21, 19, 0, 0, 0, 1, 0, 0
+.	.	.	.	.	.	. ACKFIFO_ACKFIFO_0_COREFIFO_Z1_2, 43, 21, 19, 0, 0, 0, 1, 0, 0
+.	.	.	.	.	.	.	. ACKFIFO_ACKFIFO_0_corefifo_sync_scntr_Z2_2, 23, 16, 19, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. ACKFIFO_ACKFIFO_0_ram_wrapper_16s_16s_6_6_1s_1s_3s_2, 0, 0, 0, 0, 0, 0, 1, 0, 0
+.	.	.	.	.	.	.	.	. ACKFIFO_ACKFIFO_0_USRAM_top_2, 0, 0, 0, 0, 0, 0, 1, 0, 0
+.	.	.	.	.	. ADCFIFO_2, 55, 26, 32, 0, 0, 1, 0, 0, 0
+.	.	.	.	.	.	. ADCFIFO_ADCFIFO_0_COREFIFO_Z3_2, 55, 26, 32, 0, 0, 1, 0, 0, 0
+.	.	.	.	.	.	.	. ADCFIFO_ADCFIFO_0_corefifo_sync_scntr_Z4_2, 35, 20, 32, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. ADCFIFO_ADCFIFO_0_ram_wrapper_16s_16s_10_10_1s_1s_2s_2, 0, 0, 0, 0, 0, 1, 0, 0, 0
+.	.	.	.	.	.	.	.	. ADCFIFO_ADCFIFO_0_LSRAM_top_2, 0, 0, 0, 0, 0, 1, 0, 0, 0
+.	.	.	.	.	. nmic_rx_3_2, 75, 149, 11, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. deserializer_3_2, 39, 55, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. nmic_tx_3_2, 17, 78, 8, 0, 0, 0, 0, 0, 0

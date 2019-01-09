@@ -1,0 +1,25 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.7 SP3 (Version 11.7.3.8)
+
+Date      :  Thu Mar 16 15:33:44 2017
+Project   :  C:\Users\subnets\Desktop\Mario_SF2\Mario_SF2
+Component :  Mario_Libero
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/subnets/Desktop/Mario_SF2/Mario_SF2/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3.v
+    C:/Users/subnets/Desktop/Mario_SF2/Mario_SF2/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3_iaddr_reg.v
+    C:/Users/subnets/Desktop/Mario_SF2/Mario_SF2/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3_muxptob3.v
+    C:/Users/subnets/Desktop/Mario_SF2/Mario_SF2/component/work/Mario_Libero/FCCC_0/Mario_Libero_FCCC_0_FCCC.v
+    C:/Users/subnets/Desktop/Mario_SF2/Mario_SF2/component/work/Mario_Libero/Mario_Libero.v
+    C:/Users/subnets/Desktop/Mario_SF2/Mario_SF2/component/work/Mario_Libero/OSC_0/Mario_Libero_OSC_0_OSC.v
+
+HDL source files for Synopsys SynplifyPro Synthesis tool:
+    C:/Users/subnets/Desktop/Mario_SF2/Mario_SF2/component/Actel/SgCore/OSC/2.0.101/osc_comps.v
+
+HDL source files for Mentor Precision Synthesis tool:
+    C:/Users/subnets/Desktop/Mario_SF2/Mario_SF2/component/Actel/SgCore/OSC/2.0.101/osc_comps_pre.v
+
+Stimulus files for all Simulation tools:
+    C:/Users/subnets/Desktop/Mario_SF2/Mario_SF2/component/work/Mario_Libero/subsystem.bfm
+

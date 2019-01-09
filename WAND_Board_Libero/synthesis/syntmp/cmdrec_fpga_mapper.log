@@ -1,0 +1,15 @@
+C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\m_generic.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  P:\OMNI\Libero\Mario-CM_Flex-EMG_golden\synthesis   -part M2S060T  -package FCSBGA325  -grade STD    -maxfan 10000 -clock_globalthreshold 2 -async_globalthreshold 12 -globalthreshold 5000 -low_power_ram_decomp 0 -seqshift_to_uram 0 -opcond COMTC -report_path 4000 -RWCheckOnRam 0 -summaryfile P:\OMNI\Libero\Mario-CM_Flex-EMG_golden\synthesis\synlog\report\Mario_Libero_fpga_mapper.xml  -top_level_module  Mario_Libero  -licensetype  synplifypro_actel  -flow mapping  -mp  4  -prjfile  P:\OMNI\Libero\Mario-CM_Flex-EMG_golden\synthesis\scratchproject.prs  -implementation  synthesis  -multisrs  -oedif  P:\OMNI\Libero\Mario-CM_Flex-EMG_golden\synthesis\Mario_Libero.edn   -freq 100.000   P:\OMNI\Libero\Mario-CM_Flex-EMG_golden\synthesis\synwork\Mario_Libero_prem.srd  -sap  P:\OMNI\Libero\Mario-CM_Flex-EMG_golden\synthesis\Mario_Libero.sap  -otap  P:\OMNI\Libero\Mario-CM_Flex-EMG_golden\synthesis\Mario_Libero.tap  -omap  P:\OMNI\Libero\Mario-CM_Flex-EMG_golden\synthesis\Mario_Libero.map  -devicelib  C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.v  -sap  P:\OMNI\Libero\Mario-CM_Flex-EMG_golden\synthesis\Mario_Libero.sap  -ologparam  P:\OMNI\Libero\Mario-CM_Flex-EMG_golden\synthesis\syntmp\Mario_Libero.plg  -osyn  P:\OMNI\Libero\Mario-CM_Flex-EMG_golden\synthesis\Mario_Libero.srm  -prjdir  P:\OMNI\Libero\Mario-CM_Flex-EMG_golden\synthesis\  -prjname  Mario_Libero_syn  -log  P:\OMNI\Libero\Mario-CM_Flex-EMG_golden\synthesis\synlog\Mario_Libero_fpga_mapper.srr 
+rc:1 success:1 runtime:8
+file:P:\OMNI\Libero\Mario-CM_Flex-EMG_golden\synthesis\scratchproject.prs|io:o|time:1530034096|size:6194|exec:0
+file:P:\OMNI\Libero\Mario-CM_Flex-EMG_golden\synthesis\Mario_Libero.edn|io:o|time:1530035952|size:2624520|exec:0
+file:P:\OMNI\Libero\Mario-CM_Flex-EMG_golden\synthesis\synwork\Mario_Libero_prem.srd|io:i|time:1530035944|size:166789|exec:0
+file:P:\OMNI\Libero\Mario-CM_Flex-EMG_golden\synthesis\Mario_Libero.sap|io:o|time:1530035944|size:6397|exec:0
+file:P:\OMNI\Libero\Mario-CM_Flex-EMG_golden\synthesis\Mario_Libero.tap|io:o|time:0|size:0|exec:0
+file:P:\OMNI\Libero\Mario-CM_Flex-EMG_golden\synthesis\Mario_Libero.map|io:o|time:1530035952|size:28|exec:0
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.v|io:i|time:1487970428|size:16359|exec:0
+file:P:\OMNI\Libero\Mario-CM_Flex-EMG_golden\synthesis\Mario_Libero.sap|io:o|time:1530035944|size:6397|exec:0
+file:P:\OMNI\Libero\Mario-CM_Flex-EMG_golden\synthesis\syntmp\Mario_Libero.plg|io:o|time:1530035952|size:889|exec:0
+file:P:\OMNI\Libero\Mario-CM_Flex-EMG_golden\synthesis\Mario_Libero.srm|io:o|time:1530035951|size:12541|exec:0
+file:P:\OMNI\Libero\Mario-CM_Flex-EMG_golden\synthesis\synlog\Mario_Libero_fpga_mapper.srr|io:o|time:1530035952|size:49458|exec:0
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\m_generic.exe|io:i|time:1485333362|size:17958400|exec:1
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\m_generic.exe|io:i|time:1485334914|size:32495616|exec:1

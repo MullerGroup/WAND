@@ -1,0 +1,63 @@
+# Microsemi Physical design constraints file
+
+# Version: v11.8 SP3 11.8.3.6
+
+# Design Name:  
+
+# Input Netlist Format: EDIF 
+
+# Family: SmartFusion2 , Die: M2S060T , Package: 325 FCSBGA , Speed grade: STD 
+
+# Date generated: Tue Jun 26 10:59:24 2018 
+
+
+#
+# IO banks setting
+#
+
+set_iobank Bank2 -vcci 1.80 -fixed no
+set_iobank Bank3 -vcci 1.20 -fixed yes
+set_iobank Bank4 -vcci 1.80 -fixed yes
+
+#
+# Local clock constraints
+#
+
+
+#
+# Region constraints
+#
+
+
+#
+# I/O constraints
+#
+
+set_io ACC_CLKIN -DIRECTION OUTPUT -pinname T5 -fixed yes
+set_io ACC_INT -DIRECTION INPUT -pinname U5 -fixed yes
+set_io C2N_DATA\[0\] -DIRECTION OUTPUT -iostd LVCMOS12 -pinname K5 -fixed yes
+set_io C2N_DATA\[1\] -DIRECTION OUTPUT -iostd LVCMOS12 -pinname K2 -fixed yes
+set_io C2N_VALID\[0\] -DIRECTION OUTPUT -iostd LVCMOS12 -pinname K4 -fixed yes
+set_io C2N_VALID\[1\] -DIRECTION OUTPUT -iostd LVCMOS12 -pinname L7 -fixed yes
+set_io CLK_OUT -DIRECTION OUTPUT -pinname Y2 -fixed yes
+set_io CLK_OUT2 -DIRECTION OUTPUT -pinname W2 -fixed yes
+set_io GPIO0 -DIRECTION OUTPUT -pinname Y1 -fixed yes
+set_io GPIO1 -DIRECTION OUTPUT -pinname AA2 -fixed yes
+set_io GPIO2 -DIRECTION OUTPUT -pinname T3 -fixed yes
+set_io GPIO3 -DIRECTION OUTPUT -pinname U4 -fixed yes
+set_io I2C_1_SCL -DIRECTION INOUT -RES_PULL Up -pinname R5 -fixed yes
+set_io I2C_1_SDA -DIRECTION INOUT -RES_PULL Up -pinname R4 -fixed yes
+set_io MMUART_1_RXD -DIRECTION INPUT -pinname D2 -fixed yes
+set_io MMUART_1_TXD -DIRECTION OUTPUT -pinname E1 -fixed yes
+set_io N2C_DATA\[0\] -DIRECTION INPUT -iostd LVCMOS12 -pinname K7 -fixed yes
+set_io N2C_DATA\[1\] -DIRECTION INPUT -iostd LVCMOS12 -pinname J4 -fixed yes
+set_io SPI_0_CLK -DIRECTION INOUT -pinname U2 -fixed yes
+set_io SPI_0_DI -DIRECTION INPUT -pinname U1 -fixed yes
+set_io SPI_0_DO -DIRECTION OUTPUT -pinname P4 -fixed yes
+set_io SPI_0_SS0 -DIRECTION INOUT -pinname P5 -fixed yes
+set_io XTL -DIRECTION INPUT -pinname AA4
+
+#
+# Core cell constraints
+#
+

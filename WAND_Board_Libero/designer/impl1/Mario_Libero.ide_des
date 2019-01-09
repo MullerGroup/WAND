@@ -1,0 +1,11 @@
+KEY IDE_DES_TOOL "Ide"
+KEY IDE_DES_ADB_PATH "C:\Users\subnets\Documents\NHP\Mario_SF2\designer\impl1\Mario_Libero.adb"
+LIST SOURCE_FILES
+VALUE "C:\Users\subnets\Documents\NHP\Mario_SF2\constraint\io\Mario_Libero.io.pdc;pdc"
+VALUE "C:\Users\subnets\Documents\NHP\Mario_SF2\constraint\fp\Mario_Libero.fp.pdc;pdc"
+ENDLIST
+LIST OPTIONAL_FILES
+VALUE "C:\Users\subnets\Documents\NHP\Mario_SF2\synthesis\Mario_Libero_sdc.sdc;Skipped"
+ENDLIST
+LIST VCD_FILES
+ENDLIST

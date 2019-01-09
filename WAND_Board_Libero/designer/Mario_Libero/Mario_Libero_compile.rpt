@@ -1,0 +1,206 @@
+Compile Report
+Microsemi Corporation - Microsemi Libero Software Release v11.8 SP3 (Version 11.8.3.6)
+Date: Tue Jun 26 10:59:24 2018
+
+Device Selection
++--------------------------------+----------------+
+| Family                         | SmartFusion2   |
+| Device                         | M2S060T        |
+| Package                        | 325 FCSBGA     |
+| Speed Grade                    | STD            |
+| Temp                           | -40:25:100     |
+| Voltage                        | 1.26:1.20:1.14 |
+| Core Voltage                   | 1.2V           |
+| Ramp Rate                      | 100ms Minimum  |
+| System Controller Suspend Mode | No             |
+| PLL Supply Voltage             | 2.5V           |
+| Default I/O technology         | LVCMOS 1.8V    |
+| Restrict Probe Pins            | Yes            |
+| Restrict SPI Pins              | No             |
++--------------------------------+----------------+
+
+Source Files
++---------+---------------------------------------------------------------------------+
+| Topcell | Mario_Libero                                                              |
+| Format  | EDIF                                                                      |
+| Source  | P:\OMNI\Libero\Mario-CM_Flex-EMG_golden\synthesis\Mario_Libero.edn        |
+| Source  | P:\OMNI\Libero\Mario-CM_Flex-EMG_golden\constraint\io\Mario_Libero.io.pdc |
+| Source  | P:\OMNI\Libero\Mario-CM_Flex-EMG_golden\constraint\fp\Mario_Libero.fp.pdc |
++---------+---------------------------------------------------------------------------+
+
+Options
++---------------------------------------------------------+-------+
+| Merge User SDC file(s) with Existing Timing Constraints | true  |
+| Abort Compile if errors are found in PDC file(s)        | true  |
+| Enable Single Event Transient mitigation                | false |
+| Enable Design Separation Methodology                    | false |
+| Limit the number of high fanout nets to display to      | 10    |
++---------------------------------------------------------+-------+
+
+Resource Usage
++---------------------------+------+-------+------------+
+| Type                      | Used | Total | Percentage |
++---------------------------+------+-------+------------+
+| 4LUT                      | 2103 | 56520 | 3.72       |
+| DFF                       | 1270 | 56520 | 2.25       |
+| I/O Register              | 0    | 594   | 0.00       |
+| User I/O                  | 22   | 198   | 11.11      |
+| -- Single-ended I/O       | 22   | 198   | 11.11      |
+| -- Differential I/O Pairs | 0    | 99    | 0.00       |
+| RAM64x18                  | 4    | 72    | 5.56       |
+| RAM1K18                   | 4    | 69    | 5.80       |
+| MACC                      | 0    | 72    | 0.00       |
+| Chip Globals              | 2    | 16    | 12.50      |
+| CCC                       | 1    | 6     | 16.67      |
+| RCOSC_25_50MHZ            | 0    | 1     | 0.00       |
+| RCOSC_1MHZ                | 0    | 1     | 0.00       |
+| XTLOSC                    | 1    | 1     | 100.00     |
+| SERDESIF Blocks           | 0    | 1     | 0.00       |
+| -- SERDESIF Lanes         | 0    | 2     | 0.00       |
+| MSS                       | 1    | 1     | 100.00     |
++---------------------------+------+-------+------------+
+
+Detailed Logic Resource Usage
++--------------------------+------+------+
+| Type                     | 4LUT | DFF  |
++--------------------------+------+------+
+| Fabric Logic             | 1815 | 982  |
+| RAM64x18 Interface Logic | 144  | 144  |
+| RAM1K18 Interface Logic  | 144  | 144  |
+| MACC Interface Logic     | 0    | 0    |
+| Total Used               | 2103 | 1270 |
++--------------------------+------+------+
+
+MSS Resource Usage
++---------------+------+-------+
+| Type          | Used | Total |
++---------------+------+-------+
+| Cortex-M3*    | 1    | 1     |
+| eNVM (256KB)* | 1    | 1     |
+| eSRAM*        | 2    | 2     |
+| TIMER*        | 2    | 2     |
+| CAN           | 0    | 1     |
+| SPI           | 1    | 2     |
+| I2C           | 1    | 2     |
+| UART          | 1    | 2     |
+| USB           | 0    | 1     |
+| MAC           | 0    | 1     |
+| MDDR          | 0    | 1     |
+| HPDMA         | 1    | 1     |
+| PDMA          | 1    | 1     |
++---------------+------+-------+
+
+* These resources are always marked as used when you are using the MSS
+
+Detailed Carry Chains Resource Usage
++--------+------+
+| Length | Used |
+| 2      | 4    |
+| 5      | 2    |
+| 6      | 12   |
+| 7      | 4    |
+| 10     | 8    |
+| 11     | 4    |
+| 12     | 4    |
+| 13     | 1    |
+| Total  | 39   |
++--------+------+
+
+I/O Function
++-------------------------------+--------------+-------------+-----------------+
+| Type                          | w/o register | w/ register | w/ DDR register |
++-------------------------------+--------------+-------------+-----------------+
+| Input I/O                     | 5            | 0           | 0               |
+| Output I/O                    | 13           | 0           | 0               |
+| Bidirectional I/O             | 4            | 0           | 0               |
+| Differential Input I/O Pairs  | 0            | 0           | 0               |
+| Differential Output I/O Pairs | 0            | 0           | 0               |
++-------------------------------+--------------+-------------+-----------------+
+
+I/O Technology
++--------------+--------+------+-------+--------+---------------+
+| I/O Standard | Vddi   | Vref | Input | Output | Bidirectional |
++--------------+--------+------+-------+--------+---------------+
+| LVCMOS12     |  1.20v |  N/A |  2    |  4     |  0            |
+| LVCMOS18     |  1.80v |  N/A |  3    |  9     |  4            |
++--------------+--------+------+-------+--------+---------------+
+
+I/O Placement
++----------+-------+------------+
+| Type     | Count | Percentage |
++----------+-------+------------+
+| Locked   |  22   | 100.00%    |
+| Placed   |  0    | 0.00%      |
+| UnPlaced |  0    | 0.00%      |
++----------+-------+------------+
+
+Nets assigned to chip global resources
++--------+---------+-----------------------------------------------------------+
+| Fanout | Type    | Name                                                      |
++--------+---------+-----------------------------------------------------------+
+| 1004   | INT_NET | Net   : FCCC_0_GL0                                        |
+|        |         | Driver: FCCC_0/GL0_INST/U0_RGB1                           |
+|        |         | Source: NETLIST                                           |
+| 707    | INT_NET | Net   : Mario_Libero_MSS_0_MSS_RESET_N_M2F                |
+|        |         | Driver: Mario_Libero_MSS_0/MSS_ADLIB_INST_RNIERND/U0_RGB1 |
+|        |         | Source: NETLIST                                           |
++--------+---------+-----------------------------------------------------------+
+
+Nets assigned to row global resources
++--------+------+------+
+| Fanout | Type | Name |
++--------+------+------+
++--------+------+------+
+
+High fanout nets
++--------+---------+---------------------------------------------------------+
+| Fanout | Type    | Name                                                    |
++--------+---------+---------------------------------------------------------+
+| 97     | INT_NET | Net   : CoreAPB3_0_APBmslave0_PADDR[2]                  |
+|        |         | Driver: Mario_Libero_MSS_0/MSS_ADLIB_INST               |
+| 89     | INT_NET | Net   : cmam_if_wrap_0/cmam_if/nif/rx_strobe            |
+|        |         | Driver: cmam_if_wrap_0/cmam_if/nif/cmd_inst/rx_data_stb |
+| 86     | INT_NET | Net   : CoreAPB3_0_APBmslave0_PADDR[3]                  |
+|        |         | Driver: Mario_Libero_MSS_0/MSS_ADLIB_INST               |
+| 62     | INT_NET | Net   : CoreAPB3_0_APBmslave0_PADDR[5]                  |
+|        |         | Driver: Mario_Libero_MSS_0/MSS_ADLIB_INST               |
+| 59     | INT_NET | Net   : CoreAPB3_0_APBmslave0_PADDR[4]                  |
+|        |         | Driver: Mario_Libero_MSS_0/MSS_ADLIB_INST               |
+| 59     | INT_NET | Net   : CoreAPB3_0_APBmslave0_PADDR[6]                  |
+|        |         | Driver: Mario_Libero_MSS_0/MSS_ADLIB_INST               |
+| 39     | INT_NET | Net   : cmam_if_wrap_0/cmam_if/nif/nmc1/nrx/in_packet   |
+|        |         | Driver: cmam_if_wrap_0/cmam_if/nif/nmc1/nrx/in_packet   |
+| 39     | INT_NET | Net   : cmam_if_wrap_0/cmam_if/nif/nmc3/nrx/in_packet   |
+|        |         | Driver: cmam_if_wrap_0/cmam_if/nif/nmc3/nrx/in_packet   |
+| 39     | INT_NET | Net   : cmam_if_wrap_0/cmam_if/nif/nmc2/nrx/in_packet   |
+|        |         | Driver: cmam_if_wrap_0/cmam_if/nif/nmc2/nrx/in_packet   |
+| 39     | INT_NET | Net   : cmam_if_wrap_0/cmam_if/nif/nmc0/nrx/in_packet   |
+|        |         | Driver: cmam_if_wrap_0/cmam_if/nif/nmc0/nrx/in_packet   |
++--------+---------+---------------------------------------------------------+
+
+High fanout nets (through buffer trees)
++--------+---------+---------------------------------------------------------+
+| Fanout | Type    | Name                                                    |
++--------+---------+---------------------------------------------------------+
+| 97     | INT_NET | Net   : CoreAPB3_0_APBmslave0_PADDR[2]                  |
+|        |         | Driver: Mario_Libero_MSS_0/MSS_ADLIB_INST               |
+| 89     | INT_NET | Net   : cmam_if_wrap_0/cmam_if/nif/rx_strobe            |
+|        |         | Driver: cmam_if_wrap_0/cmam_if/nif/cmd_inst/rx_data_stb |
+| 86     | INT_NET | Net   : CoreAPB3_0_APBmslave0_PADDR[3]                  |
+|        |         | Driver: Mario_Libero_MSS_0/MSS_ADLIB_INST               |
+| 62     | INT_NET | Net   : CoreAPB3_0_APBmslave0_PADDR[5]                  |
+|        |         | Driver: Mario_Libero_MSS_0/MSS_ADLIB_INST               |
+| 59     | INT_NET | Net   : CoreAPB3_0_APBmslave0_PADDR[4]                  |
+|        |         | Driver: Mario_Libero_MSS_0/MSS_ADLIB_INST               |
+| 59     | INT_NET | Net   : CoreAPB3_0_APBmslave0_PADDR[6]                  |
+|        |         | Driver: Mario_Libero_MSS_0/MSS_ADLIB_INST               |
+| 39     | INT_NET | Net   : cmam_if_wrap_0/cmam_if/nif/nmc1/nrx/in_packet   |
+|        |         | Driver: cmam_if_wrap_0/cmam_if/nif/nmc1/nrx/in_packet   |
+| 39     | INT_NET | Net   : cmam_if_wrap_0/cmam_if/nif/nmc3/nrx/in_packet   |
+|        |         | Driver: cmam_if_wrap_0/cmam_if/nif/nmc3/nrx/in_packet   |
+| 39     | INT_NET | Net   : cmam_if_wrap_0/cmam_if/nif/nmc2/nrx/in_packet   |
+|        |         | Driver: cmam_if_wrap_0/cmam_if/nif/nmc2/nrx/in_packet   |
+| 39     | INT_NET | Net   : cmam_if_wrap_0/cmam_if/nif/nmc0/nrx/in_packet   |
+|        |         | Driver: cmam_if_wrap_0/cmam_if/nif/nmc0/nrx/in_packet   |
++--------+---------+---------------------------------------------------------+
+

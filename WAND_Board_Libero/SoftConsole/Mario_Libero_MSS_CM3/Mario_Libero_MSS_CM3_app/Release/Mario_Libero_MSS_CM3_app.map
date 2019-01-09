@@ -1,0 +1,855 @@
+Archive member included because of file (symbol)
+
+C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_spi.o)
+                              ./main_SPI.o (g_mss_spi0)
+C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_i2c.o)
+                              ./mpu6050.o (g_mss_i2c1)
+C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_gpio.o)
+                              ./accelerometer.o (MSS_GPIO_init)
+C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+                              C:/Users/BWRC/Desktop/NHP/Mario_SF2/Mario_SF2/SoftConsole/Mario_Libero_MSS_CM3/Mario_Libero_MSS_CM3_hw_platform/Release/CMSIS/startup_gcc/startup_m2sxxx.o (SystemInit)
+c:/microsemi/libero_v11.6/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-errno.o)
+                              C:/Users/BWRC/Desktop/NHP/Mario_SF2/Mario_SF2/SoftConsole/Mario_Libero_MSS_CM3/Mario_Libero_MSS_CM3_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o (__errno)
+c:/microsemi/libero_v11.6/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-impure.o)
+                              c:/microsemi/libero_v11.6/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-errno.o) (_impure_ptr)
+c:/microsemi/libero_v11.6/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-init.o)
+                              C:/Users/BWRC/Desktop/NHP/Mario_SF2/Mario_SF2/SoftConsole/Mario_Libero_MSS_CM3/Mario_Libero_MSS_CM3_hw_platform/Release/CMSIS/startup_gcc/startup_m2sxxx.o (__libc_init_array)
+c:/microsemi/libero_v11.6/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memset.o)
+                              C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_spi.o) (memset)
+
+Allocating common symbols
+Common symbol       size              file
+
+g_mss_spi1          0x84              C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_spi.o)
+MPU6050_fifo_error  0x4               ./mpu6050.o
+MPU6050_data_ready  0x4               ./mpu6050.o
+mpu6050_fifo_buf    0x400             ./accelerometer.o
+g_mss_i2c0          0x74              C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_i2c.o)
+mpu6050_fifo_bytecount
+                    0x2               ./accelerometer.o
+retval              0x1               ./accelerometer.o
+g_mss_spi0          0x84              C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_spi.o)
+g_mss_i2c1          0x74              C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_i2c.o)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 c:/microsemi/libero_v11.6/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+ .data          0x00000000        0x0 c:/microsemi/libero_v11.6/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+ .bss           0x00000000        0x0 c:/microsemi/libero_v11.6/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+ .data          0x00000000        0x4 c:/microsemi/libero_v11.6/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+ .text          0x00000000        0x0 ./accelerometer.o
+ .data          0x00000000        0x0 ./accelerometer.o
+ .bss           0x00000000        0x0 ./accelerometer.o
+ .text.NVIC_EnableIRQ
+                0x00000000       0x38 ./accelerometer.o
+ .text.NVIC_DisableIRQ
+                0x00000000       0x3c ./accelerometer.o
+ .text.NVIC_ClearPendingIRQ
+                0x00000000       0x3c ./accelerometer.o
+ .text.MSS_TIM1_init
+                0x00000000       0x84 ./accelerometer.o
+ .text.MSS_TIM1_load_immediate
+                0x00000000       0x20 ./accelerometer.o
+ .text.MSS_TIM1_enable_irq
+                0x00000000       0x20 ./accelerometer.o
+ .data.buffer_read_pointer
+                0x00000000        0x4 ./accelerometer.o
+ .bss.buffer_read_counter
+                0x00000000        0x4 ./accelerometer.o
+ .text.accel_init
+                0x00000000       0x60 ./accelerometer.o
+ .text.accel_FIFOread
+                0x00000000       0x40 ./accelerometer.o
+ .text.accel_sample_read
+                0x00000000       0x68 ./accelerometer.o
+ COMMON         0x00000000      0x403 ./accelerometer.o
+ .text          0x00000000        0x0 ./main_SPI.o
+ .data          0x00000000        0x0 ./main_SPI.o
+ .bss           0x00000000        0x0 ./main_SPI.o
+ .data.rst      0x00000000        0x4 ./main_SPI.o
+ .data.dbg      0x00000000        0x4 ./main_SPI.o
+ .data.n1adc    0x00000000        0x4 ./main_SPI.o
+ .bss.bp        0x00000000        0x4 ./main_SPI.o
+ .text.readNMreg
+                0x00000000      0x180 ./main_SPI.o
+ .text.NMreset  0x00000000       0xa8 ./main_SPI.o
+ .text          0x00000000        0x0 ./mpu6050.o
+ .data          0x00000000        0x0 ./mpu6050.o
+ .bss           0x00000000        0x0 ./mpu6050.o
+ .text.mpu_delay
+                0x00000000       0x30 ./mpu6050.o
+ .text.MPU6050_init
+                0x00000000      0x228 ./mpu6050.o
+ .text.MPU6050_ISR
+                0x00000000      0x108 ./mpu6050.o
+ .text.MPU6050_read_FIFO
+                0x00000000       0x64 ./mpu6050.o
+ .text.MPU6050_read_reg
+                0x00000000       0x64 ./mpu6050.o
+ .text.MPU6050_write_reg
+                0x00000000       0x74 ./mpu6050.o
+ .text.MPU6050_reset_FIFO
+                0x00000000       0x88 ./mpu6050.o
+ .bss.buf.3636  0x00000000        0x4 ./mpu6050.o
+ COMMON         0x00000000        0x8 ./mpu6050.o
+ .text          0x00000000        0x0 C:/Users/BWRC/Desktop/NHP/Mario_SF2/Mario_SF2/SoftConsole/Mario_Libero_MSS_CM3/Mario_Libero_MSS_CM3_hw_platform/Release/CMSIS/startup_gcc/startup_m2sxxx.o
+ .data          0x00000000        0x0 C:/Users/BWRC/Desktop/NHP/Mario_SF2/Mario_SF2/SoftConsole/Mario_Libero_MSS_CM3/Mario_Libero_MSS_CM3_hw_platform/Release/CMSIS/startup_gcc/startup_m2sxxx.o
+ .bss           0x00000000        0x0 C:/Users/BWRC/Desktop/NHP/Mario_SF2/Mario_SF2/SoftConsole/Mario_Libero_MSS_CM3/Mario_Libero_MSS_CM3_hw_platform/Release/CMSIS/startup_gcc/startup_m2sxxx.o
+ .text          0x00000000        0x0 C:/Users/BWRC/Desktop/NHP/Mario_SF2/Mario_SF2/SoftConsole/Mario_Libero_MSS_CM3/Mario_Libero_MSS_CM3_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .data          0x00000000        0x0 C:/Users/BWRC/Desktop/NHP/Mario_SF2/Mario_SF2/SoftConsole/Mario_Libero_MSS_CM3/Mario_Libero_MSS_CM3_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .bss           0x00000000        0x0 C:/Users/BWRC/Desktop/NHP/Mario_SF2/Mario_SF2/SoftConsole/Mario_Libero_MSS_CM3/Mario_Libero_MSS_CM3_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .bss.__env     0x00000000        0x4 C:/Users/BWRC/Desktop/NHP/Mario_SF2/Mario_SF2/SoftConsole/Mario_Libero_MSS_CM3/Mario_Libero_MSS_CM3_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .data.environ  0x00000000        0x4 C:/Users/BWRC/Desktop/NHP/Mario_SF2/Mario_SF2/SoftConsole/Mario_Libero_MSS_CM3/Mario_Libero_MSS_CM3_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .text._close   0x00000000       0x18 C:/Users/BWRC/Desktop/NHP/Mario_SF2/Mario_SF2/SoftConsole/Mario_Libero_MSS_CM3/Mario_Libero_MSS_CM3_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .text._execve  0x00000000       0x28 C:/Users/BWRC/Desktop/NHP/Mario_SF2/Mario_SF2/SoftConsole/Mario_Libero_MSS_CM3/Mario_Libero_MSS_CM3_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .text._exit    0x00000000        0xc C:/Users/BWRC/Desktop/NHP/Mario_SF2/Mario_SF2/SoftConsole/Mario_Libero_MSS_CM3/Mario_Libero_MSS_CM3_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .text._fork    0x00000000       0x18 C:/Users/BWRC/Desktop/NHP/Mario_SF2/Mario_SF2/SoftConsole/Mario_Libero_MSS_CM3/Mario_Libero_MSS_CM3_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .text._fstat   0x00000000       0x24 C:/Users/BWRC/Desktop/NHP/Mario_SF2/Mario_SF2/SoftConsole/Mario_Libero_MSS_CM3/Mario_Libero_MSS_CM3_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .text._getpid  0x00000000       0x10 C:/Users/BWRC/Desktop/NHP/Mario_SF2/Mario_SF2/SoftConsole/Mario_Libero_MSS_CM3/Mario_Libero_MSS_CM3_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .text._isatty  0x00000000       0x18 C:/Users/BWRC/Desktop/NHP/Mario_SF2/Mario_SF2/SoftConsole/Mario_Libero_MSS_CM3/Mario_Libero_MSS_CM3_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .text._kill    0x00000000       0x24 C:/Users/BWRC/Desktop/NHP/Mario_SF2/Mario_SF2/SoftConsole/Mario_Libero_MSS_CM3/Mario_Libero_MSS_CM3_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .text._link    0x00000000       0x24 C:/Users/BWRC/Desktop/NHP/Mario_SF2/Mario_SF2/SoftConsole/Mario_Libero_MSS_CM3/Mario_Libero_MSS_CM3_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .text._lseek   0x00000000       0x1c C:/Users/BWRC/Desktop/NHP/Mario_SF2/Mario_SF2/SoftConsole/Mario_Libero_MSS_CM3/Mario_Libero_MSS_CM3_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .text._open    0x00000000       0x1c C:/Users/BWRC/Desktop/NHP/Mario_SF2/Mario_SF2/SoftConsole/Mario_Libero_MSS_CM3/Mario_Libero_MSS_CM3_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .text._read    0x00000000       0x1c C:/Users/BWRC/Desktop/NHP/Mario_SF2/Mario_SF2/SoftConsole/Mario_Libero_MSS_CM3/Mario_Libero_MSS_CM3_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .text._write_r
+                0x00000000       0x20 C:/Users/BWRC/Desktop/NHP/Mario_SF2/Mario_SF2/SoftConsole/Mario_Libero_MSS_CM3/Mario_Libero_MSS_CM3_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .rodata        0x00000000       0x30 C:/Users/BWRC/Desktop/NHP/Mario_SF2/Mario_SF2/SoftConsole/Mario_Libero_MSS_CM3/Mario_Libero_MSS_CM3_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .text._sbrk    0x00000000       0xe4 C:/Users/BWRC/Desktop/NHP/Mario_SF2/Mario_SF2/SoftConsole/Mario_Libero_MSS_CM3/Mario_Libero_MSS_CM3_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .text._stat    0x00000000       0x24 C:/Users/BWRC/Desktop/NHP/Mario_SF2/Mario_SF2/SoftConsole/Mario_Libero_MSS_CM3/Mario_Libero_MSS_CM3_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .text._times   0x00000000       0x18 C:/Users/BWRC/Desktop/NHP/Mario_SF2/Mario_SF2/SoftConsole/Mario_Libero_MSS_CM3/Mario_Libero_MSS_CM3_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .text._unlink  0x00000000       0x24 C:/Users/BWRC/Desktop/NHP/Mario_SF2/Mario_SF2/SoftConsole/Mario_Libero_MSS_CM3/Mario_Libero_MSS_CM3_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .text._wait    0x00000000       0x24 C:/Users/BWRC/Desktop/NHP/Mario_SF2/Mario_SF2/SoftConsole/Mario_Libero_MSS_CM3/Mario_Libero_MSS_CM3_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .bss.heap_end.2220
+                0x00000000        0x4 C:/Users/BWRC/Desktop/NHP/Mario_SF2/Mario_SF2/SoftConsole/Mario_Libero_MSS_CM3/Mario_Libero_MSS_CM3_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .text          0x00000000        0x0 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_spi.o)
+ .data          0x00000000        0x0 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_spi.o)
+ .bss           0x00000000        0x0 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_spi.o)
+ .text.MSS_SPI_configure_slave_mode
+                0x00000000       0xac C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_spi.o)
+ .text.MSS_SPI_transfer_frame
+                0x00000000       0x90 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_spi.o)
+ .text.MSS_SPI_set_frame_rx_handler
+                0x00000000       0xc4 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_spi.o)
+ .text.MSS_SPI_set_slave_tx_frame
+                0x00000000       0xe4 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_spi.o)
+ .text.MSS_SPI_set_slave_block_buffers
+                0x00000000      0x210 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_spi.o)
+ .text.MSS_SPI_set_cmd_handler
+                0x00000000       0xc4 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_spi.o)
+ .text.MSS_SPI_set_cmd_response
+                0x00000000       0x38 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_spi.o)
+ .text.MSS_SPI_enable
+                0x00000000       0x38 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_spi.o)
+ .text.MSS_SPI_disable
+                0x00000000       0x38 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_spi.o)
+ .text.MSS_SPI_set_transfer_byte_count
+                0x00000000       0x84 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_spi.o)
+ .text.MSS_SPI_tx_done
+                0x00000000       0x24 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_spi.o)
+ .text          0x00000000        0x0 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_i2c.o)
+ .data          0x00000000        0x0 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_i2c.o)
+ .bss           0x00000000        0x0 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_i2c.o)
+ .text.NVIC_EnableIRQ
+                0x00000000       0x38 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_i2c.o)
+ .text.NVIC_ClearPendingIRQ
+                0x00000000       0x3c C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_i2c.o)
+ .text.MSS_I2C_init
+                0x00000000      0x150 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_i2c.o)
+ .text.MSS_I2C_write
+                0x00000000       0xd4 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_i2c.o)
+ .text.MSS_I2C_read
+                0x00000000       0xd4 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_i2c.o)
+ .text.MSS_I2C_write_read
+                0x00000000       0xf4 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_i2c.o)
+ .text.MSS_I2C_get_status
+                0x00000000       0x20 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_i2c.o)
+ .text.MSS_I2C_wait_complete
+                0x00000000       0x2c C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_i2c.o)
+ .text.MSS_I2C_system_tick
+                0x00000000       0x5c C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_i2c.o)
+ .text.MSS_I2C_set_slave_tx_buffer
+                0x00000000       0x38 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_i2c.o)
+ .text.MSS_I2C_set_slave_rx_buffer
+                0x00000000       0x38 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_i2c.o)
+ .text.MSS_I2C_set_slave_mem_offset_length
+                0x00000000       0x2c C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_i2c.o)
+ .text.MSS_I2C_register_write_handler
+                0x00000000       0x1c C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_i2c.o)
+ .text.MSS_I2C_enable_slave
+                0x00000000       0x40 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_i2c.o)
+ .text.MSS_I2C_disable_slave
+                0x00000000       0x34 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_i2c.o)
+ .text.MSS_I2C_smbus_init
+                0x00000000       0x28 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_i2c.o)
+ .text.MSS_I2C_enable_smbus_irq
+                0x00000000       0xc4 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_i2c.o)
+ .text.MSS_I2C_disable_smbus_irq
+                0x00000000       0xa4 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_i2c.o)
+ .text.MSS_I2C_suspend_smbus_slave
+                0x00000000       0x20 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_i2c.o)
+ .text.MSS_I2C_resume_smbus_slave
+                0x00000000       0x20 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_i2c.o)
+ .text.MSS_I2C_reset_smbus
+                0x00000000       0x20 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_i2c.o)
+ .text.MSS_I2C_set_smbus_alert
+                0x00000000       0x20 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_i2c.o)
+ .text.MSS_I2C_clear_smbus_alert
+                0x00000000       0x20 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_i2c.o)
+ .text.MSS_I2C_set_gca
+                0x00000000       0x20 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_i2c.o)
+ .text.MSS_I2C_clear_gca
+                0x00000000       0x20 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_i2c.o)
+ .text.MSS_I2C_set_user_data
+                0x00000000       0x1c C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_i2c.o)
+ .text.MSS_I2C_get_user_data
+                0x00000000       0x18 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_i2c.o)
+ .text.disable_interrupts
+                0x00000000       0x2c C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_i2c.o)
+ .text.restore_interrupts
+                0x00000000       0x1c C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_i2c.o)
+ .text          0x00000000        0x0 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_gpio.o)
+ .data          0x00000000        0x0 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_gpio.o)
+ .bss           0x00000000        0x0 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_gpio.o)
+ .text.NVIC_EnableIRQ
+                0x00000000       0x38 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_gpio.o)
+ .text.NVIC_DisableIRQ
+                0x00000000       0x3c C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_gpio.o)
+ .text.NVIC_ClearPendingIRQ
+                0x00000000       0x3c C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_gpio.o)
+ .rodata.g_config_reg_lut
+                0x00000000       0x80 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_gpio.o)
+ .rodata.g_gpio_irqn_lut
+                0x00000000       0x20 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_gpio.o)
+ .text.MSS_GPIO_init
+                0x00000000       0xac C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_gpio.o)
+ .text.MSS_GPIO_config
+                0x00000000       0x34 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_gpio.o)
+ .text.MSS_GPIO_set_output
+                0x00000000       0x68 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_gpio.o)
+ .text.MSS_GPIO_drive_inout
+                0x00000000      0x11c C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_gpio.o)
+ .text.MSS_GPIO_enable_irq
+                0x00000000       0x58 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_gpio.o)
+ .text.MSS_GPIO_disable_irq
+                0x00000000       0x48 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_gpio.o)
+ .text          0x00000000        0x0 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+ .data          0x00000000        0x0 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+ .bss           0x00000000        0x0 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+ .data.SystemCoreClock
+                0x00000000        0x4 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+ .data.g_FrequencyPCLK0
+                0x00000000        0x4 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+ .data.g_FrequencyPCLK1
+                0x00000000        0x4 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+ .data.g_FrequencyPCLK2
+                0x00000000        0x4 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+ .data.g_FrequencyFIC0
+                0x00000000        0x4 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+ .data.g_FrequencyFIC1
+                0x00000000        0x4 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+ .data.g_FrequencyFIC64
+                0x00000000        0x4 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+ .text.SystemCoreClockUpdate
+                0x00000000      0x14c C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+ .text.get_rcosc_25_50mhz_frequency
+                0x00000000       0x44 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+ .text.set_clock_frequency_globals
+                0x00000000       0x6c C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+ .rodata.C.18.3527
+                0x00000000        0x8 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+ .text          0x00000000        0xc c:/microsemi/libero_v11.6/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-errno.o)
+ .data          0x00000000        0x0 c:/microsemi/libero_v11.6/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-errno.o)
+ .bss           0x00000000        0x0 c:/microsemi/libero_v11.6/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-errno.o)
+ .text          0x00000000        0x0 c:/microsemi/libero_v11.6/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-impure.o)
+ .data          0x00000000       0xf4 c:/microsemi/libero_v11.6/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 c:/microsemi/libero_v11.6/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-impure.o)
+ .rodata        0x00000000        0x4 c:/microsemi/libero_v11.6/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-impure.o)
+ .rodata.str1.4
+                0x00000000        0x4 c:/microsemi/libero_v11.6/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-impure.o)
+ .data          0x00000000        0x0 c:/microsemi/libero_v11.6/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-init.o)
+ .bss           0x00000000        0x0 c:/microsemi/libero_v11.6/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-init.o)
+ .data          0x00000000        0x0 c:/microsemi/libero_v11.6/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 c:/microsemi/libero_v11.6/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memset.o)
+ .text          0x00000000        0x0 c:/microsemi/libero_v11.6/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtend.o
+ .data          0x00000000        0x0 c:/microsemi/libero_v11.6/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtend.o
+ .bss           0x00000000        0x0 c:/microsemi/libero_v11.6/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtend.o
+ .text          0x00000000        0x0 c:/microsemi/libero_v11.6/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+ .data          0x00000000        0x0 c:/microsemi/libero_v11.6/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+ .bss           0x00000000        0x0 c:/microsemi/libero_v11.6/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x60000000         0x00040000         xr
+romMirror        0x00000000         0x00040000         xr
+ram              0x20000000         0x00010000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/microsemi/libero_v11.6/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+LOAD c:/microsemi/libero_v11.6/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+LOAD ./accelerometer.o
+LOAD ./main_SPI.o
+LOAD ./mpu6050.o
+LOAD C:/Users/BWRC/Desktop/NHP/Mario_SF2/Mario_SF2/SoftConsole/Mario_Libero_MSS_CM3/Mario_Libero_MSS_CM3_hw_platform/Release/CMSIS/startup_gcc/startup_m2sxxx.o
+LOAD C:/Users/BWRC/Desktop/NHP/Mario_SF2/Mario_SF2/SoftConsole/Mario_Libero_MSS_CM3/Mario_Libero_MSS_CM3_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+LOAD C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a
+START GROUP
+LOAD c:/microsemi/libero_v11.6/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a
+LOAD c:/microsemi/libero_v11.6/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a
+LOAD c:/microsemi/libero_v11.6/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a
+END GROUP
+LOAD c:/microsemi/libero_v11.6/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtend.o
+LOAD c:/microsemi/libero_v11.6/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+START GROUP
+LOAD c:/microsemi/libero_v11.6/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a
+LOAD c:/microsemi/libero_v11.6/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a
+LOAD c:/microsemi/libero_v11.6/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libm.a
+END GROUP
+                0x00000000                __DYNAMIC = 0x0
+                0x20000000                RAM_START_ADDRESS = 0x20000000
+                0x00010000                RAM_SIZE = 0x10000
+                0x00001000                MAIN_STACK_SIZE = 0x1000
+                0x00001000                MIN_SIZE_HEAP = 0x1000
+                0x20010000                PROVIDE (__main_stack_start, (RAM_START_ADDRESS + RAM_SIZE))
+                0x20010000                PROVIDE (_estack, __main_stack_start)
+                0x00000001                PROVIDE (__mirrored_nvm, 0x1)
+                0x00000000                PROVIDE (__smartfusion2_memory_remap, 0x0)
+
+.vector_table   0x00000000      0x190 load address 0x60000000
+                0x60000000                __vector_table_load = LOADADDR (.vector_table)
+                0x00000000                __vector_table_start = .
+                0x00000000                __vector_table_vma_base_address = .
+ *(.isr_vector)
+ .isr_vector    0x00000000      0x190 C:/Users/BWRC/Desktop/NHP/Mario_SF2/Mario_SF2/SoftConsole/Mario_Libero_MSS_CM3/Mario_Libero_MSS_CM3_hw_platform/Release/CMSIS/startup_gcc/startup_m2sxxx.o
+                0x00000000                g_pfnVectors
+                0x00000190                . = ALIGN (0x10)
+                0x00000190                _evector_table = .
+
+.boot_code      0x00000190      0x410 load address 0x60000190
+ *(.boot_code)
+ .boot_code     0x00000190      0x330 C:/Users/BWRC/Desktop/NHP/Mario_SF2/Mario_SF2/SoftConsole/Mario_Libero_MSS_CM3/Mario_Libero_MSS_CM3_hw_platform/Release/CMSIS/startup_gcc/startup_m2sxxx.o
+                0x00000190                Reset_Handler
+                0x0000037e                NMI_Handler
+                0x00000380                HardFault_Handler
+                0x00000382                MemManage_Handler
+                0x00000384                BusFault_Handler
+                0x00000386                UsageFault_Handler
+                0x00000388                SVC_Handler
+                0x0000038a                DebugMon_Handler
+                0x0000038c                PendSV_Handler
+                0x0000038e                SysTick_Handler
+                0x00000390                WdogWakeup_IRQHandler
+                0x00000392                RTC_Wakeup_IRQHandler
+                0x0000039a                I2C0_SMBAlert_IRQHandler
+                0x0000039c                I2C0_SMBus_IRQHandler
+                0x000003a0                I2C1_SMBAlert_IRQHandler
+                0x000003a2                I2C1_SMBus_IRQHandler
+                0x000003a4                UART0_IRQHandler
+                0x000003a6                UART1_IRQHandler
+                0x000003a8                EthernetMAC_IRQHandler
+                0x000003aa                DMA_IRQHandler
+                0x000003ae                Timer2_IRQHandler
+                0x000003b0                CAN_IRQHandler
+                0x000003b2                ENVM0_IRQHandler
+                0x000003b4                ENVM1_IRQHandler
+                0x000003b6                ComBlk_IRQHandler
+                0x000003b8                USB_IRQHandler
+                0x000003ba                USB_DMA_IRQHandler
+                0x000003bc                PLL_Lock_IRQHandler
+                0x000003be                PLL_LockLost_IRQHandler
+                0x000003c0                CommSwitchError_IRQHandler
+                0x000003c2                CacheError_IRQHandler
+                0x000003c4                DDR_IRQHandler
+                0x000003c6                HPDMA_Complete_IRQHandler
+                0x000003c8                HPDMA_Error_IRQHandler
+                0x000003ca                ECC_Error_IRQHandler
+                0x000003cc                MDDR_IOCalib_IRQHandler
+                0x000003ce                FAB_PLL_Lock_IRQHandler
+                0x000003d0                FAB_PLL_LockLost_IRQHandler
+                0x000003d2                FIC64_IRQHandler
+                0x000003d4                FabricIrq0_IRQHandler
+                0x000003d6                FabricIrq1_IRQHandler
+                0x000003d8                FabricIrq2_IRQHandler
+                0x000003da                FabricIrq3_IRQHandler
+                0x000003dc                FabricIrq4_IRQHandler
+                0x000003de                FabricIrq5_IRQHandler
+                0x000003e0                FabricIrq6_IRQHandler
+                0x000003e2                FabricIrq7_IRQHandler
+                0x000003e4                FabricIrq8_IRQHandler
+                0x000003e6                FabricIrq9_IRQHandler
+                0x000003e8                FabricIrq10_IRQHandler
+                0x000003ea                FabricIrq11_IRQHandler
+                0x000003ec                FabricIrq12_IRQHandler
+                0x000003ee                FabricIrq13_IRQHandler
+                0x000003f0                FabricIrq14_IRQHandler
+                0x000003f2                FabricIrq15_IRQHandler
+                0x000003f4                GPIO0_IRQHandler
+                0x000003f6                GPIO1_IRQHandler
+                0x000003f8                GPIO2_IRQHandler
+                0x000003fa                GPIO3_IRQHandler
+                0x000003fc                GPIO4_IRQHandler
+                0x00000400                GPIO6_IRQHandler
+                0x00000402                GPIO7_IRQHandler
+                0x00000404                GPIO8_IRQHandler
+                0x00000406                GPIO9_IRQHandler
+                0x00000408                GPIO10_IRQHandler
+                0x0000040a                GPIO11_IRQHandler
+                0x0000040c                GPIO12_IRQHandler
+                0x0000040e                GPIO13_IRQHandler
+                0x00000410                GPIO14_IRQHandler
+                0x00000412                GPIO15_IRQHandler
+                0x00000414                GPIO16_IRQHandler
+                0x00000416                GPIO17_IRQHandler
+                0x00000418                GPIO18_IRQHandler
+                0x0000041a                GPIO19_IRQHandler
+                0x0000041c                GPIO20_IRQHandler
+                0x0000041e                GPIO21_IRQHandler
+                0x00000420                GPIO22_IRQHandler
+                0x00000422                GPIO23_IRQHandler
+                0x00000424                GPIO24_IRQHandler
+                0x00000426                GPIO25_IRQHandler
+                0x00000428                GPIO26_IRQHandler
+                0x0000042a                GPIO27_IRQHandler
+                0x0000042c                GPIO28_IRQHandler
+                0x0000042e                GPIO29_IRQHandler
+                0x00000430                GPIO30_IRQHandler
+                0x00000432                GPIO31_IRQHandler
+                0x00000434                mscc_post_hw_cfg_init
+ *system_m2sxxx.o(.text*)
+ .text.SystemInit
+                0x000004c0       0x28 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+                0x000004c0                SystemInit
+ .text.get_silicon_revision
+                0x000004e8       0x50 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+ .text.silicon_workarounds
+                0x00000538       0x20 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+ .text.m2s050_rev_a_workarounds
+                0x00000558       0x44 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+ *sys_config.o(.rodata*)
+                0x000005a0                . = ALIGN (0x10)
+ *fill*         0x0000059c        0x4 00
+
+.text           0x000005a0     0x2920 load address 0x600005a0
+ CREATE_OBJECT_SYMBOLS
+                0x600005a0                __text_load = LOADADDR (.text)
+                0x000005a0                __text_start = .
+ *(.text .text.* .gnu.linkonce.t.*)
+ .text          0x000005a0       0x30 c:/microsemi/libero_v11.6/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+ .text.MSS_TIM1_start
+                0x000005d0       0x1c ./main_SPI.o
+ .text.MSS_TIM1_load_immediate
+                0x000005ec       0x20 ./main_SPI.o
+ .text.MSS_TIM1_clear_irq
+                0x0000060c       0x1c ./main_SPI.o
+ .text.writeNMreg
+                0x00000628      0x384 ./main_SPI.o
+                0x00000628                writeNMreg
+ .text.NMstim   0x000009ac       0x44 ./main_SPI.o
+                0x000009ac                NMstim
+ .text.main     0x000009f0      0xd48 ./main_SPI.o
+                0x000009f0                main
+ .text.spi_rx_handler
+                0x00001738       0xa4 ./main_SPI.o
+                0x00001738                spi_rx_handler
+ .text.GPIO5_IRQHandler
+                0x000017dc       0x20 ./main_SPI.o
+                0x000017dc                GPIO5_IRQHandler
+ .text.Timer1_IRQHandler
+                0x000017fc       0x18 ./main_SPI.o
+                0x000017fc                Timer1_IRQHandler
+ .text.NVIC_EnableIRQ
+                0x00001814       0x38 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_spi.o)
+ .text.NVIC_DisableIRQ
+                0x0000184c       0x3c C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_spi.o)
+ .text.NVIC_ClearPendingIRQ
+                0x00001888       0x3c C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_spi.o)
+ .text.MSS_SPI_init
+                0x000018c4      0x114 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_spi.o)
+                0x000018c4                MSS_SPI_init
+ .text.recover_from_rx_overflow
+                0x000019d8      0x160 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_spi.o)
+ .text.MSS_SPI_configure_master_mode
+                0x00001b38      0x100 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_spi.o)
+                0x00001b38                MSS_SPI_configure_master_mode
+ .text.MSS_SPI_set_slave_select
+                0x00001c38       0xc0 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_spi.o)
+                0x00001c38                MSS_SPI_set_slave_select
+ .text.MSS_SPI_clear_slave_select
+                0x00001cf8       0x64 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_spi.o)
+                0x00001cf8                MSS_SPI_clear_slave_select
+ .text.MSS_SPI_transfer_block
+                0x00001d5c      0x1fc C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_spi.o)
+                0x00001d5c                MSS_SPI_transfer_block
+ .text.fill_slave_tx_fifo
+                0x00001f58       0xe0 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_spi.o)
+ .text.read_slave_rx_fifo
+                0x00002038       0xac C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_spi.o)
+ .text.mss_spi_isr
+                0x000020e4      0x290 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_spi.o)
+ .text.SPI0_IRQHandler
+                0x00002374       0x24 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_spi.o)
+                0x00002374                SPI0_IRQHandler
+ .text.SPI1_IRQHandler
+                0x00002398       0x24 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_spi.o)
+                0x00002398                SPI1_IRQHandler
+ .text.NVIC_DisableIRQ
+                0x000023bc       0x3c C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_i2c.o)
+ .text.enable_slave_if_required
+                0x000023f8       0x28 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_i2c.o)
+ .text.mss_i2c_isr
+                0x00002420      0x8d8 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_i2c.o)
+ .text.I2C0_IRQHandler
+                0x00002cf8       0x24 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_i2c.o)
+                0x00002cf8                I2C0_IRQHandler
+ .text.I2C1_IRQHandler
+                0x00002d1c       0x24 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_i2c.o)
+                0x00002d1c                I2C1_IRQHandler
+ .text.MSS_GPIO_clear_irq
+                0x00002d40       0x38 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_gpio.o)
+                0x00002d40                MSS_GPIO_clear_irq
+ .text          0x00002d78       0x50 c:/microsemi/libero_v11.6/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-init.o)
+                0x00002d78                __libc_init_array
+ .text          0x00002dc8       0xd4 c:/microsemi/libero_v11.6/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memset.o)
+                0x00002dc8                memset
+ *(.plt)
+ *(.gnu.warning)
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.vfp11_veneer)
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+                0x00002e9c                . = ALIGN (0x4)
+ *crtbegin.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *crtend.o(.ctors)
+ *crtbegin.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *crtend.o(.dtors)
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+ *(.gcc_except_table)
+ *(.eh_frame_hdr)
+ *(.eh_frame)
+ *(.vector_table)
+ *(.init)
+ .init          0x00002e9c        0x4 c:/microsemi/libero_v11.6/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+                0x00002e9c                _init
+ .init          0x00002ea0        0x8 c:/microsemi/libero_v11.6/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+ *(.fini)
+ .fini          0x00002ea8        0x4 c:/microsemi/libero_v11.6/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+                0x00002ea8                _fini
+ .fini          0x00002eac        0x8 c:/microsemi/libero_v11.6/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+                0x00002eb4                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                0x00002eb4                PROVIDE (__preinit_array_end, .)
+                0x00002eb4                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array)
+ .init_array    0x00002eb4        0x4 c:/microsemi/libero_v11.6/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+                0x00002eb8                PROVIDE (__init_array_end, .)
+                0x00002eb8                PROVIDE (__fini_array_start, .)
+ *(.fini_array)
+ .fini_array    0x00002eb8        0x4 c:/microsemi/libero_v11.6/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+ *(SORT(.fini_array.*))
+                0x00002ebc                PROVIDE (__fini_array_end, .)
+                0x00002ec0                . = ALIGN (0x10)
+ *fill*         0x00002ebc        0x4 00
+                0x00002ec0                __exidx_start = .
+
+.v4_bx          0x00002ec0        0x0 load address 0x60002ec0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x00002ec0                __exidx_end = .
+                0x00002ec0                _etext = .
+
+.data           0x20000000       0x30 load address 0x60002ec0
+                0x60002ec0                __data_load = LOADADDR (.data)
+                0x60002ec0                _sidata = LOADADDR (.data)
+                0x20000000                __data_start = .
+                0x20000000                _sdata = .
+ *(.jcr)
+ .jcr           0x20000000        0x0 c:/microsemi/libero_v11.6/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+ .jcr           0x20000000        0x4 c:/microsemi/libero_v11.6/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtend.o
+ *(.got.plt)
+ *(.got)
+ *(.shdata)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.status   0x20000004        0x4 ./main_SPI.o
+                0x20000004                status
+ .data.n0d1     0x20000008        0x4 ./main_SPI.o
+                0x20000008                n0d1
+ .data.n0d2     0x2000000c        0x4 ./main_SPI.o
+                0x2000000c                n0d2
+ .data.n0ack    0x20000010        0x4 ./main_SPI.o
+                0x20000010                n0ack
+ .data.n0adc    0x20000014        0x4 ./main_SPI.o
+                0x20000014                n0adc
+ .data.n1d1     0x20000018        0x4 ./main_SPI.o
+                0x20000018                n1d1
+ .data.n1d2     0x2000001c        0x4 ./main_SPI.o
+                0x2000001c                n1d2
+ .data.n1ack    0x20000020        0x4 ./main_SPI.o
+                0x20000020                n1ack
+                0x20000030                . = ALIGN (0x10)
+ *fill*         0x20000024        0xc 00
+                0x20000030                _edata = .
+
+.bss            0x20000030      0x4c0 load address 0x60002ef0
+                0x20000030                __bss_start__ = .
+                0x20000030                _sbss = .
+ *(.shbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x20000030        0x1 c:/microsemi/libero_v11.6/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+ *fill*         0x20000031        0x3 00
+ .bss.ringbuf   0x20000034       0x40 ./main_SPI.o
+ .bss.rbwrptr   0x20000074        0x4 ./main_SPI.o
+ .bss.rbrdptr   0x20000078        0x4 ./main_SPI.o
+ .bss.adc_data_buf
+                0x2000007c      0x100 ./main_SPI.o
+ .bss.sel_data_buf
+                0x2000017c       0xc8 ./main_SPI.o
+ .bss.sel_data_vector
+                0x20000244       0x80 ./main_SPI.o
+ .bss.mpu6050_irq_active
+                0x200002c4        0x1 ./main_SPI.o
+                0x200002c4                mpu6050_irq_active
+ .bss.stream0   0x200002c5        0x1 ./main_SPI.o
+ .bss.stream1   0x200002c6        0x1 ./main_SPI.o
+ .bss.test_comm_off
+                0x200002c7        0x1 ./main_SPI.o
+ .bss.test_comm_on
+                0x200002c8        0x1 ./main_SPI.o
+ .bss.test_comm_flag
+                0x200002c9        0x1 ./main_SPI.o
+ .bss.counter   0x200002ca        0x2 ./main_SPI.o
+ .bss.stim_flag
+                0x200002cc        0x1 ./main_SPI.o
+ *fill*         0x200002cd        0x3 00
+ .bss.spi_rx_buf
+                0x200002d0        0x8 ./main_SPI.o
+ .bss.gui_request_counter
+                0x200002d8        0x4 ./main_SPI.o
+ .bss.reg_val   0x200002dc        0x4 ./main_SPI.o
+ .bss.reg_addr  0x200002e0        0x4 ./main_SPI.o
+ .bss.reg_data  0x200002e4        0x4 ./main_SPI.o
+ .bss.sample_count
+                0x200002e8        0x4 ./main_SPI.o
+ .bss.crc_count
+                0x200002ec        0x4 ./main_SPI.o
+ .bss.rec_enable_write
+                0x200002f0        0x1 ./main_SPI.o
+ *(COMMON)
+ *fill*         0x200002f1        0x3 00
+ COMMON         0x200002f4      0x108 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_spi.o)
+                0x200002f4                g_mss_spi1
+                0x20000378                g_mss_spi0
+ COMMON         0x200003fc       0xe8 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_i2c.o)
+                0x200003fc                g_mss_i2c0
+                0x20000470                g_mss_i2c1
+                0x200004f0                . = ALIGN (0x10)
+ *fill*         0x200004e4        0xc 00
+                0x200004f0                __bss_end__ = .
+                0x200004f0                _end = .
+                0x200004f0                __end = _end
+                0x200004f0                _ebss = .
+                0x200004f0                PROVIDE (end, .)
+
+.heap           0x200004f0     0xeb10 load address 0x60002ef0
+                0x200004f0                __heap_start__ = .
+                0x200014f0                . = (. + MIN_SIZE_HEAP)
+ *fill*         0x200004f0     0x1000 00
+                0x2000f000                . = (. + (((ABSOLUTE (RAM_START_ADDRESS) + RAM_SIZE) - MAIN_STACK_SIZE) - .))
+ *fill*         0x200014f0     0xdb10 00
+                0x2000f000                _eheap = .
+
+.stack          0x2000f000     0x1000 load address 0x60002ef0
+                0x2000f000                __stack_start__ = .
+                0x20010000                . = (. + MAIN_STACK_SIZE)
+ *fill*         0x2000f000     0x1000 00
+                0x20010000                _estack = .
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.comment        0x00000000      0x158
+ .comment       0x00000000       0x2b ./accelerometer.o
+ .comment       0x0000002b       0x2b ./main_SPI.o
+ .comment       0x00000056       0x2b ./mpu6050.o
+ .comment       0x00000081       0x2b C:/Users/BWRC/Desktop/NHP/Mario_SF2/Mario_SF2/SoftConsole/Mario_Libero_MSS_CM3/Mario_Libero_MSS_CM3_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .comment       0x000000ac       0x2b C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_spi.o)
+ .comment       0x000000d7       0x2b C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_i2c.o)
+ .comment       0x00000102       0x2b C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_gpio.o)
+ .comment       0x0000012d       0x2b C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+
+.debug_aranges  0x00000000      0x368
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0xa8 C:/Users/BWRC/Desktop/NHP/Mario_SF2/Mario_SF2/SoftConsole/Mario_Libero_MSS_CM3/Mario_Libero_MSS_CM3_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_aranges
+                0x000000a8       0xe0 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_spi.o)
+ .debug_aranges
+                0x00000188      0x128 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_i2c.o)
+ .debug_aranges
+                0x000002b0       0x68 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_gpio.o)
+ .debug_aranges
+                0x00000318       0x50 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+
+.debug_pubnames
+                0x00000000      0x76c
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000       0xeb C:/Users/BWRC/Desktop/NHP/Mario_SF2/Mario_SF2/SoftConsole/Mario_Libero_MSS_CM3/Mario_Libero_MSS_CM3_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_pubnames
+                0x000000eb      0x21a C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_spi.o)
+ .debug_pubnames
+                0x00000305      0x2eb C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_i2c.o)
+ .debug_pubnames
+                0x000005f0       0xb1 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_gpio.o)
+ .debug_pubnames
+                0x000006a1       0xcb C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+
+.debug_info     0x00000000     0x55ba
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x6e9 C:/Users/BWRC/Desktop/NHP/Mario_SF2/Mario_SF2/SoftConsole/Mario_Libero_MSS_CM3/Mario_Libero_MSS_CM3_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_info    0x000006e9     0x171f C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_spi.o)
+ .debug_info    0x00001e08     0x1a97 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_i2c.o)
+ .debug_info    0x0000389f     0x1160 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_gpio.o)
+ .debug_info    0x000049ff      0xbbb C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+
+.debug_abbrev   0x00000000      0x895
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x16e C:/Users/BWRC/Desktop/NHP/Mario_SF2/Mario_SF2/SoftConsole/Mario_Libero_MSS_CM3/Mario_Libero_MSS_CM3_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_abbrev  0x0000016e      0x1ec C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_spi.o)
+ .debug_abbrev  0x0000035a      0x28a C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_i2c.o)
+ .debug_abbrev  0x000005e4      0x163 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_gpio.o)
+ .debug_abbrev  0x00000747      0x14e C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+
+.debug_line     0x00000000      0xfba
+ *(.debug_line)
+ .debug_line    0x00000000      0x259 C:/Users/BWRC/Desktop/NHP/Mario_SF2/Mario_SF2/SoftConsole/Mario_Libero_MSS_CM3/Mario_Libero_MSS_CM3_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_line    0x00000259      0x48f C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_spi.o)
+ .debug_line    0x000006e8      0x547 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_i2c.o)
+ .debug_line    0x00000c2f      0x1fb C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_gpio.o)
+ .debug_line    0x00000e2a      0x190 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+
+.debug_frame    0x00000000      0xbbc
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x21c C:/Users/BWRC/Desktop/NHP/Mario_SF2/Mario_SF2/SoftConsole/Mario_Libero_MSS_CM3/Mario_Libero_MSS_CM3_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_frame   0x0000021c      0x320 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_spi.o)
+ .debug_frame   0x0000053c      0x404 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_i2c.o)
+ .debug_frame   0x00000940      0x130 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_gpio.o)
+ .debug_frame   0x00000a70       0xd8 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+ .debug_frame   0x00000b48       0x20 c:/microsemi/libero_v11.6/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-errno.o)
+ .debug_frame   0x00000b68       0x2c c:/microsemi/libero_v11.6/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-init.o)
+ .debug_frame   0x00000b94       0x28 c:/microsemi/libero_v11.6/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memset.o)
+
+.debug_str      0x00000000     0x24b7
+ *(.debug_str)
+ .debug_str     0x00000000      0x2ce C:/Users/BWRC/Desktop/NHP/Mario_SF2/Mario_SF2/SoftConsole/Mario_Libero_MSS_CM3/Mario_Libero_MSS_CM3_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+                                0x34b (size before relaxing)
+ .debug_str     0x000002ce     0x12fd C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_spi.o)
+                               0x156a (size before relaxing)
+ .debug_str     0x000015cb      0x87a C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_i2c.o)
+                               0x172d (size before relaxing)
+ .debug_str     0x00001e45      0x472 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_gpio.o)
+                               0x122b (size before relaxing)
+ .debug_str     0x000022b7      0x200 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+                                0xa2b (size before relaxing)
+
+.debug_loc      0x00000000     0x13d4
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x3c6 C:/Users/BWRC/Desktop/NHP/Mario_SF2/Mario_SF2/SoftConsole/Mario_Libero_MSS_CM3/Mario_Libero_MSS_CM3_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_loc     0x000003c6      0x549 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_spi.o)
+ .debug_loc     0x0000090f      0x736 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_i2c.o)
+ .debug_loc     0x00001045      0x226 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_gpio.o)
+ .debug_loc     0x0000126b      0x169 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+.ARM.attributes
+                0x00000000       0x25
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x19 c:/microsemi/libero_v11.6/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+ .ARM.attributes
+                0x00000019       0x29 c:/microsemi/libero_v11.6/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+ .ARM.attributes
+                0x00000042       0x31 ./accelerometer.o
+ .ARM.attributes
+                0x00000073       0x31 ./main_SPI.o
+ .ARM.attributes
+                0x000000a4       0x31 ./mpu6050.o
+ .ARM.attributes
+                0x000000d5       0x21 C:/Users/BWRC/Desktop/NHP/Mario_SF2/Mario_SF2/SoftConsole/Mario_Libero_MSS_CM3/Mario_Libero_MSS_CM3_hw_platform/Release/CMSIS/startup_gcc/startup_m2sxxx.o
+ .ARM.attributes
+                0x000000f6       0x31 C:/Users/BWRC/Desktop/NHP/Mario_SF2/Mario_SF2/SoftConsole/Mario_Libero_MSS_CM3/Mario_Libero_MSS_CM3_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .ARM.attributes
+                0x00000127       0x31 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_spi.o)
+ .ARM.attributes
+                0x00000158       0x31 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_i2c.o)
+ .ARM.attributes
+                0x00000189       0x31 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_gpio.o)
+ .ARM.attributes
+                0x000001ba       0x31 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+ .ARM.attributes
+                0x000001eb       0x29 c:/microsemi/libero_v11.6/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-errno.o)
+ .ARM.attributes
+                0x00000214       0x29 c:/microsemi/libero_v11.6/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-impure.o)
+ .ARM.attributes
+                0x0000023d       0x29 c:/microsemi/libero_v11.6/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-init.o)
+ .ARM.attributes
+                0x00000266       0x29 c:/microsemi/libero_v11.6/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memset.o)
+ .ARM.attributes
+                0x0000028f       0x29 c:/microsemi/libero_v11.6/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtend.o
+ .ARM.attributes
+                0x000002b8       0x19 c:/microsemi/libero_v11.6/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+
+/DISCARD/
+ *(.note.GNU-stack)
+OUTPUT(Mario_Libero_MSS_CM3_app elf32-littlearm)
+
+.debug_ranges   0x00000000      0x358
+ .debug_ranges  0x00000000       0xa0 C:/Users/BWRC/Desktop/NHP/Mario_SF2/Mario_SF2/SoftConsole/Mario_Libero_MSS_CM3/Mario_Libero_MSS_CM3_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_ranges  0x000000a0       0xd8 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_spi.o)
+ .debug_ranges  0x00000178      0x138 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_i2c.o)
+ .debug_ranges  0x000002b0       0x60 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(mss_gpio.o)
+ .debug_ranges  0x00000310       0x48 C:\Users\BWRC\Desktop\NHP\Mario_SF2\Mario_SF2\SoftConsole\Mario_Libero_MSS_CM3\Mario_Libero_MSS_CM3_hw_platform\Release\libMario_Libero_MSS_CM3_hw_platform.a(system_m2sxxx.o)

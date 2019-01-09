@@ -1,0 +1,63 @@
+***** Place and Route Configurations *****
+Timing-driven            : ON
+Power-driven             : OFF
+High-effort              : OFF
+Repair min-delay         : ON
+Incremental              : OFF
+Inter-clock optimization : OFF
+TDPR scenario            : Primary
+
+
+Running the I/O Bank and Globals Assigner.
+Info:  I/O Bank and Globals Assigner identified 22 fixed I/O macros, 0 unfixed I/O macros
+Info:  I/O Bank and Globals Assigner identified bank 'Bank3' as being fixed at VCCI:1.20V VCCR:n/a
+Info:  I/O Bank and Globals Assigner identified bank 'Bank4' as being fixed at VCCI:1.80V VCCR:n/a
+Info:   I/O Bank and Globals Assigner detected (2) out of (10) I/O Bank(s) with locked I/O technologies.
+
+I/O Bank and Globals Assigner completed successfully.
+Total time spent in I/O Bank and Globals Assigner: 1 seconds
+
+Placer V4.0 - 11.8.3 
+Design: Mario_Libero                    Started: Tue Jun 26 10:59:48 2018
+
+Initializing Timing-Driven Placement ...
+Placing design...
+End of placement.
+Pre-Placement Runtime        : 3 seconds
+Placement Runtime            : 9 seconds
+
+Placer completed successfully.
+
+Design: Mario_Libero                    
+Finished: Tue Jun 26 11:00:18 2018
+Total CPU Time:     00:00:28            Total Elapsed Time: 00:00:30
+Total Memory Usage: 463.4 Mbytes
+                        o - o - o - o - o - o
+
+
+Router 
+Design: P:\OMNI\Libero\Mario-CM_Flex-EMG_golden\designer\Mario_Libero\Mario_LiberoStarted: Tue Jun 26 11:00:24 2018
+
+Final stats: search run time 3.563925
+
+Router completed successfully.
+
+Design: P:\OMNI\Libero\Mario-CM_Flex-EMG_golden\designer\Mario_Libero\Mario_Libero
+Finished: Tue Jun 26 11:00:46 2018
+Total CPU Time:     00:00:20            Total Elapsed Time: 00:00:22
+Total Memory Usage: 1925.9 Mbytes
+                        o - o - o - o - o - o
+
+Info: Iteration 1:
+  Total violating paths eligible for improvement: 0
+  Worst minimum delay slack: 
+Resource Usage
++---------------+------+-------+------------+
+| Type          | Used | Total | Percentage |
++---------------+------+-------+------------+
+| 4LUT          | 2103 | 56520 | 3.72       |
+| DFF           | 1270 | 56520 | 2.25       |
+| I/O Register  | 0    | 594   | 0.00       |
+| Logic Element | 2122 | 56520 | 3.75       |
++---------------+------+-------+------------+
+

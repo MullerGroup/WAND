@@ -1,0 +1,100 @@
+# Tue Jun 26 10:59:03 2018
+
+Synopsys Generic Technology Pre-mapping, Version map201609actrcp1, Build 005R, Built Jan 25 2017 01:01:33
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-2
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@A: MF827 |No constraint file specified.
+@L: P:\OMNI\Libero\Mario-CM_Flex-EMG_golden\synthesis\Mario_Libero_scck.rpt 
+Printing clock  summary report in "P:\OMNI\Libero\Mario-CM_Flex-EMG_golden\synthesis\Mario_Libero_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 112MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 112MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 112MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 112MB)
+
+@N: MO111 :"p:\omni\libero\mario-cm_flex-emg_golden\component\work\mario_libero\osc_0\mario_libero_osc_0_osc.v":17:7:17:20|Tristate driver RCOSC_1MHZ_CCC (in view: work.Mario_Libero_OSC_0_OSC(verilog)) on net RCOSC_1MHZ_CCC (in view: work.Mario_Libero_OSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"p:\omni\libero\mario-cm_flex-emg_golden\component\work\mario_libero\osc_0\mario_libero_osc_0_osc.v":18:7:18:20|Tristate driver RCOSC_1MHZ_O2F (in view: work.Mario_Libero_OSC_0_OSC(verilog)) on net RCOSC_1MHZ_O2F (in view: work.Mario_Libero_OSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"p:\omni\libero\mario-cm_flex-emg_golden\component\work\mario_libero\osc_0\mario_libero_osc_0_osc.v":15:7:15:24|Tristate driver RCOSC_25_50MHZ_CCC (in view: work.Mario_Libero_OSC_0_OSC(verilog)) on net RCOSC_25_50MHZ_CCC (in view: work.Mario_Libero_OSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"p:\omni\libero\mario-cm_flex-emg_golden\component\work\mario_libero\osc_0\mario_libero_osc_0_osc.v":16:7:16:24|Tristate driver RCOSC_25_50MHZ_O2F (in view: work.Mario_Libero_OSC_0_OSC(verilog)) on net RCOSC_25_50MHZ_O2F (in view: work.Mario_Libero_OSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"p:\omni\libero\mario-cm_flex-emg_golden\component\work\mario_libero\osc_0\mario_libero_osc_0_osc.v":20:7:20:16|Tristate driver XTLOSC_O2F (in view: work.Mario_Libero_OSC_0_OSC(verilog)) on net XTLOSC_O2F (in view: work.Mario_Libero_OSC_0_OSC(verilog)) has its enable tied to GND.
+@N: BN362 :"p:\omni\libero\mario-cm_flex-emg_golden\hdl\nmic_if.v":203:0:203:5|Removing sequential instance debug_reg[5:0] (in view: work.nmic_if(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+syn_allowed_resources : blockrams=69  set on top level netlist Mario_Libero
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 144MB)
+
+
+
+Clock Summary
+*****************
+
+Start                                               Requested     Requested     Clock        Clock                   Clock
+Clock                                               Frequency     Period        Type         Group                   Load 
+--------------------------------------------------------------------------------------------------------------------------
+Mario_Libero_FCCC_0_FCCC|GL0_net_inferred_clock     100.0 MHz     10.000        inferred     Inferred_clkgroup_0     1021 
+System                                              100.0 MHz     10.000        system       system_clkgroup         0    
+==========================================================================================================================
+
+@W: MT530 :"p:\omni\libero\mario-cm_flex-emg_golden\hdl\cm_demux.v":129:0:129:5|Found inferred clock Mario_Libero_FCCC_0_FCCC|GL0_net_inferred_clock which controls 1021 sequential elements including cmam_if_wrap_0.cmam_if.nif.cmd_inst.state[2:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file P:\OMNI\Libero\Mario-CM_Flex-EMG_golden\synthesis\Mario_Libero.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 144MB)
+
+Encoding state machine state[2:0] (in view: work.cm_demux(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine state[2:0] (in view: work.nmic_tx_0(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine state[2:0] (in view: work.nmic_tx_1(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine state[2:0] (in view: work.nmic_tx_2(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine state[2:0] (in view: work.nmic_tx_3(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+@N: BN362 :"p:\omni\libero\mario-cm_flex-emg_golden\hdl\cm_demux.v":163:0:163:5|Removing sequential instance rx_data[4] (in view: work.cm_demux(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"p:\omni\libero\mario-cm_flex-emg_golden\hdl\cm_demux.v":163:0:163:5|Removing sequential instance rx_data[5] (in view: work.cm_demux(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"p:\omni\libero\mario-cm_flex-emg_golden\hdl\cm_demux.v":163:0:163:5|Removing sequential instance rx_data[6] (in view: work.cm_demux(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"p:\omni\libero\mario-cm_flex-emg_golden\hdl\cm_demux.v":163:0:163:5|Removing sequential instance rx_data[7] (in view: work.cm_demux(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"p:\omni\libero\mario-cm_flex-emg_golden\hdl\cm_demux.v":163:0:163:5|Removing sequential instance rx_frame[4] (in view: work.cm_demux(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"p:\omni\libero\mario-cm_flex-emg_golden\hdl\cm_demux.v":163:0:163:5|Removing sequential instance rx_frame[5] (in view: work.cm_demux(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"p:\omni\libero\mario-cm_flex-emg_golden\hdl\cm_demux.v":163:0:163:5|Removing sequential instance rx_frame[6] (in view: work.cm_demux(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"p:\omni\libero\mario-cm_flex-emg_golden\hdl\cm_demux.v":163:0:163:5|Removing sequential instance rx_frame[7] (in view: work.cm_demux(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 144MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 56MB peak: 144MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Jun 26 10:59:04 2018
+
+###########################################################]

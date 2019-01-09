@@ -1,0 +1,629 @@
+# Tue Jun 26 10:59:05 2018
+
+Synopsys Generic Technology Mapper, Version map201609actrcp1, Build 005R, Built Jan 25 2017 01:01:33
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-2
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 101MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 136MB peak: 138MB)
+
+@N: MO111 :"p:\omni\libero\mario-cm_flex-emg_golden\component\work\mario_libero\osc_0\mario_libero_osc_0_osc.v":20:7:20:16|Tristate driver XTLOSC_O2F (in view: work.Mario_Libero_OSC_0_OSC(verilog)) on net XTLOSC_O2F (in view: work.Mario_Libero_OSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"p:\omni\libero\mario-cm_flex-emg_golden\component\work\mario_libero\osc_0\mario_libero_osc_0_osc.v":18:7:18:20|Tristate driver RCOSC_1MHZ_O2F (in view: work.Mario_Libero_OSC_0_OSC(verilog)) on net RCOSC_1MHZ_O2F (in view: work.Mario_Libero_OSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"p:\omni\libero\mario-cm_flex-emg_golden\component\work\mario_libero\osc_0\mario_libero_osc_0_osc.v":17:7:17:20|Tristate driver RCOSC_1MHZ_CCC (in view: work.Mario_Libero_OSC_0_OSC(verilog)) on net RCOSC_1MHZ_CCC (in view: work.Mario_Libero_OSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"p:\omni\libero\mario-cm_flex-emg_golden\component\work\mario_libero\osc_0\mario_libero_osc_0_osc.v":16:7:16:24|Tristate driver RCOSC_25_50MHZ_O2F (in view: work.Mario_Libero_OSC_0_OSC(verilog)) on net RCOSC_25_50MHZ_O2F (in view: work.Mario_Libero_OSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"p:\omni\libero\mario-cm_flex-emg_golden\component\work\mario_libero\osc_0\mario_libero_osc_0_osc.v":15:7:15:24|Tristate driver RCOSC_25_50MHZ_CCC (in view: work.Mario_Libero_OSC_0_OSC(verilog)) on net RCOSC_25_50MHZ_CCC (in view: work.Mario_Libero_OSC_0_OSC(verilog)) has its enable tied to GND.
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: BN362 :"p:\omni\libero\mario-cm_flex-emg_golden\hdl\am.v":54:1:54:6|Removing sequential instance nm_onoff[1:0] (in view: work.am(verilog)) of type view:PrimLib.sdffs(prim) because it does not drive other instances.
+@N: BN362 :"p:\omni\libero\mario-cm_flex-emg_golden\hdl\am.v":54:1:54:6|Removing sequential instance nm_isPSwitch (in view: work.am(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :"p:\omni\libero\mario-cm_flex-emg_golden\hdl\am.v":133:1:133:6|Removing sequential instance nm_switch[1:0] (in view: work.am(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+Encoding state machine state[2:0] (in view: work.cm_demux(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+@N: BN362 :"p:\omni\libero\mario-cm_flex-emg_golden\hdl\cm_demux.v":163:0:163:5|Removing sequential instance rx_data[4] (in view: work.cm_demux(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"p:\omni\libero\mario-cm_flex-emg_golden\hdl\cm_demux.v":163:0:163:5|Removing sequential instance rx_data[5] (in view: work.cm_demux(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"p:\omni\libero\mario-cm_flex-emg_golden\hdl\cm_demux.v":163:0:163:5|Removing sequential instance rx_data[6] (in view: work.cm_demux(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"p:\omni\libero\mario-cm_flex-emg_golden\hdl\cm_demux.v":163:0:163:5|Removing sequential instance rx_data[7] (in view: work.cm_demux(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"p:\omni\libero\mario-cm_flex-emg_golden\hdl\cm_demux.v":163:0:163:5|Removing sequential instance rx_frame[4] (in view: work.cm_demux(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"p:\omni\libero\mario-cm_flex-emg_golden\hdl\cm_demux.v":163:0:163:5|Removing sequential instance rx_frame[5] (in view: work.cm_demux(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"p:\omni\libero\mario-cm_flex-emg_golden\hdl\cm_demux.v":163:0:163:5|Removing sequential instance rx_frame[6] (in view: work.cm_demux(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"p:\omni\libero\mario-cm_flex-emg_golden\hdl\cm_demux.v":163:0:163:5|Removing sequential instance rx_frame[7] (in view: work.cm_demux(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: MO230 :"p:\omni\libero\mario-cm_flex-emg_golden\component\work\adcfifo\adcfifo_0\rtl\vlog\core\corefifo_sync_scntr.v":281:4:281:9|Found up-down counter in view:work.nm_channel(verilog) instance adcfifo.ADCFIFO_0.genblk15\.fifo_corefifo_sync_scntr.sc_r[10:0]  
+@N: MO231 :"p:\omni\libero\mario-cm_flex-emg_golden\component\work\adcfifo\adcfifo_0\rtl\vlog\core\corefifo_sync_scntr.v":536:3:536:8|Found counter in view:work.nm_channel(verilog) instance adcfifo.ADCFIFO_0.genblk15\.fifo_corefifo_sync_scntr.memraddr_r[9:0] 
+@N: MO231 :"p:\omni\libero\mario-cm_flex-emg_golden\component\work\adcfifo\adcfifo_0\rtl\vlog\core\corefifo_sync_scntr.v":524:3:524:8|Found counter in view:work.nm_channel(verilog) instance adcfifo.ADCFIFO_0.genblk15\.fifo_corefifo_sync_scntr.memwaddr_r[9:0] 
+@N: MO231 :"p:\omni\libero\mario-cm_flex-emg_golden\component\work\ackfifo\ackfifo_0\rtl\vlog\core\corefifo_sync_scntr.v":536:3:536:8|Found counter in view:work.nm_channel(verilog) instance ackfifo.ACKFIFO_0.genblk15\.fifo_corefifo_sync_scntr.memraddr_r[5:0] 
+@N: MO231 :"p:\omni\libero\mario-cm_flex-emg_golden\component\work\ackfifo\ackfifo_0\rtl\vlog\core\corefifo_sync_scntr.v":524:3:524:8|Found counter in view:work.nm_channel(verilog) instance ackfifo.ACKFIFO_0.genblk15\.fifo_corefifo_sync_scntr.memwaddr_r[5:0] 
+@N: MO231 :"p:\omni\libero\mario-cm_flex-emg_golden\hdl\nmic_rx.v":52:0:52:5|Found counter in view:work.nmic_rx(verilog) instance bitCt[10:0] 
+Encoding state machine state[2:0] (in view: work.nmic_tx(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+@N: MO231 :"p:\omni\libero\mario-cm_flex-emg_golden\hdl\am.v":54:1:54:6|Found counter in view:work.am(verilog) instance training_cntr[12:0] 
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 147MB peak: 148MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 145MB peak: 149MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 150MB peak: 160MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 151MB peak: 160MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 151MB peak: 160MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 150MB peak: 160MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 150MB peak: 160MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 179MB peak: 182MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:02s		    -4.09ns		1950 /       982
+   2		0h:00m:02s		    -4.09ns		1804 /       982
+   3		0h:00m:02s		    -3.29ns		1804 /       982
+   4		0h:00m:03s		    -3.29ns		1807 /       982
+
+   5		0h:00m:03s		    -3.17ns		1814 /       982
+   6		0h:00m:03s		    -3.17ns		1815 /       982
+
+
+   7		0h:00m:03s		    -3.02ns		1813 /       982
+   8		0h:00m:03s		    -2.60ns		1816 /       982
+   9		0h:00m:03s		    -2.60ns		1818 /       982
+@N: FP130 |Promoting Net Mario_Libero_MSS_0_MSS_RESET_N_M2F on CLKINT  I_654 
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 187MB peak: 189MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 189MB peak: 190MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 1003 clock pin(s) of sequential element(s)
+0 instances converted, 1003 sequential instances remain driven by gated/generated clocks
+
+======================================================================== Gated/Generated Clocks =========================================================================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance                       Explanation                                                
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       FCCC_0.CCC_INST     CCC                    1003       Mario_Libero_MSS_0.MSS_ADLIB_INST     No gated clock conversion method for cell cell:work.MSS_060
+=========================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 156MB peak: 190MB)
+
+Writing Analyst data base P:\OMNI\Libero\Mario-CM_Flex-EMG_golden\synthesis\synwork\Mario_Libero_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 187MB peak: 190MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: P:\OMNI\Libero\Mario-CM_Flex-EMG_golden\synthesis\Mario_Libero.edn
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+L-2016.09M-2
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 188MB peak: 191MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 186MB peak: 191MB)
+
+@W: MT246 :"p:\omni\libero\mario-cm_flex-emg_golden\component\work\mario_libero\osc_0\mario_libero_osc_0_osc.v":23:47:23:54|Blackbox XTLOSC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT246 :"p:\omni\libero\mario-cm_flex-emg_golden\component\work\mario_libero\fccc_0\mario_libero_fccc_0_fccc.v":20:36:20:43|Blackbox CCC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT420 |Found inferred clock Mario_Libero_FCCC_0_FCCC|GL0_net_inferred_clock with period 10.00ns. Please declare a user-defined clock on object "n:FCCC_0.GL0_net"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Tue Jun 26 10:59:12 2018
+#
+
+
+Top view:               Mario_Libero
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -1.771
+
+                                                    Requested     Estimated     Requested     Estimated                Clock        Clock              
+Starting Clock                                      Frequency     Frequency     Period        Period        Slack      Type         Group              
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+Mario_Libero_FCCC_0_FCCC|GL0_net_inferred_clock     100.0 MHz     73.8 MHz      10.000        13.542        -1.771     inferred     Inferred_clkgroup_0
+System                                              100.0 MHz     895.2 MHz     10.000        1.117         8.883      system       system_clkgroup    
+=======================================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                            |    rise  to  rise    |    fall  to  fall   |    rise  to  fall    |    fall  to  rise 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                         Ending                                           |  constraint  slack   |  constraint  slack  |  constraint  slack   |  constraint  slack
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                           System                                           |  10.000      8.883   |  No paths    -      |  No paths    -       |  No paths    -    
+Mario_Libero_FCCC_0_FCCC|GL0_net_inferred_clock  Mario_Libero_FCCC_0_FCCC|GL0_net_inferred_clock  |  10.000      -0.324  |  10.000      4.531  |  5.000       -1.771  |  5.000       1.177
+==========================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: Mario_Libero_FCCC_0_FCCC|GL0_net_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                     Starting                                                                               Arrival           
+Instance                                             Reference                                           Type     Pin     Net               Time        Slack 
+                                                     Clock                                                                                                    
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.cm_tx_ctr[0]     Mario_Libero_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       cm_tx_ctr[0]      0.108       -1.771
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.cm_tx_ctr[1]     Mario_Libero_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       cm_tx_ctr[1]      0.108       -1.608
+cmam_if_wrap_0.cmam_if.nif.rst_valid[2]              Mario_Libero_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       rst_valid[2]      0.108       -1.389
+cmam_if_wrap_0.cmam_if.nif.rst_valid[6]              Mario_Libero_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       rst_valid[6]      0.108       -1.325
+cmam_if_wrap_0.cmam_if.nif.rst_valid[0]              Mario_Libero_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       rst_valid[0]      0.108       -1.288
+cmam_if_wrap_0.cmam_if.nif.rst_valid[4]              Mario_Libero_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       rst_valid[4]      0.108       -1.224
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.cm_tx_ctr[3]     Mario_Libero_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       cm_tx_ctr[3]      0.108       -1.165
+cmam_if_wrap_0.cmam_if.am_if.am_cntr[3]              Mario_Libero_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       am_cntr[3]        0.108       -1.135
+cmam_if_wrap_0.cmam_if.am_if.am_cntr[2]              Mario_Libero_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       am_cntr[2]        0.108       -1.107
+cmam_if_wrap_0.cmam_if.nif.nmc1.ntx.a2n_valid        Mario_Libero_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       cm_txvalid[1]     0.108       -1.094
+==============================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                  Starting                                                                                          Required           
+Instance                                          Reference                                           Type     Pin     Net                          Time         Slack 
+                                                  Clock                                                                                                                
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+cmam_if_wrap_0.cmam_if.am_if.training_cntr[0]     Mario_Libero_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      SLn     un1_reset_0_sqmuxa_1_i_i     4.662        -1.771
+cmam_if_wrap_0.cmam_if.am_if.training_cntr[1]     Mario_Libero_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      SLn     un1_reset_0_sqmuxa_1_i_i     4.662        -1.771
+cmam_if_wrap_0.cmam_if.am_if.training_cntr[2]     Mario_Libero_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      SLn     un1_reset_0_sqmuxa_1_i_i     4.662        -1.771
+cmam_if_wrap_0.cmam_if.am_if.training_cntr[3]     Mario_Libero_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      SLn     un1_reset_0_sqmuxa_1_i_i     4.662        -1.771
+cmam_if_wrap_0.cmam_if.am_if.training_cntr[4]     Mario_Libero_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      SLn     un1_reset_0_sqmuxa_1_i_i     4.662        -1.771
+cmam_if_wrap_0.cmam_if.am_if.training_cntr[5]     Mario_Libero_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      SLn     un1_reset_0_sqmuxa_1_i_i     4.662        -1.771
+cmam_if_wrap_0.cmam_if.am_if.training_cntr[6]     Mario_Libero_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      SLn     un1_reset_0_sqmuxa_1_i_i     4.662        -1.771
+cmam_if_wrap_0.cmam_if.am_if.training_cntr[7]     Mario_Libero_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      SLn     un1_reset_0_sqmuxa_1_i_i     4.662        -1.771
+cmam_if_wrap_0.cmam_if.am_if.training_cntr[8]     Mario_Libero_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      SLn     un1_reset_0_sqmuxa_1_i_i     4.662        -1.771
+cmam_if_wrap_0.cmam_if.am_if.training_cntr[9]     Mario_Libero_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      SLn     un1_reset_0_sqmuxa_1_i_i     4.662        -1.771
+=======================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.338
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.662
+
+    - Propagation time:                      6.434
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.771
+
+    Number of logic level(s):                6
+    Starting point:                          cmam_if_wrap_0.cmam_if.nif.cmd_inst.cm_tx_ctr[0] / Q
+    Ending point:                            cmam_if_wrap_0.cmam_if.am_if.training_cntr[0] / SLn
+    The start point is clocked by            Mario_Libero_FCCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            Mario_Libero_FCCC_0_FCCC|GL0_net_inferred_clock [falling] on pin CLK
+
+Instance / Net                                                                        Pin      Pin               Arrival     No. of    
+Name                                                                         Type     Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------------------
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.cm_tx_ctr[0]                             SLE      Q        Out     0.108     0.108       -         
+cm_tx_ctr[0]                                                                 Net      -        -       1.085     -           20        
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.g0_11_m3_1_0                             CFG4     D        In      -         1.193       -         
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.g0_11_m3_1_0                             CFG4     Y        Out     0.326     1.519       -         
+g0_11_m3_1                                                                   Net      -        -       0.556     -           1         
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.g0_11_m3                                 CFG4     C        In      -         2.075       -         
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.g0_11_m3                                 CFG4     Y        Out     0.226     2.300       -         
+N_13                                                                         Net      -        -       0.556     -           1         
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.c2a_data_1_sqmuxa_0_a3_0_a2_RNIV0JV1     CFG3     C        In      -         2.856       -         
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.c2a_data_1_sqmuxa_0_a3_0_a2_RNIV0JV1     CFG3     Y        Out     0.210     3.066       -         
+N_16                                                                         Net      -        -       0.678     -           3         
+cmam_if_wrap_0.cmam_if.am_if.nm_isReset_1_sqmuxa_0_RNIISD9H                  CFG4     C        In      -         3.744       -         
+cmam_if_wrap_0.cmam_if.am_if.nm_isReset_1_sqmuxa_0_RNIISD9H                  CFG4     Y        Out     0.210     3.954       -         
+un1_reset_0_sqmuxa_1_i_sx                                                    Net      -        -       0.556     -           1         
+cmam_if_wrap_0.cmam_if.am_if.nm_isReset_1_sqmuxa_0_RNIL233N1                 CFG4     B        In      -         4.509       -         
+cmam_if_wrap_0.cmam_if.am_if.nm_isReset_1_sqmuxa_0_RNIL233N1                 CFG4     Y        Out     0.148     4.658       -         
+un1_reset_0_sqmuxa_1_i                                                       Net      -        -       0.630     -           2         
+cmam_if_wrap_0.cmam_if.am_if.nm_isReset_1_sqmuxa_0_RNIL233N1_0               CFG1     A        In      -         5.288       -         
+cmam_if_wrap_0.cmam_if.am_if.nm_isReset_1_sqmuxa_0_RNIL233N1_0               CFG1     Y        Out     0.100     5.388       -         
+un1_reset_0_sqmuxa_1_i_i                                                     Net      -        -       1.045     -           13        
+cmam_if_wrap_0.cmam_if.am_if.training_cntr[0]                                SLE      SLn      In      -         6.434       -         
+=======================================================================================================================================
+Total path delay (propagation time + setup) of 6.771 is 1.666(24.6%) logic and 5.105(75.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      5.000
+    - Setup time:                            0.338
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.662
+
+    - Propagation time:                      6.434
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.771
+
+    Number of logic level(s):                6
+    Starting point:                          cmam_if_wrap_0.cmam_if.nif.cmd_inst.cm_tx_ctr[0] / Q
+    Ending point:                            cmam_if_wrap_0.cmam_if.am_if.training_cntr[12] / SLn
+    The start point is clocked by            Mario_Libero_FCCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            Mario_Libero_FCCC_0_FCCC|GL0_net_inferred_clock [falling] on pin CLK
+
+Instance / Net                                                                        Pin      Pin               Arrival     No. of    
+Name                                                                         Type     Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------------------
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.cm_tx_ctr[0]                             SLE      Q        Out     0.108     0.108       -         
+cm_tx_ctr[0]                                                                 Net      -        -       1.085     -           20        
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.g0_11_m3_1_0                             CFG4     D        In      -         1.193       -         
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.g0_11_m3_1_0                             CFG4     Y        Out     0.326     1.519       -         
+g0_11_m3_1                                                                   Net      -        -       0.556     -           1         
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.g0_11_m3                                 CFG4     C        In      -         2.075       -         
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.g0_11_m3                                 CFG4     Y        Out     0.226     2.300       -         
+N_13                                                                         Net      -        -       0.556     -           1         
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.c2a_data_1_sqmuxa_0_a3_0_a2_RNIV0JV1     CFG3     C        In      -         2.856       -         
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.c2a_data_1_sqmuxa_0_a3_0_a2_RNIV0JV1     CFG3     Y        Out     0.210     3.066       -         
+N_16                                                                         Net      -        -       0.678     -           3         
+cmam_if_wrap_0.cmam_if.am_if.nm_isReset_1_sqmuxa_0_RNIISD9H                  CFG4     C        In      -         3.744       -         
+cmam_if_wrap_0.cmam_if.am_if.nm_isReset_1_sqmuxa_0_RNIISD9H                  CFG4     Y        Out     0.210     3.954       -         
+un1_reset_0_sqmuxa_1_i_sx                                                    Net      -        -       0.556     -           1         
+cmam_if_wrap_0.cmam_if.am_if.nm_isReset_1_sqmuxa_0_RNIL233N1                 CFG4     B        In      -         4.509       -         
+cmam_if_wrap_0.cmam_if.am_if.nm_isReset_1_sqmuxa_0_RNIL233N1                 CFG4     Y        Out     0.148     4.658       -         
+un1_reset_0_sqmuxa_1_i                                                       Net      -        -       0.630     -           2         
+cmam_if_wrap_0.cmam_if.am_if.nm_isReset_1_sqmuxa_0_RNIL233N1_0               CFG1     A        In      -         5.288       -         
+cmam_if_wrap_0.cmam_if.am_if.nm_isReset_1_sqmuxa_0_RNIL233N1_0               CFG1     Y        Out     0.100     5.388       -         
+un1_reset_0_sqmuxa_1_i_i                                                     Net      -        -       1.045     -           13        
+cmam_if_wrap_0.cmam_if.am_if.training_cntr[12]                               SLE      SLn      In      -         6.434       -         
+=======================================================================================================================================
+Total path delay (propagation time + setup) of 6.771 is 1.666(24.6%) logic and 5.105(75.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      5.000
+    - Setup time:                            0.338
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.662
+
+    - Propagation time:                      6.434
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.771
+
+    Number of logic level(s):                6
+    Starting point:                          cmam_if_wrap_0.cmam_if.nif.cmd_inst.cm_tx_ctr[0] / Q
+    Ending point:                            cmam_if_wrap_0.cmam_if.am_if.training_cntr[11] / SLn
+    The start point is clocked by            Mario_Libero_FCCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            Mario_Libero_FCCC_0_FCCC|GL0_net_inferred_clock [falling] on pin CLK
+
+Instance / Net                                                                        Pin      Pin               Arrival     No. of    
+Name                                                                         Type     Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------------------
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.cm_tx_ctr[0]                             SLE      Q        Out     0.108     0.108       -         
+cm_tx_ctr[0]                                                                 Net      -        -       1.085     -           20        
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.g0_11_m3_1_0                             CFG4     D        In      -         1.193       -         
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.g0_11_m3_1_0                             CFG4     Y        Out     0.326     1.519       -         
+g0_11_m3_1                                                                   Net      -        -       0.556     -           1         
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.g0_11_m3                                 CFG4     C        In      -         2.075       -         
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.g0_11_m3                                 CFG4     Y        Out     0.226     2.300       -         
+N_13                                                                         Net      -        -       0.556     -           1         
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.c2a_data_1_sqmuxa_0_a3_0_a2_RNIV0JV1     CFG3     C        In      -         2.856       -         
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.c2a_data_1_sqmuxa_0_a3_0_a2_RNIV0JV1     CFG3     Y        Out     0.210     3.066       -         
+N_16                                                                         Net      -        -       0.678     -           3         
+cmam_if_wrap_0.cmam_if.am_if.nm_isReset_1_sqmuxa_0_RNIISD9H                  CFG4     C        In      -         3.744       -         
+cmam_if_wrap_0.cmam_if.am_if.nm_isReset_1_sqmuxa_0_RNIISD9H                  CFG4     Y        Out     0.210     3.954       -         
+un1_reset_0_sqmuxa_1_i_sx                                                    Net      -        -       0.556     -           1         
+cmam_if_wrap_0.cmam_if.am_if.nm_isReset_1_sqmuxa_0_RNIL233N1                 CFG4     B        In      -         4.509       -         
+cmam_if_wrap_0.cmam_if.am_if.nm_isReset_1_sqmuxa_0_RNIL233N1                 CFG4     Y        Out     0.148     4.658       -         
+un1_reset_0_sqmuxa_1_i                                                       Net      -        -       0.630     -           2         
+cmam_if_wrap_0.cmam_if.am_if.nm_isReset_1_sqmuxa_0_RNIL233N1_0               CFG1     A        In      -         5.288       -         
+cmam_if_wrap_0.cmam_if.am_if.nm_isReset_1_sqmuxa_0_RNIL233N1_0               CFG1     Y        Out     0.100     5.388       -         
+un1_reset_0_sqmuxa_1_i_i                                                     Net      -        -       1.045     -           13        
+cmam_if_wrap_0.cmam_if.am_if.training_cntr[11]                               SLE      SLn      In      -         6.434       -         
+=======================================================================================================================================
+Total path delay (propagation time + setup) of 6.771 is 1.666(24.6%) logic and 5.105(75.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      5.000
+    - Setup time:                            0.338
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.662
+
+    - Propagation time:                      6.434
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.771
+
+    Number of logic level(s):                6
+    Starting point:                          cmam_if_wrap_0.cmam_if.nif.cmd_inst.cm_tx_ctr[0] / Q
+    Ending point:                            cmam_if_wrap_0.cmam_if.am_if.training_cntr[10] / SLn
+    The start point is clocked by            Mario_Libero_FCCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            Mario_Libero_FCCC_0_FCCC|GL0_net_inferred_clock [falling] on pin CLK
+
+Instance / Net                                                                        Pin      Pin               Arrival     No. of    
+Name                                                                         Type     Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------------------
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.cm_tx_ctr[0]                             SLE      Q        Out     0.108     0.108       -         
+cm_tx_ctr[0]                                                                 Net      -        -       1.085     -           20        
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.g0_11_m3_1_0                             CFG4     D        In      -         1.193       -         
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.g0_11_m3_1_0                             CFG4     Y        Out     0.326     1.519       -         
+g0_11_m3_1                                                                   Net      -        -       0.556     -           1         
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.g0_11_m3                                 CFG4     C        In      -         2.075       -         
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.g0_11_m3                                 CFG4     Y        Out     0.226     2.300       -         
+N_13                                                                         Net      -        -       0.556     -           1         
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.c2a_data_1_sqmuxa_0_a3_0_a2_RNIV0JV1     CFG3     C        In      -         2.856       -         
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.c2a_data_1_sqmuxa_0_a3_0_a2_RNIV0JV1     CFG3     Y        Out     0.210     3.066       -         
+N_16                                                                         Net      -        -       0.678     -           3         
+cmam_if_wrap_0.cmam_if.am_if.nm_isReset_1_sqmuxa_0_RNIISD9H                  CFG4     C        In      -         3.744       -         
+cmam_if_wrap_0.cmam_if.am_if.nm_isReset_1_sqmuxa_0_RNIISD9H                  CFG4     Y        Out     0.210     3.954       -         
+un1_reset_0_sqmuxa_1_i_sx                                                    Net      -        -       0.556     -           1         
+cmam_if_wrap_0.cmam_if.am_if.nm_isReset_1_sqmuxa_0_RNIL233N1                 CFG4     B        In      -         4.509       -         
+cmam_if_wrap_0.cmam_if.am_if.nm_isReset_1_sqmuxa_0_RNIL233N1                 CFG4     Y        Out     0.148     4.658       -         
+un1_reset_0_sqmuxa_1_i                                                       Net      -        -       0.630     -           2         
+cmam_if_wrap_0.cmam_if.am_if.nm_isReset_1_sqmuxa_0_RNIL233N1_0               CFG1     A        In      -         5.288       -         
+cmam_if_wrap_0.cmam_if.am_if.nm_isReset_1_sqmuxa_0_RNIL233N1_0               CFG1     Y        Out     0.100     5.388       -         
+un1_reset_0_sqmuxa_1_i_i                                                     Net      -        -       1.045     -           13        
+cmam_if_wrap_0.cmam_if.am_if.training_cntr[10]                               SLE      SLn      In      -         6.434       -         
+=======================================================================================================================================
+Total path delay (propagation time + setup) of 6.771 is 1.666(24.6%) logic and 5.105(75.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      5.000
+    - Setup time:                            0.338
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.662
+
+    - Propagation time:                      6.434
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.771
+
+    Number of logic level(s):                6
+    Starting point:                          cmam_if_wrap_0.cmam_if.nif.cmd_inst.cm_tx_ctr[0] / Q
+    Ending point:                            cmam_if_wrap_0.cmam_if.am_if.training_cntr[9] / SLn
+    The start point is clocked by            Mario_Libero_FCCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            Mario_Libero_FCCC_0_FCCC|GL0_net_inferred_clock [falling] on pin CLK
+
+Instance / Net                                                                        Pin      Pin               Arrival     No. of    
+Name                                                                         Type     Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------------------
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.cm_tx_ctr[0]                             SLE      Q        Out     0.108     0.108       -         
+cm_tx_ctr[0]                                                                 Net      -        -       1.085     -           20        
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.g0_11_m3_1_0                             CFG4     D        In      -         1.193       -         
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.g0_11_m3_1_0                             CFG4     Y        Out     0.326     1.519       -         
+g0_11_m3_1                                                                   Net      -        -       0.556     -           1         
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.g0_11_m3                                 CFG4     C        In      -         2.075       -         
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.g0_11_m3                                 CFG4     Y        Out     0.226     2.300       -         
+N_13                                                                         Net      -        -       0.556     -           1         
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.c2a_data_1_sqmuxa_0_a3_0_a2_RNIV0JV1     CFG3     C        In      -         2.856       -         
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.c2a_data_1_sqmuxa_0_a3_0_a2_RNIV0JV1     CFG3     Y        Out     0.210     3.066       -         
+N_16                                                                         Net      -        -       0.678     -           3         
+cmam_if_wrap_0.cmam_if.am_if.nm_isReset_1_sqmuxa_0_RNIISD9H                  CFG4     C        In      -         3.744       -         
+cmam_if_wrap_0.cmam_if.am_if.nm_isReset_1_sqmuxa_0_RNIISD9H                  CFG4     Y        Out     0.210     3.954       -         
+un1_reset_0_sqmuxa_1_i_sx                                                    Net      -        -       0.556     -           1         
+cmam_if_wrap_0.cmam_if.am_if.nm_isReset_1_sqmuxa_0_RNIL233N1                 CFG4     B        In      -         4.509       -         
+cmam_if_wrap_0.cmam_if.am_if.nm_isReset_1_sqmuxa_0_RNIL233N1                 CFG4     Y        Out     0.148     4.658       -         
+un1_reset_0_sqmuxa_1_i                                                       Net      -        -       0.630     -           2         
+cmam_if_wrap_0.cmam_if.am_if.nm_isReset_1_sqmuxa_0_RNIL233N1_0               CFG1     A        In      -         5.288       -         
+cmam_if_wrap_0.cmam_if.am_if.nm_isReset_1_sqmuxa_0_RNIL233N1_0               CFG1     Y        Out     0.100     5.388       -         
+un1_reset_0_sqmuxa_1_i_i                                                     Net      -        -       1.045     -           13        
+cmam_if_wrap_0.cmam_if.am_if.training_cntr[9]                                SLE      SLn      In      -         6.434       -         
+=======================================================================================================================================
+Total path delay (propagation time + setup) of 6.771 is 1.666(24.6%) logic and 5.105(75.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                   Starting                                                                Arrival          
+Instance           Reference     Type       Pin        Net                                 Time        Slack
+                   Clock                                                                                    
+------------------------------------------------------------------------------------------------------------
+OSC_0.I_XTLOSC     System        XTLOSC     CLKOUT     OSC_0_XTLOSC_CCC_OUT_XTLOSC_CCC     0.000       8.883
+============================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                    Starting                                                              Required          
+Instance            Reference     Type     Pin        Net                                 Time         Slack
+                    Clock                                                                                   
+------------------------------------------------------------------------------------------------------------
+FCCC_0.CCC_INST     System        CCC      XTLOSC     OSC_0_XTLOSC_CCC_OUT_XTLOSC_CCC     10.000       8.883
+============================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         10.000
+
+    - Propagation time:                      1.117
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 8.883
+
+    Number of logic level(s):                0
+    Starting point:                          OSC_0.I_XTLOSC / CLKOUT
+    Ending point:                            FCCC_0.CCC_INST / XTLOSC
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            System [rising]
+
+Instance / Net                                 Pin        Pin               Arrival     No. of    
+Name                                Type       Name       Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------
+OSC_0.I_XTLOSC                      XTLOSC     CLKOUT     Out     0.000     0.000       -         
+OSC_0_XTLOSC_CCC_OUT_XTLOSC_CCC     Net        -          -       1.117     -           1         
+FCCC_0.CCC_INST                     CCC        XTLOSC     In      -         1.117       -         
+==================================================================================================
+Total path delay (propagation time + setup) of 1.117 is 0.000(0.0%) logic and 1.117(100.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 187MB peak: 191MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:05s; Memory used current: 187MB peak: 191MB)
+
+---------------------------------------
+Resource Usage Report for Mario_Libero 
+
+Mapping to part: m2s060tfcsbga325std
+Cell usage:
+CCC             1 use
+CLKINT          2 uses
+INV             1 use
+MSS_060         1 use
+XTLOSC          1 use
+CFG1           24 uses
+CFG2           213 uses
+CFG3           536 uses
+CFG4           739 uses
+
+Carry cells:
+ARI1            285 uses - used for arithmetic functions
+ARI1            18 uses - used for Wide-Mux implementation
+Total ARI1      303 uses
+
+
+Sequential Cells: 
+SLE            982 uses
+
+DSP Blocks:    0 of 72 (0%)
+
+I/O ports: 23
+I/O primitives: 22
+BIBUF          4 uses
+INBUF          5 uses
+OUTBUF         11 uses
+TRIBUFF        2 uses
+
+
+Global Clock Buffers: 2 of 8 (25%)
+
+
+RAM/ROM usage summary
+Total Block RAMs (RAM1K18) : 4 of 69 (5%)
+Total Block RAMs (RAM64x18) : 4 of 72 (5%)
+
+Total LUTs:    1815
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 144; LUTs = 144;
+RAM1K18  Interface Logic : SLEs = 144; LUTs = 144;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  982 + 144 + 144 + 0 = 1270;
+Total number of LUTs after P&R:  1815 + 144 + 144 + 0 = 2103;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:05s; Memory used current: 34MB peak: 191MB)
+
+Process took 0h:00m:07s realtime, 0h:00m:05s cputime
+# Tue Jun 26 10:59:12 2018
+
+###########################################################]

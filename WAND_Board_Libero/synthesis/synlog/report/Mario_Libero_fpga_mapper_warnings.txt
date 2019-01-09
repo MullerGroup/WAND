@@ -1,0 +1,3 @@
+@W: MT246 :"p:\omni\libero\mario-cm_flex-emg_golden\component\work\mario_libero\osc_0\mario_libero_osc_0_osc.v":23:47:23:54|Blackbox XTLOSC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT246 :"p:\omni\libero\mario-cm_flex-emg_golden\component\work\mario_libero\fccc_0\mario_libero_fccc_0_fccc.v":20:36:20:43|Blackbox CCC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT420 |Found inferred clock Mario_Libero_FCCC_0_FCCC|GL0_net_inferred_clock with period 10.00ns. Please declare a user-defined clock on object "n:FCCC_0.GL0_net"
