@@ -5,9 +5,10 @@ Design files and source code for the Wireless Artifact-free Neuromodulation Devi
 
 To setup the WAND system, you will need:
 1. WAND (or WAND mini) board
-1. 3.7 V Li-ion battery
+1. 3.7 V Li-ion battery (we've been using [Renata ICP521630PM](https://www.mouser.com/ProductDetail/Renata/ICP521630PM?qs=QkjX1Or4MHEeJ7xWMplNJA%3D%3D), though 3.7 V battery should work)
 1. WAND base-station receiver
 1. Computer running custom GUI
+1. Dual-NMIC versions of WAND have a battery charging circuit on-board ([Analog Devices LTC4065](https://www.analog.com/en/products/ltc4065.html)). WAND mini boards require a separate charger, which can be something like [this](https://www.sparkfun.com/products/12711).
 
 The custom GUI can be found in the associated WAND_GUI code repository. Instructions on setup and use are found in the README there.
 
