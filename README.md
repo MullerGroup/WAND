@@ -1,5 +1,5 @@
 # WAND
-Design files and source code for the Wireless Artifact-free Neuromodulation Device, as published in Nature Biomedical Engineering
+Design files and source code for the Wireless Artifact-free Neuromodulation Device, as published in Nature Biomedical Engineering. Two submodules have been included with contain source code for the graphical user interface (GUI) and the radio protocol implementation. More info about how to control WAND is in the Readme of the WAND_GUI repo.
 
 ## Note about WAND mini:
 The WAND mini version operates almost identically to the one published, except that it only ahs a single NMIC with 64 channels for recording and up to 4 channels assigned for stimulation.
