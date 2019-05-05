@@ -1,6 +1,9 @@
 # WAND
 Design files and source code for the Wireless Artifact-free Neuromodulation Device, as published in Nature Biomedical Engineering
 
+## Note about WAND mini:
+The WAND mini version operates almost identically to the one published, except that it only ahs a single NMIC with 64 channels for recording and up to 4 channels assigned for stimulation.
+
 ## Getting started
 
 To setup the WAND system, you will need:
