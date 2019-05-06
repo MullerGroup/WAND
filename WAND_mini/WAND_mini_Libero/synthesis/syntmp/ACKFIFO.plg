@@ -1,0 +1,12 @@
+@P:  Worst Slack : 5.488
+@P:  ACKFIFO|CLK - Estimated Frequency : 221.7 MHz
+@P:  ACKFIFO|CLK - Requested Frequency : 100.0 MHz
+@P:  ACKFIFO|CLK - Estimated Period : 4.512
+@P:  ACKFIFO|CLK - Requested Period : 10.000
+@P:  ACKFIFO|CLK - Slack : 5.488
+@P: ACKFIFO Part : m2s025fcsbga325std
+@P: ACKFIFO Register bits  : 43 
+@P: ACKFIFO DSP Blocks  : 0
+@P: ACKFIFO I/O primitives : 40
+@P: ACKFIFO RAM64x18 :  1
+@P:  CPU Time : 0h:00m:00s

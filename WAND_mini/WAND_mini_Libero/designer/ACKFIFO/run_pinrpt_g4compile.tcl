@@ -1,0 +1,10 @@
+DESIGN=ACKFIFO
+DESDIR=C:\Users\flb\Desktop\NeuroMini_golden\designer\ACKFIFO
+TARGET_DIR=C:\Users\flb\Desktop\NeuroMini_golden\designer\ACKFIFO
+FAM=SmartFusion2
+DIE=PA4M2500_N
+PACKAGE=fcs325
+PINRPT_BY_NAME=1
+PINRPT_BY_NUMBER=1
+BANK_REPORT=1
+IOREG_REPORT=1

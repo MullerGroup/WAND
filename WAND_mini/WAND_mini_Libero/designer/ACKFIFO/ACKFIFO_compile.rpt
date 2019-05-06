@@ -1,0 +1,174 @@
+Compile Report
+Microsemi Corporation - Microsemi Libero Software Release v11.8 SP3 (Version 11.8.3.6)
+Date: Wed Jun 20 15:36:17 2018
+
+Device Selection
++--------------------------------+----------------+
+| Family                         | SmartFusion2   |
+| Device                         | M2S025         |
+| Package                        | 325 FCSBGA     |
+| Speed Grade                    | STD            |
+| Temp                           | 0:25:85        |
+| Voltage                        | 1.26:1.20:1.14 |
+| Core Voltage                   | 1.2V           |
+| Ramp Rate                      | 100ms Minimum  |
+| System Controller Suspend Mode | No             |
+| PLL Supply Voltage             | 2.5V           |
+| Default I/O technology         | LVCMOS 1.8V    |
+| Restrict Probe Pins            | Yes            |
+| Restrict SPI Pins              | No             |
++--------------------------------+----------------+
+
+Source Files
++---------+-------------------------------------------------------------+
+| Topcell | ACKFIFO                                                     |
+| Format  | EDIF                                                        |
+| Source  | C:\Users\flb\Desktop\NeuroMini_golden\synthesis\ACKFIFO.edn |
++---------+-------------------------------------------------------------+
+
+Options
++---------------------------------------------------------+-------+
+| Merge User SDC file(s) with Existing Timing Constraints | true  |
+| Abort Compile if errors are found in PDC file(s)        | true  |
+| Enable Single Event Transient mitigation                | false |
+| Enable Design Separation Methodology                    | false |
+| Limit the number of high fanout nets to display to      | 10    |
++---------------------------------------------------------+-------+
+
+Resource Usage
++---------------------------+------+-------+------------+
+| Type                      | Used | Total | Percentage |
++---------------------------+------+-------+------------+
+| 4LUT                      | 88   | 27696 | 0.32       |
+| DFF                       | 79   | 27696 | 0.29       |
+| I/O Register              | 0    | 534   | 0.00       |
+| User I/O                  | 40   | 178   | 22.47      |
+| -- Single-ended I/O       | 40   | 178   | 22.47      |
+| -- Differential I/O Pairs | 0    | 89    | 0.00       |
+| RAM64x18                  | 1    | 34    | 2.94       |
+| RAM1K18                   | 0    | 31    | 0.00       |
+| MACC                      | 0    | 34    | 0.00       |
+| Chip Globals              | 2    | 16    | 12.50      |
+| CCC                       | 0    | 6     | 0.00       |
+| RCOSC_25_50MHZ            | 0    | 1     | 0.00       |
+| RCOSC_1MHZ                | 0    | 1     | 0.00       |
+| XTLOSC                    | 0    | 1     | 0.00       |
+| MSS                       | 0    | 1     | 0.00       |
++---------------------------+------+-------+------------+
+
+Detailed Logic Resource Usage
++--------------------------+------+-----+
+| Type                     | 4LUT | DFF |
++--------------------------+------+-----+
+| Fabric Logic             | 52   | 43  |
+| RAM64x18 Interface Logic | 36   | 36  |
+| RAM1K18 Interface Logic  | 0    | 0   |
+| MACC Interface Logic     | 0    | 0   |
+| Total Used               | 88   | 79  |
++--------------------------+------+-----+
+
+Detailed Carry Chains Resource Usage
++--------+------+
+| Length | Used |
+| 6      | 1    |
+| 7      | 2    |
+| Total  | 3    |
++--------+------+
+
+I/O Function
++-------------------------------+--------------+-------------+-----------------+
+| Type                          | w/o register | w/ register | w/ DDR register |
++-------------------------------+--------------+-------------+-----------------+
+| Input I/O                     | 20           | 0           | 0               |
+| Output I/O                    | 20           | 0           | 0               |
+| Bidirectional I/O             | 0            | 0           | 0               |
+| Differential Input I/O Pairs  | 0            | 0           | 0               |
+| Differential Output I/O Pairs | 0            | 0           | 0               |
++-------------------------------+--------------+-------------+-----------------+
+
+I/O Technology
++--------------+--------+------+-------+--------+---------------+
+| I/O Standard | Vddi   | Vref | Input | Output | Bidirectional |
++--------------+--------+------+-------+--------+---------------+
+| LVCMOS18     |  1.80v |  N/A |  20   |  20    |  0            |
++--------------+--------+------+-------+--------+---------------+
+
+I/O Placement
++----------+-------+------------+
+| Type     | Count | Percentage |
++----------+-------+------------+
+| Locked   |  0    | 0.00%      |
+| Placed   |  0    | 0.00%      |
+| UnPlaced |  40   | 100.00%    |
++----------+-------+------------+
+
+Nets assigned to chip global resources
++--------+---------+------------------------------------+
+| Fanout | Type    | Name                               |
++--------+---------+------------------------------------+
+| 46     | INT_NET | Net   : CLK_c                      |
+|        |         | Driver: CLK_ibuf_RNIVQ04/U0_RGB1   |
+|        |         | Source: NETLIST                    |
+| 45     | INT_NET | Net   : RESET_c                    |
+|        |         | Driver: RESET_ibuf_RNI8T16/U0_RGB1 |
+|        |         | Source: NETLIST                    |
++--------+---------+------------------------------------+
+
+Nets assigned to row global resources
++--------+------+------+
+| Fanout | Type | Name |
++--------+------+------+
++--------+------+------+
+
+High fanout nets
++--------+---------+----------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                       |
++--------+---------+----------------------------------------------------------------------------+
+| 17     | INT_NET | Net   : ACKFIFO_0/RDATA_r4                                                 |
+|        |         | Driver: ACKFIFO_0/genblk15.fifo_corefifo_sync_scntr/empty_r_RNIVV6S_0      |
+| 16     | INT_NET | Net   : ACKFIFO_0/RE_d1                                                    |
+|        |         | Driver: ACKFIFO_0/RE_d1                                                    |
+| 16     | INT_NET | Net   : ACKFIFO_0/re_pulse_d1                                              |
+|        |         | Driver: ACKFIFO_0/re_pulse_d1                                              |
+| 15     | INT_NET | Net   : ACKFIFO_0/N_136_1                                                  |
+|        |         | Driver: ACKFIFO_0/genblk15.fifo_corefifo_sync_scntr/empty_r_RNIMF1R        |
+| 11     | INT_NET | Net   : ACKFIFO_0/N_149_1                                                  |
+|        |         | Driver: ACKFIFO_0/genblk15.fifo_corefifo_sync_scntr/genblk5.full_r_RNIL3GE |
+| 10     | INT_NET | Net   : RE_c                                                               |
+|        |         | Driver: RE_ibuf                                                            |
+| 7      | INT_NET | Net   : FULL_c                                                             |
+|        |         | Driver: ACKFIFO_0/genblk15.fifo_corefifo_sync_scntr/genblk5.full_r         |
+| 6      | INT_NET | Net   : WE_c                                                               |
+|        |         | Driver: WE_ibuf                                                            |
+| 5      | INT_NET | Net   : EMPTY_c                                                            |
+|        |         | Driver: ACKFIFO_0/genblk15.fifo_corefifo_sync_scntr/empty_r                |
+| 5      | INT_NET | Net   : ACKFIFO_0/genblk15.fifo_corefifo_sync_scntr/sc_r[2]                |
+|        |         | Driver: ACKFIFO_0/genblk15.fifo_corefifo_sync_scntr/sc_r[2]                |
++--------+---------+----------------------------------------------------------------------------+
+
+High fanout nets (through buffer trees)
++--------+---------+----------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                       |
++--------+---------+----------------------------------------------------------------------------+
+| 17     | INT_NET | Net   : ACKFIFO_0/RDATA_r4                                                 |
+|        |         | Driver: ACKFIFO_0/genblk15.fifo_corefifo_sync_scntr/empty_r_RNIVV6S_0      |
+| 16     | INT_NET | Net   : ACKFIFO_0/RE_d1                                                    |
+|        |         | Driver: ACKFIFO_0/RE_d1                                                    |
+| 16     | INT_NET | Net   : ACKFIFO_0/re_pulse_d1                                              |
+|        |         | Driver: ACKFIFO_0/re_pulse_d1                                              |
+| 15     | INT_NET | Net   : ACKFIFO_0/N_136_1                                                  |
+|        |         | Driver: ACKFIFO_0/genblk15.fifo_corefifo_sync_scntr/empty_r_RNIMF1R        |
+| 11     | INT_NET | Net   : ACKFIFO_0/N_149_1                                                  |
+|        |         | Driver: ACKFIFO_0/genblk15.fifo_corefifo_sync_scntr/genblk5.full_r_RNIL3GE |
+| 10     | INT_NET | Net   : RE_c                                                               |
+|        |         | Driver: RE_ibuf                                                            |
+| 7      | INT_NET | Net   : FULL_c                                                             |
+|        |         | Driver: ACKFIFO_0/genblk15.fifo_corefifo_sync_scntr/genblk5.full_r         |
+| 6      | INT_NET | Net   : WE_c                                                               |
+|        |         | Driver: WE_ibuf                                                            |
+| 5      | INT_NET | Net   : EMPTY_c                                                            |
+|        |         | Driver: ACKFIFO_0/genblk15.fifo_corefifo_sync_scntr/empty_r                |
+| 5      | INT_NET | Net   : ACKFIFO_0/genblk15.fifo_corefifo_sync_scntr/sc_r[2]                |
+|        |         | Driver: ACKFIFO_0/genblk15.fifo_corefifo_sync_scntr/sc_r[2]                |
++--------+---------+----------------------------------------------------------------------------+
+

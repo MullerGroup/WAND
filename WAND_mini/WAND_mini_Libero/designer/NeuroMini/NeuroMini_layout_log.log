@@ -1,0 +1,60 @@
+***** Place and Route Configurations *****
+Timing-driven            : ON
+Power-driven             : OFF
+High-effort              : OFF
+Repair min-delay         : ON
+Incremental              : OFF
+Inter-clock optimization : OFF
+TDPR scenario            : Primary
+
+
+Running the I/O Bank and Globals Assigner.
+Info:  I/O Bank and Globals Assigner identified 19 fixed I/O macros, 0 unfixed I/O macros
+
+I/O Bank and Globals Assigner completed successfully.
+Total time spent in I/O Bank and Globals Assigner: 0 seconds
+
+Placer V4.0 - 11.8.3 
+Design: NeuroMini                       Started: Mon Jun 25 19:52:54 2018
+
+Initializing Timing-Driven Placement ...
+Placing design...
+End of placement.
+Pre-Placement Runtime        : 5 seconds
+Placement Runtime            : 16 seconds
+
+Placer completed successfully.
+
+Design: NeuroMini                       
+Finished: Mon Jun 25 19:53:32 2018
+Total CPU Time:     00:00:34            Total Elapsed Time: 00:00:38
+Total Memory Usage: 381.8 Mbytes
+                        o - o - o - o - o - o
+
+
+Router 
+Design: P:\Libero\NeuroMini_golden\designer\NeuroMini\NeuroMiniStarted: Mon Jun 25 19:53:38 2018
+
+Final stats: search run time 5.701857
+
+Router completed successfully.
+
+Design: P:\Libero\NeuroMini_golden\designer\NeuroMini\NeuroMini
+Finished: Mon Jun 25 19:53:54 2018
+Total CPU Time:     00:00:14            Total Elapsed Time: 00:00:16
+Total Memory Usage: 1026.8 Mbytes
+                        o - o - o - o - o - o
+
+Info: Iteration 1:
+  Total violating paths eligible for improvement: 0
+  Worst minimum delay slack: 
+Resource Usage
++---------------+------+-------+------------+
+| Type          | Used | Total | Percentage |
++---------------+------+-------+------------+
+| 4LUT          | 2102 | 27696 | 7.59       |
+| DFF           | 1267 | 27696 | 4.57       |
+| I/O Register  | 0    | 534   | 0.00       |
+| Logic Element | 2116 | 27696 | 7.64       |
++---------------+------+-------+------------+
+

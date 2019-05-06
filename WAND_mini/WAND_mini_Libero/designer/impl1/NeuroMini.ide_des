@@ -1,0 +1,11 @@
+KEY IDE_DES_TOOL "Ide"
+KEY IDE_DES_ADB_PATH "C:\Users\flb\Desktop\NeuroMini_golden\designer\impl1\NeuroMini.adb"
+LIST SOURCE_FILES
+VALUE "C:\Users\flb\Desktop\NeuroMini_golden\constraint\io\NeuroMini.io.pdc;pdc"
+VALUE "C:\Users\flb\Desktop\NeuroMini_golden\constraint\fp\NeuroMini.fp.pdc;pdc"
+ENDLIST
+LIST OPTIONAL_FILES
+VALUE "C:\Users\flb\Desktop\NeuroMini_golden\synthesis\NeuroMini_sdc.sdc;Skipped"
+ENDLIST
+LIST VCD_FILES
+ENDLIST

@@ -1,0 +1,125 @@
+#### START OF AREA REPORT #####[
+
+Part:			M2S025FCSBGA325STD (Microsemi)
+
+-----------------------------------------------------------------------
+########   Utilization report for  Top level view:   ACKFIFO   ########
+=======================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      43                 100 %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block ACKFIFO:	43 (29.05 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      32                 100 %                
+ARI1     20                 100 %                
+=================================================
+Total COMBINATIONAL LOGIC in the block ACKFIFO:	52 (35.14 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X18     1                  100 %                
+=====================================================
+Total MEMORY ELEMENTS in the block ACKFIFO:	1 (0.68 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     2                  100 %                
+===================================================
+Total GLOBAL BUFFERS in the block ACKFIFO:	2 (1.35 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       40                 100 %                
+=================================================
+Total IO PADS in the block ACKFIFO:	40 (27.03 % Utilization)
+
+-----------------------------------------------------------------------------------
+########   Utilization report for  cell:   ACKFIFO_ACKFIFO_0_COREFIFO_Z1   ########
+Instance path:   ACKFIFO.ACKFIFO_ACKFIFO_0_COREFIFO_Z1                             
+===================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      43                 100 %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block ACKFIFO.ACKFIFO_ACKFIFO_0_COREFIFO_Z1:	43 (29.05 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      32                 100 %                
+ARI1     20                 100 %                
+=================================================
+Total COMBINATIONAL LOGIC in the block ACKFIFO.ACKFIFO_ACKFIFO_0_COREFIFO_Z1:	52 (35.14 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X18     1                  100 %                
+=====================================================
+Total MEMORY ELEMENTS in the block ACKFIFO.ACKFIFO_ACKFIFO_0_COREFIFO_Z1:	1 (0.68 % Utilization)
+
+----------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   ACKFIFO_ACKFIFO_0_corefifo_sync_scntr_Z2   ########
+Instance path:   ACKFIFO_ACKFIFO_0_COREFIFO_Z1.ACKFIFO_ACKFIFO_0_corefifo_sync_scntr_Z2       
+==============================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      23                 53.5 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block ACKFIFO_ACKFIFO_0_COREFIFO_Z1.ACKFIFO_ACKFIFO_0_corefifo_sync_scntr_Z2:	23 (15.54 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      15                 46.9 %               
+ARI1     20                 100 %                
+=================================================
+Total COMBINATIONAL LOGIC in the block ACKFIFO_ACKFIFO_0_COREFIFO_Z1.ACKFIFO_ACKFIFO_0_corefifo_sync_scntr_Z2:	35 (23.65 % Utilization)
+
+--------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   ACKFIFO_ACKFIFO_0_ram_wrapper_16s_16s_6_6_1s_1s_3s   ########
+Instance path:   ACKFIFO_ACKFIFO_0_COREFIFO_Z1.ACKFIFO_ACKFIFO_0_ram_wrapper_16s_16s_6_6_1s_1s_3s       
+========================================================================================================
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X18     1                  100 %                
+=====================================================
+Total MEMORY ELEMENTS in the block ACKFIFO_ACKFIFO_0_COREFIFO_Z1.ACKFIFO_ACKFIFO_0_ram_wrapper_16s_16s_6_6_1s_1s_3s:	1 (0.68 % Utilization)
+
+-----------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   ACKFIFO_ACKFIFO_0_USRAM_top   ########              
+Instance path:   ACKFIFO_ACKFIFO_0_ram_wrapper_16s_16s_6_6_1s_1s_3s.ACKFIFO_ACKFIFO_0_USRAM_top
+===============================================================================================
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X18     1                  100 %                
+=====================================================
+Total MEMORY ELEMENTS in the block ACKFIFO_ACKFIFO_0_ram_wrapper_16s_16s_6_6_1s_1s_3s.ACKFIFO_ACKFIFO_0_USRAM_top:	1 (0.68 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

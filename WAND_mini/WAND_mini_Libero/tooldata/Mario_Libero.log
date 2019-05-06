@@ -1,0 +1,16 @@
+Project Name: Mario_Libero
+Location: C:\Users\flb\Desktop\NeuroMini_golden\Mario_SF2
+Description: 
+Preferred HDL Type: Verilog
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : M2S025-FCS325
+Family         : SmartFusion2
+Die            : M2S025
+Package        : 325 FCSBGA
+Speed          : STD
+Core Voltage   : 1.2
+Range          : COM

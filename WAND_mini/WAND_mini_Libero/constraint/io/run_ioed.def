@@ -1,0 +1,27 @@
+data HELP_TYPE_DES 1
+data DESIGN NeuroMini
+data HPATH 'C:/Users/flb/Desktop/NeuroMini_golden/designer/NeuroMini'
+data CPATH 'C:/Users/flb/Desktop/NeuroMini_golden/constraint/io'
+data CDIR 'C:/Users/flb/Desktop/NeuroMini_golden/constraint'
+data ETYPE IO
+data FAM SmartFusion2
+data DIE PA4M2500_N
+data PACKAGE fcs325
+data HYDRA_EXPORT_DATA 1
+data HYDRA_PRESERVE_DATA_FILES 1
+data REGION_DEFCOLOR_EMPTY 2143322112
+data REGION_DEFCOLOR_INCLUSIVE 2147442270
+data REGION_DEFCOLOR_EXCLUSIVE 2143338688
+data REGION_DEFCOLOR_CLOCK 16735838
+data VCCI_1.2_VOLTR COM
+data VCCI_1.5_VOLTR COM
+data VCCI_1.8_VOLTR COM
+data VCCI_2.5_VOLTR COM
+data VCCI_3.3_VOLTR COM
+data FLOW_TYPE OLD
+data AFL 'C:/Users/flb/Desktop/NeuroMini_golden/designer/NeuroMini/NeuroMini.afl'
+data ADL 'C:/Users/flb/Desktop/NeuroMini_golden/designer/NeuroMini/NeuroMini.adl'
+data LOC 'C:/Users/flb/Desktop/NeuroMini_golden/designer/NeuroMini/NeuroMini.loc'
+data SEG 'C:/Users/flb/Desktop/NeuroMini_golden/designer/NeuroMini/NeuroMini.seg'
+data GDEV_SKIP_UNASSIGN_CMP_CHECK    1 
+

@@ -1,0 +1,194 @@
+Synopsys HDL Compiler, version comp2016q3p1, Build 117R, built Nov 17 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp2016q3p1, Build 127R, built Nov 24 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.v" (library work)
+@I::"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\corefifo_doubleSync.v" (library work)
+@I::"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\corefifo_grayToBinConv.v" (library work)
+@I::"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\corefifo_async.v" (library work)
+@I::"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\corefifo_fwft.v" (library work)
+@I::"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\corefifo_sync.v" (library work)
+@I::"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v" (library work)
+@I::"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\ACKFIFO_ACKFIFO_0_USRAM_top.v" (library work)
+@I::"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\ACKFIFO_ACKFIFO_0_ram_wrapper.v" (library work)
+@I::"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\COREFIFO.v" (library work)
+@I::"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO.v" (library work)
+Verilog syntax check successful!
+Options changed - recompiling
+Selecting top level module ACKFIFO
+@N: CG364 :"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\COREFIFO.v":29:7:29:32|Synthesizing module ACKFIFO_ACKFIFO_0_COREFIFO in library work.
+
+	FAMILY=32'b00000000000000000000000000010011
+	SYNC=32'b00000000000000000000000000000001
+	RCLK_EDGE=32'b00000000000000000000000000000001
+	WCLK_EDGE=32'b00000000000000000000000000000001
+	RE_POLARITY=32'b00000000000000000000000000000000
+	WE_POLARITY=32'b00000000000000000000000000000000
+	RWIDTH=32'b00000000000000000000000000010000
+	WWIDTH=32'b00000000000000000000000000010000
+	RDEPTH=32'b00000000000000000000000001000000
+	WDEPTH=32'b00000000000000000000000001000000
+	READ_DVALID=32'b00000000000000000000000000000000
+	WRITE_ACK=32'b00000000000000000000000000000000
+	CTRL_TYPE=32'b00000000000000000000000000000011
+	ESTOP=32'b00000000000000000000000000000001
+	FSTOP=32'b00000000000000000000000000000001
+	AE_STATIC_EN=32'b00000000000000000000000000000001
+	AF_STATIC_EN=32'b00000000000000000000000000000001
+	AEVAL=32'b00000000000000000000000000000011
+	AFVAL=32'b00000000000000000000000000111100
+	PIPE=32'b00000000000000000000000000000001
+	PREFETCH=32'b00000000000000000000000000000000
+	FWFT=32'b00000000000000000000000000000000
+	RESET_POLARITY=32'b00000000000000000000000000000000
+	OVERFLOW_EN=32'b00000000000000000000000000000000
+	UNDERFLOW_EN=32'b00000000000000000000000000000000
+	WRCNT_EN=32'b00000000000000000000000000000000
+	RDCNT_EN=32'b00000000000000000000000000000000
+	WMSB_DEPTH=32'b00000000000000000000000000000110
+	RMSB_DEPTH=32'b00000000000000000000000000000110
+	WDEPTH_CAL=32'b00000000000000000000000000000101
+	RDEPTH_CAL=32'b00000000000000000000000000000101
+	SYNC_RESET=32'b00000000000000000000000000000000
+   Generated name = ACKFIFO_ACKFIFO_0_COREFIFO_Z1
+
+@N: CG364 :"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":28:7:28:43|Synthesizing module ACKFIFO_ACKFIFO_0_corefifo_sync_scntr in library work.
+
+	WRITE_WIDTH=32'b00000000000000000000000000010000
+	WRITE_DEPTH=32'b00000000000000000000000000000110
+	FULL_WRITE_DEPTH=32'b00000000000000000000000001000000
+	READ_WIDTH=32'b00000000000000000000000000010000
+	READ_DEPTH=32'b00000000000000000000000000000110
+	FULL_READ_DEPTH=32'b00000000000000000000000001000000
+	PREFETCH=32'b00000000000000000000000000000000
+	FWFT=32'b00000000000000000000000000000000
+	WCLK_HIGH=32'b00000000000000000000000000000001
+	RESET_LOW=32'b00000000000000000000000000000000
+	WRITE_LOW=32'b00000000000000000000000000000000
+	READ_LOW=32'b00000000000000000000000000000000
+	AF_FLAG_STATIC=32'b00000000000000000000000000000001
+	AE_FLAG_STATIC=32'b00000000000000000000000000000001
+	AFULL_VAL=32'b00000000000000000000000000111100
+	AEMPTY_VAL=32'b00000000000000000000000000000011
+	ESTOP=32'b00000000000000000000000000000001
+	FSTOP=32'b00000000000000000000000000000001
+	PIPE=32'b00000000000000000000000000000001
+	REGISTER_RADDR=32'b00000000000000000000000000000001
+	READ_DVALID=32'b00000000000000000000000000000000
+	WRITE_ACK=32'b00000000000000000000000000000000
+	OVERFLOW_EN=32'b00000000000000000000000000000000
+	UNDERFLOW_EN=32'b00000000000000000000000000000000
+	WRCNT_EN=32'b00000000000000000000000000000000
+	RDCNT_EN=32'b00000000000000000000000000000000
+	SYNC_RESET=32'b00000000000000000000000000000000
+	WDEPTH_CAL=32'b00000000000000000000000000000101
+	RDEPTH_CAL=32'b00000000000000000000000000000101
+   Generated name = ACKFIFO_ACKFIFO_0_corefifo_sync_scntr_Z2
+
+@W: CG360 :"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":159:29:159:46|Removing wire almostfulli_assert, as there is no assignment to it.
+@W: CG360 :"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":160:29:160:48|Removing wire almostfulli_deassert, as there is no assignment to it.
+@W: CG360 :"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":161:29:161:40|Removing wire fulli_assert, as there is no assignment to it.
+@W: CG360 :"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":162:29:162:42|Removing wire fulli_deassert, as there is no assignment to it.
+@W: CG360 :"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":171:29:171:36|Removing wire re_top_p, as there is no assignment to it.
+@W: CL169 :"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":391:4:391:9|Pruning unused register empty_r_fwft. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":391:4:391:9|Pruning unused register aempty_r_fwft. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":369:3:369:8|Pruning unused register dvld_r2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":369:3:369:8|Pruning unused register full_reg. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":369:3:369:8|Pruning unused register re_p_d1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":369:3:369:8|Pruning unused register empty_top_fwft_r. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":296:3:296:8|Pruning unused register sc_r_fwft[6:0]. Make sure that there are no unused intermediate registers.
+@W: CL207 :"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":444:7:444:12|All reachable assignments to genblk5.wack_r assign 0, register removed by optimization.
+@W: CL207 :"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":444:7:444:12|All reachable assignments to genblk5.overflow_r assign 0, register removed by optimization.
+@W: CL207 :"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":391:4:391:9|All reachable assignments to underflow_r assign 0, register removed by optimization.
+@W: CL207 :"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":391:4:391:9|All reachable assignments to dvld_r assign 0, register removed by optimization.
+@W: CL207 :"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":259:3:259:8|All reachable assignments to rdcnt[6:0] assign 0, register removed by optimization.
+@W: CL207 :"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":239:3:239:8|All reachable assignments to wrcnt[6:0] assign 0, register removed by optimization.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.v":455:7:455:14|Synthesizing module RAM64x18 in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.v":372:7:372:9|Synthesizing module GND in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.v":376:7:376:9|Synthesizing module VCC in library work.
+
+@N: CG364 :"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\ACKFIFO_ACKFIFO_0_USRAM_top.v":5:7:5:33|Synthesizing module ACKFIFO_ACKFIFO_0_USRAM_top in library work.
+
+@N: CG364 :"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\ACKFIFO_ACKFIFO_0_ram_wrapper.v":4:7:4:35|Synthesizing module ACKFIFO_ACKFIFO_0_ram_wrapper in library work.
+
+	RWIDTH=32'b00000000000000000000000000010000
+	WWIDTH=32'b00000000000000000000000000010000
+	RDEPTH=32'b00000000000000000000000000000110
+	WDEPTH=32'b00000000000000000000000000000110
+	SYNC=32'b00000000000000000000000000000001
+	PIPE=32'b00000000000000000000000000000001
+	CTRL_TYPE=32'b00000000000000000000000000000011
+   Generated name = ACKFIFO_ACKFIFO_0_ram_wrapper_16s_16s_6_6_1s_1s_3s
+
+@W: CG360 :"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\COREFIFO.v":189:36:189:41|Removing wire EMPTY2, as there is no assignment to it.
+@W: CG360 :"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\COREFIFO.v":190:36:190:42|Removing wire AEMPTY2, as there is no assignment to it.
+@W: CG360 :"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\COREFIFO.v":191:36:191:45|Removing wire fifo_rd_en, as there is no assignment to it.
+@W: CG360 :"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\COREFIFO.v":195:36:195:46|Removing wire pf_MEMRADDR, as there is no assignment to it.
+@W: CG360 :"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\COREFIFO.v":196:36:196:48|Removing wire fwft_MEMRADDR, as there is no assignment to it.
+@W: CG360 :"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\COREFIFO.v":201:36:201:39|Removing wire pf_Q, as there is no assignment to it.
+@W: CG360 :"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\COREFIFO.v":202:36:202:41|Removing wire fwft_Q, as there is no assignment to it.
+@W: CG360 :"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\COREFIFO.v":220:36:220:45|Removing wire DVLD_async, as there is no assignment to it.
+@W: CG360 :"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\COREFIFO.v":222:36:222:44|Removing wire DVLD_sync, as there is no assignment to it.
+@W: CG360 :"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\COREFIFO.v":223:36:223:44|Removing wire fwft_dvld, as there is no assignment to it.
+@W: CG360 :"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\COREFIFO.v":224:36:224:49|Removing wire fwft_reg_valid, as there is no assignment to it.
+@W: CG360 :"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\COREFIFO.v":225:36:225:42|Removing wire pf_dvld, as there is no assignment to it.
+@W: CG133 :"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\COREFIFO.v":229:36:229:44|Object reg_valid is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\COREFIFO.v":243:36:243:41|Object reg_RD is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\COREFIFO.v":929:3:929:8|Pruning unused register RDATA_ext_r1[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\COREFIFO.v":919:3:919:8|Pruning unused register RDATA_ext_r[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\COREFIFO.v":868:3:868:8|Pruning unused register REN_d2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\COREFIFO.v":868:3:868:8|Pruning unused register RE_d2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\COREFIFO.v":868:3:868:8|Pruning unused register re_pulse_d2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\COREFIFO.v":856:3:856:8|Pruning unused register RDATA_r1[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\COREFIFO.v":846:3:846:8|Pruning unused register RDATA_r_pre[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\COREFIFO.v":836:3:836:8|Pruning unused register fwft_Q_r[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\COREFIFO.v":323:3:323:8|Pruning unused register AEMPTY1_r. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\COREFIFO.v":323:3:323:8|Pruning unused register AEMPTY1_r1. Make sure that there are no unused intermediate registers.
+@N: CG364 :"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO.v":9:7:9:13|Synthesizing module ACKFIFO in library work.
+
+@N: CL159 :"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\ACKFIFO_ACKFIFO_0_ram_wrapper.v":38:25:38:30|Input WCLOCK is unused.
+@N: CL159 :"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\ACKFIFO_ACKFIFO_0_ram_wrapper.v":39:25:39:30|Input RCLOCK is unused.
+@N: CL159 :"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":96:29:96:34|Input re_top is unused.
+@N: CL159 :"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":97:29:97:42|Input empty_top_fwft is unused.
+@W: CL156 :"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\COREFIFO.v":189:36:189:41|*Input EMPTY2 to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@N: CL159 :"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\COREFIFO.v":158:36:158:40|Input MEMRD is unused.
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 71MB peak: 72MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Jun 20 15:36:08 2018
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 117R, built Nov 17 2016
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Jun 20 15:36:08 2018
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Jun 20 15:36:08 2018
+
+###########################################################]

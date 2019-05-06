@@ -1,0 +1,6 @@
+Detailed Resource Usage
+Module Name,Fabric 4LUT,Fabric DFF,Interface 4LUT,Interface DFF,Single-Ended I/O,uSRAM 1K,Chip Globals
+ACKFIFO_0/Primitives,17,20,0,0,0,0,0
+ACKFIFO_0/genblk15.fifo_corefifo_sync_scntr/Primitives,35,23,0,0,0,0,0
+ACKFIFO_0/genblk20.UI_ram_wrapper_1/U5_syncnonpipe/Primitives,0,0,36,36,0,1,0
+Primitives/Primitives,0,0,0,0,40,0,2

@@ -1,0 +1,101 @@
+# Synopsys Constraint Checker, version map201609actrcp1, Build 005R, built Jan 25 2017
+# Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+# Written on Wed Jun 20 15:36:10 2018
+
+
+##### DESIGN INFO #######################################################
+
+Top View:                "ACKFIFO"
+Constraint File(s):      (none)
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 0 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting        Ending          |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-------------------------------------------------------------------------------------------------------------------------------------------
+ACKFIFO|CLK     ACKFIFO|CLK     |     10.000           |     No paths         |     No paths         |     No paths                         
+===========================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:AEMPTY
+p:AFULL
+p:DATA[0]
+p:DATA[1]
+p:DATA[2]
+p:DATA[3]
+p:DATA[4]
+p:DATA[5]
+p:DATA[6]
+p:DATA[7]
+p:DATA[8]
+p:DATA[9]
+p:DATA[10]
+p:DATA[11]
+p:DATA[12]
+p:DATA[13]
+p:DATA[14]
+p:DATA[15]
+p:EMPTY
+p:FULL
+p:Q[0]
+p:Q[1]
+p:Q[2]
+p:Q[3]
+p:Q[4]
+p:Q[5]
+p:Q[6]
+p:Q[7]
+p:Q[8]
+p:Q[9]
+p:Q[10]
+p:Q[11]
+p:Q[12]
+p:Q[13]
+p:Q[14]
+p:Q[15]
+p:RE
+p:RESET
+p:WE
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

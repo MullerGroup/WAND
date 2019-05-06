@@ -1,0 +1,84 @@
+# Synopsys Constraint Checker, version map201609actrcp1, Build 005R, built Jan 25 2017
+# Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+# Written on Mon Jun 25 19:52:12 2018
+
+
+##### DESIGN INFO #######################################################
+
+Top View:                "NeuroMini"
+Constraint File(s):      (none)
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 0 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting                                         Ending                                           |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                           System                                           |     10.000           |     No paths         |     No paths         |     No paths                         
+NeuroMini_FCCC_0_FCCC|GL0_net_inferred_clock     NeuroMini_FCCC_0_FCCC|GL0_net_inferred_clock     |     10.000           |     10.000           |     5.000            |     5.000                            
+=============================================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:C2N_DATA
+p:C2N_VALID
+p:GPIO0
+p:GPIO0_R
+p:GPIO1
+p:GPIO1_R
+p:GPIO2
+p:GPIO2_R
+p:GPIO3
+p:GPIO3_R
+p:GPIO4
+p:MMUART_RXD
+p:MMUART_TXD
+p:N2C_DATA
+p:SPI_0_CLK (bidir end point)
+p:SPI_0_CLK (bidir start point)
+p:SPI_0_DI
+p:SPI_0_DO
+p:SPI_0_SS0 (bidir end point)
+p:SPI_0_SS0 (bidir start point)
+p:XTL
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

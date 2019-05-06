@@ -1,0 +1,205 @@
+#OPTIONS:"|-layerid|0|-orig_srs|P:\\Libero\\NeuroMini_golden\\synthesis\\synwork\\NeuroMini_comp.srs|-top|NeuroMini|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-I|P:\\Libero\\NeuroMini_golden\\synthesis\\|-I|C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib|-v2001|-devicelib|C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\generic\\smartfusion2.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|work"
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\bin64\\c_ver.exe":1480007424
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\generic\\smartfusion2.v":1487970428
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vlog\\hypermods.v":1487970586
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vlog\\umr_capim.v":1487970586
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1487970586
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1487970586
+#CUR:"P:\\Libero\\NeuroMini_golden\\component\\work\\NeuroMini\\FCCC_0\\NeuroMini_FCCC_0_FCCC.v":1529534113
+#CUR:"P:\\Libero\\NeuroMini_golden\\component\\work\\NeuroMini_MSS\\NeuroMini_MSS_syn.v":1529534103
+#CUR:"P:\\Libero\\NeuroMini_golden\\component\\work\\NeuroMini_MSS\\NeuroMini_MSS.v":1529534104
+#CUR:"P:\\Libero\\NeuroMini_golden\\component\\Actel\\SgCore\\OSC\\2.0.101\\osc_comps.v":1528916476
+#CUR:"P:\\Libero\\NeuroMini_golden\\component\\work\\NeuroMini\\OSC_0\\NeuroMini_OSC_0_OSC.v":1529534116
+#CUR:"P:\\Libero\\NeuroMini_golden\\hdl\\am.v":1528896859
+#CUR:"P:\\Libero\\NeuroMini_golden\\hdl\\cm_demux.v":1528896859
+#CUR:"P:\\Libero\\NeuroMini_golden\\component\\work\\ACKFIFO\\ACKFIFO_0\\rtl\\vlog\\core\\corefifo_doubleSync.v":1528896855
+#CUR:"P:\\Libero\\NeuroMini_golden\\component\\work\\ACKFIFO\\ACKFIFO_0\\rtl\\vlog\\core\\corefifo_grayToBinConv.v":1528896855
+#CUR:"P:\\Libero\\NeuroMini_golden\\component\\work\\ACKFIFO\\ACKFIFO_0\\rtl\\vlog\\core\\corefifo_async.v":1528896855
+#CUR:"P:\\Libero\\NeuroMini_golden\\component\\work\\ACKFIFO\\ACKFIFO_0\\rtl\\vlog\\core\\corefifo_fwft.v":1528896855
+#CUR:"P:\\Libero\\NeuroMini_golden\\component\\work\\ACKFIFO\\ACKFIFO_0\\rtl\\vlog\\core\\corefifo_sync.v":1528896855
+#CUR:"P:\\Libero\\NeuroMini_golden\\component\\work\\ACKFIFO\\ACKFIFO_0\\rtl\\vlog\\core\\corefifo_sync_scntr.v":1528896855
+#CUR:"P:\\Libero\\NeuroMini_golden\\component\\work\\ACKFIFO\\ACKFIFO_0\\rtl\\vlog\\core\\ACKFIFO_ACKFIFO_0_USRAM_top.v":1528896855
+#CUR:"P:\\Libero\\NeuroMini_golden\\component\\work\\ACKFIFO\\ACKFIFO_0\\rtl\\vlog\\core\\ACKFIFO_ACKFIFO_0_ram_wrapper.v":1528896855
+#CUR:"P:\\Libero\\NeuroMini_golden\\component\\work\\ACKFIFO\\ACKFIFO_0\\rtl\\vlog\\core\\COREFIFO.v":1528896855
+#CUR:"P:\\Libero\\NeuroMini_golden\\component\\work\\ACKFIFO\\ACKFIFO.v":1528896855
+#CUR:"P:\\Libero\\NeuroMini_golden\\component\\work\\ADCFIFO\\ADCFIFO_0\\rtl\\vlog\\core\\corefifo_doubleSync.v":1528896856
+#CUR:"P:\\Libero\\NeuroMini_golden\\component\\work\\ADCFIFO\\ADCFIFO_0\\rtl\\vlog\\core\\corefifo_grayToBinConv.v":1528896856
+#CUR:"P:\\Libero\\NeuroMini_golden\\component\\work\\ADCFIFO\\ADCFIFO_0\\rtl\\vlog\\core\\corefifo_async.v":1528896856
+#CUR:"P:\\Libero\\NeuroMini_golden\\component\\work\\ADCFIFO\\ADCFIFO_0\\rtl\\vlog\\core\\corefifo_fwft.v":1528896856
+#CUR:"P:\\Libero\\NeuroMini_golden\\component\\work\\ADCFIFO\\ADCFIFO_0\\rtl\\vlog\\core\\corefifo_sync.v":1528896856
+#CUR:"P:\\Libero\\NeuroMini_golden\\component\\work\\ADCFIFO\\ADCFIFO_0\\rtl\\vlog\\core\\corefifo_sync_scntr.v":1528896856
+#CUR:"P:\\Libero\\NeuroMini_golden\\component\\work\\ADCFIFO\\ADCFIFO_0\\rtl\\vlog\\core\\ADCFIFO_ADCFIFO_0_LSRAM_top.v":1528896856
+#CUR:"P:\\Libero\\NeuroMini_golden\\component\\work\\ADCFIFO\\ADCFIFO_0\\rtl\\vlog\\core\\ADCFIFO_ADCFIFO_0_ram_wrapper.v":1528896856
+#CUR:"P:\\Libero\\NeuroMini_golden\\component\\work\\ADCFIFO\\ADCFIFO_0\\rtl\\vlog\\core\\COREFIFO.v":1528896856
+#CUR:"P:\\Libero\\NeuroMini_golden\\component\\work\\ADCFIFO\\ADCFIFO.v":1528896856
+#CUR:"P:\\Libero\\NeuroMini_golden\\hdl\\deserializer.v":1528896859
+#CUR:"P:\\Libero\\NeuroMini_golden\\hdl\\nmic_rx.v":1528896859
+#CUR:"P:\\Libero\\NeuroMini_golden\\hdl\\nmic_tx.v":1528896859
+#CUR:"P:\\Libero\\NeuroMini_golden\\hdl\\nm_channel.v":1528896859
+#CUR:"P:\\Libero\\NeuroMini_golden\\hdl\\nmic_if.v":1528896859
+#CUR:"P:\\Libero\\NeuroMini_golden\\hdl\\cmam.v":1528896859
+#CUR:"P:\\Libero\\NeuroMini_golden\\hdl\\cmam_if_wrap.v":1529454365
+#CUR:"P:\\Libero\\NeuroMini_golden\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vlog\\core_obfuscated\\coreapb3_muxptob3.v":1528916463
+#CUR:"P:\\Libero\\NeuroMini_golden\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vlog\\core_obfuscated\\coreapb3_iaddr_reg.v":1528916463
+#CUR:"P:\\Libero\\NeuroMini_golden\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vlog\\core_obfuscated\\coreapb3.v":1528916463
+#CUR:"P:\\Libero\\NeuroMini_golden\\component\\work\\NeuroMini\\NeuroMini.v":1529534116
+0			"P:\Libero\NeuroMini_golden\component\work\NeuroMini\FCCC_0\NeuroMini_FCCC_0_FCCC.v" verilog
+1			"P:\Libero\NeuroMini_golden\component\work\NeuroMini_MSS\NeuroMini_MSS_syn.v" verilog
+2			"P:\Libero\NeuroMini_golden\component\work\NeuroMini_MSS\NeuroMini_MSS.v" verilog
+3			"P:\Libero\NeuroMini_golden\component\Actel\SgCore\OSC\2.0.101\osc_comps.v" verilog
+4			"P:\Libero\NeuroMini_golden\component\work\NeuroMini\OSC_0\NeuroMini_OSC_0_OSC.v" verilog
+5			"P:\Libero\NeuroMini_golden\hdl\am.v" verilog
+6			"P:\Libero\NeuroMini_golden\hdl\cm_demux.v" verilog
+7			"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\corefifo_doubleSync.v" verilog
+8			"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\corefifo_grayToBinConv.v" verilog
+9			"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\corefifo_async.v" verilog
+10			"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\corefifo_fwft.v" verilog
+11			"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\corefifo_sync.v" verilog
+12			"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v" verilog
+13			"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\ACKFIFO_ACKFIFO_0_USRAM_top.v" verilog
+14			"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\ACKFIFO_ACKFIFO_0_ram_wrapper.v" verilog
+15			"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\COREFIFO.v" verilog
+16			"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO.v" verilog
+17			"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\corefifo_doubleSync.v" verilog
+18			"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\corefifo_grayToBinConv.v" verilog
+19			"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\corefifo_async.v" verilog
+20			"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\corefifo_fwft.v" verilog
+21			"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\corefifo_sync.v" verilog
+22			"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v" verilog
+23			"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\ADCFIFO_ADCFIFO_0_LSRAM_top.v" verilog
+24			"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\ADCFIFO_ADCFIFO_0_ram_wrapper.v" verilog
+25			"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\COREFIFO.v" verilog
+26			"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO.v" verilog
+27			"P:\Libero\NeuroMini_golden\hdl\deserializer.v" verilog
+28			"P:\Libero\NeuroMini_golden\hdl\nmic_rx.v" verilog
+29			"P:\Libero\NeuroMini_golden\hdl\nmic_tx.v" verilog
+30			"P:\Libero\NeuroMini_golden\hdl\nm_channel.v" verilog
+31			"P:\Libero\NeuroMini_golden\hdl\nmic_if.v" verilog
+32			"P:\Libero\NeuroMini_golden\hdl\cmam.v" verilog
+33			"P:\Libero\NeuroMini_golden\hdl\cmam_if_wrap.v" verilog
+34			"P:\Libero\NeuroMini_golden\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v" verilog
+35			"P:\Libero\NeuroMini_golden\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3_iaddr_reg.v" verilog
+36			"P:\Libero\NeuroMini_golden\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v" verilog
+37			"P:\Libero\NeuroMini_golden\component\work\NeuroMini\NeuroMini.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 1
+3 -1
+4 3
+5 -1
+6 -1
+7 -1
+8 -1
+9 8 7
+10 -1
+11 -1
+12 -1
+13 -1
+14 13
+15 10 9 11 14 12
+16 15
+17 -1
+18 -1
+19 18 17
+20 -1
+21 -1
+22 -1
+23 -1
+24 23
+25 20 19 21 24 22
+26 25
+27 -1
+28 27
+29 -1
+30 26 16 29 28
+31 30 6
+32 5 31
+33 32
+34 -1
+35 -1
+36 35 34
+37 4 2 0 36 33
+#Dependency Lists(Users Of)
+0 37
+1 2
+2 37
+3 4
+4 37
+5 32
+6 31
+7 9
+8 9
+9 15
+10 15
+11 15
+12 15
+13 14
+14 15
+15 16
+16 30
+17 19
+18 19
+19 25
+20 25
+21 25
+22 25
+23 24
+24 25
+25 26
+26 30
+27 28
+28 30
+29 30
+30 31
+31 32
+32 33
+33 37
+34 36
+35 36
+36 37
+37 -1
+#Design Unit to File Association
+module COREAPB3_LIB CoreAPB3 36
+module COREAPB3_LIB CAPB3O 35
+module COREAPB3_LIB CAPB3II 34
+module work NeuroMini 37
+module work cmam_if_wrap 33
+module work cmam 32
+module work nmic_if 31
+module work nm_channel 30
+module work nmic_tx 29
+module work nmic_rx 28
+module work deserializer 27
+module work ADCFIFO 26
+module work ADCFIFO_ADCFIFO_0_COREFIFO 25
+module work ADCFIFO_ADCFIFO_0_ram_wrapper 24
+module work ADCFIFO_ADCFIFO_0_LSRAM_top 23
+module work ADCFIFO_ADCFIFO_0_corefifo_sync_scntr 22
+module work ADCFIFO_ADCFIFO_0_corefifo_sync 21
+module work ADCFIFO_ADCFIFO_0_corefifo_fwft 20
+module work ADCFIFO_ADCFIFO_0_corefifo_async 19
+module work ADCFIFO_ADCFIFO_0_corefifo_grayToBinConv 18
+module work ADCFIFO_ADCFIFO_0_corefifo_doubleSync 17
+module work ACKFIFO 16
+module work ACKFIFO_ACKFIFO_0_COREFIFO 15
+module work ACKFIFO_ACKFIFO_0_ram_wrapper 14
+module work ACKFIFO_ACKFIFO_0_USRAM_top 13
+module work ACKFIFO_ACKFIFO_0_corefifo_sync_scntr 12
+module work ACKFIFO_ACKFIFO_0_corefifo_sync 11
+module work ACKFIFO_ACKFIFO_0_corefifo_fwft 10
+module work ACKFIFO_ACKFIFO_0_corefifo_async 9
+module work ACKFIFO_ACKFIFO_0_corefifo_grayToBinConv 8
+module work ACKFIFO_ACKFIFO_0_corefifo_doubleSync 7
+module work cm_demux 6
+module work am 5
+module work NeuroMini_OSC_0_OSC 4
+module work XTLOSC_FAB 3
+module work RCOSC_25_50MHZ_FAB 3
+module work RCOSC_1MHZ_FAB 3
+module work XTLOSC 3
+module work RCOSC_25_50MHZ 3
+module work RCOSC_1MHZ 3
+module work NeuroMini_MSS 2
+module work MSS_025 1
+module work NeuroMini_FCCC_0_FCCC 0

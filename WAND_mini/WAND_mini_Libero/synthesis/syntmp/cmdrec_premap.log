@@ -1,0 +1,14 @@
+C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\m_generic.exe  -mp  4  -prjfile  P:\Libero\NeuroMini_golden\synthesis\scratchproject.prs  -implementation  synthesis  -prodtype  synplify_pro   -encrypt  -pro  -rundir  P:\Libero\NeuroMini_golden\synthesis   -part M2S025  -package FCSBGA325  -grade STD    -maxfan 10000 -clock_globalthreshold 2 -async_globalthreshold 12 -globalthreshold 5000 -low_power_ram_decomp 0 -seqshift_to_uram 0 -opcond COMTC -report_path 4000 -RWCheckOnRam 0 -summaryfile P:\Libero\NeuroMini_golden\synthesis\synlog\report\NeuroMini_premap.xml  -top_level_module  NeuroMini  -oedif  P:\Libero\NeuroMini_golden\synthesis\NeuroMini.edn  -conchk_prepass  P:\Libero\NeuroMini_golden\synthesis\NeuroMini_cck.rpt   -freq 100.000   P:\Libero\NeuroMini_golden\synthesis\synwork\NeuroMini_mult.srs  -flow prepass  -gcc_prepass  -osrd  P:\Libero\NeuroMini_golden\synthesis\synwork\NeuroMini_prem.srd  -qsap  P:\Libero\NeuroMini_golden\synthesis\NeuroMini.sap  -devicelib  C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.v  -ologparam  P:\Libero\NeuroMini_golden\synthesis\syntmp\NeuroMini.plg  -osyn  P:\Libero\NeuroMini_golden\synthesis\synwork\NeuroMini_prem.srd  -prjdir  P:\Libero\NeuroMini_golden\synthesis\  -prjname  NeuroMini_syn  -log  P:\Libero\NeuroMini_golden\synthesis\synlog\NeuroMini_premap.srr 
+rc:1 success:1 runtime:2
+file:P:\Libero\NeuroMini_golden\synthesis\scratchproject.prs|io:o|time:1529981523|size:5624|exec:0
+file:P:\Libero\NeuroMini_golden\synthesis\NeuroMini.edn|io:o|time:0|size:0|exec:0
+file:P:\Libero\NeuroMini_golden\synthesis\NeuroMini_cck.rpt|io:o|time:1529981532|size:2909|exec:0
+file:P:\Libero\NeuroMini_golden\synthesis\synwork\NeuroMini_mult.srs|io:i|time:1529981529|size:8958|exec:0
+file:P:\Libero\NeuroMini_golden\synthesis\synwork\NeuroMini_prem.srd|io:o|time:1529981531|size:160378|exec:0
+file:P:\Libero\NeuroMini_golden\synthesis\NeuroMini.sap|io:o|time:1529981532|size:6472|exec:0
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.v|io:i|time:1487970428|size:16359|exec:0
+file:P:\Libero\NeuroMini_golden\synthesis\syntmp\NeuroMini.plg|io:o|time:1529981530|size:0|exec:0
+file:P:\Libero\NeuroMini_golden\synthesis\synwork\NeuroMini_prem.srd|io:o|time:1529981531|size:160378|exec:0
+file:P:\Libero\NeuroMini_golden\synthesis\synlog\NeuroMini_premap.srr|io:o|time:1529981532|size:7827|exec:0
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\m_generic.exe|io:i|time:1485333362|size:17958400|exec:1
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\m_generic.exe|io:i|time:1485334914|size:32495616|exec:1

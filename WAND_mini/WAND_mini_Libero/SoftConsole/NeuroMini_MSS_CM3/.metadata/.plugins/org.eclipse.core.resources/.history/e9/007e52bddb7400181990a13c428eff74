@@ -1,0 +1,81 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../DSP_Lib/Source/SupportFunctions/arm_copy_f32.c \
+../DSP_Lib/Source/SupportFunctions/arm_copy_q15.c \
+../DSP_Lib/Source/SupportFunctions/arm_copy_q31.c \
+../DSP_Lib/Source/SupportFunctions/arm_copy_q7.c \
+../DSP_Lib/Source/SupportFunctions/arm_fill_f32.c \
+../DSP_Lib/Source/SupportFunctions/arm_fill_q15.c \
+../DSP_Lib/Source/SupportFunctions/arm_fill_q31.c \
+../DSP_Lib/Source/SupportFunctions/arm_fill_q7.c \
+../DSP_Lib/Source/SupportFunctions/arm_float_to_q15.c \
+../DSP_Lib/Source/SupportFunctions/arm_float_to_q31.c \
+../DSP_Lib/Source/SupportFunctions/arm_float_to_q7.c \
+../DSP_Lib/Source/SupportFunctions/arm_q15_to_float.c \
+../DSP_Lib/Source/SupportFunctions/arm_q15_to_q31.c \
+../DSP_Lib/Source/SupportFunctions/arm_q15_to_q7.c \
+../DSP_Lib/Source/SupportFunctions/arm_q31_to_float.c \
+../DSP_Lib/Source/SupportFunctions/arm_q31_to_q15.c \
+../DSP_Lib/Source/SupportFunctions/arm_q31_to_q7.c \
+../DSP_Lib/Source/SupportFunctions/arm_q7_to_float.c \
+../DSP_Lib/Source/SupportFunctions/arm_q7_to_q15.c \
+../DSP_Lib/Source/SupportFunctions/arm_q7_to_q31.c 
+
+OBJS += \
+./DSP_Lib/Source/SupportFunctions/arm_copy_f32.o \
+./DSP_Lib/Source/SupportFunctions/arm_copy_q15.o \
+./DSP_Lib/Source/SupportFunctions/arm_copy_q31.o \
+./DSP_Lib/Source/SupportFunctions/arm_copy_q7.o \
+./DSP_Lib/Source/SupportFunctions/arm_fill_f32.o \
+./DSP_Lib/Source/SupportFunctions/arm_fill_q15.o \
+./DSP_Lib/Source/SupportFunctions/arm_fill_q31.o \
+./DSP_Lib/Source/SupportFunctions/arm_fill_q7.o \
+./DSP_Lib/Source/SupportFunctions/arm_float_to_q15.o \
+./DSP_Lib/Source/SupportFunctions/arm_float_to_q31.o \
+./DSP_Lib/Source/SupportFunctions/arm_float_to_q7.o \
+./DSP_Lib/Source/SupportFunctions/arm_q15_to_float.o \
+./DSP_Lib/Source/SupportFunctions/arm_q15_to_q31.o \
+./DSP_Lib/Source/SupportFunctions/arm_q15_to_q7.o \
+./DSP_Lib/Source/SupportFunctions/arm_q31_to_float.o \
+./DSP_Lib/Source/SupportFunctions/arm_q31_to_q15.o \
+./DSP_Lib/Source/SupportFunctions/arm_q31_to_q7.o \
+./DSP_Lib/Source/SupportFunctions/arm_q7_to_float.o \
+./DSP_Lib/Source/SupportFunctions/arm_q7_to_q15.o \
+./DSP_Lib/Source/SupportFunctions/arm_q7_to_q31.o 
+
+C_DEPS += \
+./DSP_Lib/Source/SupportFunctions/arm_copy_f32.d \
+./DSP_Lib/Source/SupportFunctions/arm_copy_q15.d \
+./DSP_Lib/Source/SupportFunctions/arm_copy_q31.d \
+./DSP_Lib/Source/SupportFunctions/arm_copy_q7.d \
+./DSP_Lib/Source/SupportFunctions/arm_fill_f32.d \
+./DSP_Lib/Source/SupportFunctions/arm_fill_q15.d \
+./DSP_Lib/Source/SupportFunctions/arm_fill_q31.d \
+./DSP_Lib/Source/SupportFunctions/arm_fill_q7.d \
+./DSP_Lib/Source/SupportFunctions/arm_float_to_q15.d \
+./DSP_Lib/Source/SupportFunctions/arm_float_to_q31.d \
+./DSP_Lib/Source/SupportFunctions/arm_float_to_q7.d \
+./DSP_Lib/Source/SupportFunctions/arm_q15_to_float.d \
+./DSP_Lib/Source/SupportFunctions/arm_q15_to_q31.d \
+./DSP_Lib/Source/SupportFunctions/arm_q15_to_q7.d \
+./DSP_Lib/Source/SupportFunctions/arm_q31_to_float.d \
+./DSP_Lib/Source/SupportFunctions/arm_q31_to_q15.d \
+./DSP_Lib/Source/SupportFunctions/arm_q31_to_q7.d \
+./DSP_Lib/Source/SupportFunctions/arm_q7_to_float.d \
+./DSP_Lib/Source/SupportFunctions/arm_q7_to_q15.d \
+./DSP_Lib/Source/SupportFunctions/arm_q7_to_q31.d 
+
+
+# Each subdirectory must supply rules for building sources it contributes
+DSP_Lib/Source/SupportFunctions/%.o: ../DSP_Lib/Source/SupportFunctions/%.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: GNU C Compiler'
+	arm-none-eabi-gcc -mthumb -mcpu=cortex-m3 -IC:\Users\flb\Desktop\NeuroMini_golden\SoftConsole\NeuroMini_MSS_CM3\NeuroMini_MSS_CM3_hw_platform -IC:\Users\flb\Desktop\NeuroMini_golden\SoftConsole\NeuroMini_MSS_CM3\NeuroMini_MSS_CM3_hw_platform\CMSIS -IC:\Users\flb\Desktop\NeuroMini_golden\SoftConsole\NeuroMini_MSS_CM3\NeuroMini_MSS_CM3_hw_platform\CMSIS\startup_gcc -IC:\Users\flb\Desktop\NeuroMini_golden\SoftConsole\NeuroMini_MSS_CM3\NeuroMini_MSS_CM3_hw_platform\drivers -IC:\Users\flb\Desktop\NeuroMini_golden\SoftConsole\NeuroMini_MSS_CM3\NeuroMini_MSS_CM3_hw_platform\drivers\mss_gpio -IC:\Users\flb\Desktop\NeuroMini_golden\SoftConsole\NeuroMini_MSS_CM3\NeuroMini_MSS_CM3_hw_platform\drivers\mss_hpdma -IC:\Users\flb\Desktop\NeuroMini_golden\SoftConsole\NeuroMini_MSS_CM3\NeuroMini_MSS_CM3_hw_platform\drivers\mss_nvm -IC:\Users\flb\Desktop\NeuroMini_golden\SoftConsole\NeuroMini_MSS_CM3\NeuroMini_MSS_CM3_hw_platform\drivers\mss_spi -IC:\Users\flb\Desktop\NeuroMini_golden\SoftConsole\NeuroMini_MSS_CM3\NeuroMini_MSS_CM3_hw_platform\drivers\mss_sys_services -IC:\Users\flb\Desktop\NeuroMini_golden\SoftConsole\NeuroMini_MSS_CM3\NeuroMini_MSS_CM3_hw_platform\drivers\mss_timer -IC:\Users\flb\Desktop\NeuroMini_golden\SoftConsole\NeuroMini_MSS_CM3\NeuroMini_MSS_CM3_hw_platform\drivers\mss_uart -IC:\Users\flb\Desktop\NeuroMini_golden\SoftConsole\NeuroMini_MSS_CM3\NeuroMini_MSS_CM3_hw_platform\drivers_config -IC:\Users\flb\Desktop\NeuroMini_golden\SoftConsole\NeuroMini_MSS_CM3\NeuroMini_MSS_CM3_hw_platform\drivers_config\sys_config -IC:\Users\flb\Desktop\NeuroMini_golden\SoftConsole\NeuroMini_MSS_CM3\NeuroMini_MSS_CM3_hw_platform\hal -IC:\Users\flb\Desktop\NeuroMini_golden\SoftConsole\NeuroMini_MSS_CM3\NeuroMini_MSS_CM3_hw_platform\hal\CortexM3 -IC:\Users\flb\Desktop\NeuroMini_golden\SoftConsole\NeuroMini_MSS_CM3\NeuroMini_MSS_CM3_hw_platform\hal\CortexM3\GNU -O0 -ffunction-sections -fdata-sections -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o"$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+

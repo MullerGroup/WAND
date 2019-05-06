@@ -1,0 +1,60 @@
+***** Place and Route Configurations *****
+Timing-driven            : ON
+Power-driven             : OFF
+High-effort              : OFF
+Repair min-delay         : ON
+Incremental              : OFF
+Inter-clock optimization : OFF
+TDPR scenario            : Primary
+
+
+Running the I/O Bank and Globals Assigner.
+Info:  I/O Bank and Globals Assigner identified 19 fixed I/O macros, 0 unfixed I/O macros
+
+I/O Bank and Globals Assigner completed successfully.
+Total time spent in I/O Bank and Globals Assigner: 0 seconds
+
+Placer V4.0 - 11.8.3 
+Design: Mario_Libero                    Started: Wed Jun 20 13:44:03 2018
+
+Initializing Timing-Driven Placement ...
+Placing design...
+End of placement.
+Pre-Placement Runtime        : 6 seconds
+Placement Runtime            : 25 seconds
+
+Placer completed successfully.
+
+Design: Mario_Libero                    
+Finished: Wed Jun 20 13:44:55 2018
+Total CPU Time:     00:00:46            Total Elapsed Time: 00:00:52
+Total Memory Usage: 367.5 Mbytes
+                        o - o - o - o - o - o
+
+
+Router 
+Design: C:\Users\flb\Desktop\NeuroMini_golden\designer\Mario_Libero\Mario_LiberoStarted: Wed Jun 20 13:45:01 2018
+
+Final stats: search run time 8.318574
+
+Router completed successfully.
+
+Design: C:\Users\flb\Desktop\NeuroMini_golden\designer\Mario_Libero\Mario_Libero
+Finished: Wed Jun 20 13:45:25 2018
+Total CPU Time:     00:00:20            Total Elapsed Time: 00:00:24
+Total Memory Usage: 994.9 Mbytes
+                        o - o - o - o - o - o
+
+Info: Iteration 1:
+  Total violating paths eligible for improvement: 0
+  Worst minimum delay slack: 
+Resource Usage
++---------------+------+-------+------------+
+| Type          | Used | Total | Percentage |
++---------------+------+-------+------------+
+| 4LUT          | 2102 | 27696 | 7.59       |
+| DFF           | 1267 | 27696 | 4.57       |
+| I/O Register  | 0    | 534   | 0.00       |
+| Logic Element | 2125 | 27696 | 7.67       |
++---------------+------+-------+------------+
+

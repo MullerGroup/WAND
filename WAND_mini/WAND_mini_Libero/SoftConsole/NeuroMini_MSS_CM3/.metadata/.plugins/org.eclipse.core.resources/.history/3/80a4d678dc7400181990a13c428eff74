@@ -1,0 +1,45 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../DSP_Lib/Source/ControllerFunctions/arm_pid_init_f32.c \
+../DSP_Lib/Source/ControllerFunctions/arm_pid_init_q15.c \
+../DSP_Lib/Source/ControllerFunctions/arm_pid_init_q31.c \
+../DSP_Lib/Source/ControllerFunctions/arm_pid_reset_f32.c \
+../DSP_Lib/Source/ControllerFunctions/arm_pid_reset_q15.c \
+../DSP_Lib/Source/ControllerFunctions/arm_pid_reset_q31.c \
+../DSP_Lib/Source/ControllerFunctions/arm_sin_cos_f32.c \
+../DSP_Lib/Source/ControllerFunctions/arm_sin_cos_q31.c 
+
+OBJS += \
+./DSP_Lib/Source/ControllerFunctions/arm_pid_init_f32.o \
+./DSP_Lib/Source/ControllerFunctions/arm_pid_init_q15.o \
+./DSP_Lib/Source/ControllerFunctions/arm_pid_init_q31.o \
+./DSP_Lib/Source/ControllerFunctions/arm_pid_reset_f32.o \
+./DSP_Lib/Source/ControllerFunctions/arm_pid_reset_q15.o \
+./DSP_Lib/Source/ControllerFunctions/arm_pid_reset_q31.o \
+./DSP_Lib/Source/ControllerFunctions/arm_sin_cos_f32.o \
+./DSP_Lib/Source/ControllerFunctions/arm_sin_cos_q31.o 
+
+C_DEPS += \
+./DSP_Lib/Source/ControllerFunctions/arm_pid_init_f32.d \
+./DSP_Lib/Source/ControllerFunctions/arm_pid_init_q15.d \
+./DSP_Lib/Source/ControllerFunctions/arm_pid_init_q31.d \
+./DSP_Lib/Source/ControllerFunctions/arm_pid_reset_f32.d \
+./DSP_Lib/Source/ControllerFunctions/arm_pid_reset_q15.d \
+./DSP_Lib/Source/ControllerFunctions/arm_pid_reset_q31.d \
+./DSP_Lib/Source/ControllerFunctions/arm_sin_cos_f32.d \
+./DSP_Lib/Source/ControllerFunctions/arm_sin_cos_q31.d 
+
+
+# Each subdirectory must supply rules for building sources it contributes
+DSP_Lib/Source/ControllerFunctions/%.o: ../DSP_Lib/Source/ControllerFunctions/%.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: GNU C Compiler'
+	arm-none-eabi-gcc -mthumb -mcpu=cortex-m3 -IC:\Users\flb\Desktop\NeuroMini_golden\SoftConsole\NeuroMini_MSS_CM3\NeuroMini_MSS_CM3_hw_platform -I"C:\Users\flb\Desktop\NeuroMini_golden\SoftConsole\NeuroMini_MSS_CM3\NeuroMini_MSS_CM3_hw_platform\Include" -IC:\Users\flb\Desktop\NeuroMini_golden\SoftConsole\NeuroMini_MSS_CM3\NeuroMini_MSS_CM3_hw_platform\CMSIS -IC:\Users\flb\Desktop\NeuroMini_golden\SoftConsole\NeuroMini_MSS_CM3\NeuroMini_MSS_CM3_hw_platform\CMSIS\startup_gcc -IC:\Users\flb\Desktop\NeuroMini_golden\SoftConsole\NeuroMini_MSS_CM3\NeuroMini_MSS_CM3_hw_platform\drivers -IC:\Users\flb\Desktop\NeuroMini_golden\SoftConsole\NeuroMini_MSS_CM3\NeuroMini_MSS_CM3_hw_platform\drivers\mss_gpio -IC:\Users\flb\Desktop\NeuroMini_golden\SoftConsole\NeuroMini_MSS_CM3\NeuroMini_MSS_CM3_hw_platform\drivers\mss_hpdma -IC:\Users\flb\Desktop\NeuroMini_golden\SoftConsole\NeuroMini_MSS_CM3\NeuroMini_MSS_CM3_hw_platform\drivers\mss_nvm -IC:\Users\flb\Desktop\NeuroMini_golden\SoftConsole\NeuroMini_MSS_CM3\NeuroMini_MSS_CM3_hw_platform\drivers\mss_spi -IC:\Users\flb\Desktop\NeuroMini_golden\SoftConsole\NeuroMini_MSS_CM3\NeuroMini_MSS_CM3_hw_platform\drivers\mss_sys_services -IC:\Users\flb\Desktop\NeuroMini_golden\SoftConsole\NeuroMini_MSS_CM3\NeuroMini_MSS_CM3_hw_platform\drivers\mss_timer -IC:\Users\flb\Desktop\NeuroMini_golden\SoftConsole\NeuroMini_MSS_CM3\NeuroMini_MSS_CM3_hw_platform\drivers\mss_uart -IC:\Users\flb\Desktop\NeuroMini_golden\SoftConsole\NeuroMini_MSS_CM3\NeuroMini_MSS_CM3_hw_platform\drivers_config -IC:\Users\flb\Desktop\NeuroMini_golden\SoftConsole\NeuroMini_MSS_CM3\NeuroMini_MSS_CM3_hw_platform\drivers_config\sys_config -IC:\Users\flb\Desktop\NeuroMini_golden\SoftConsole\NeuroMini_MSS_CM3\NeuroMini_MSS_CM3_hw_platform\hal -IC:\Users\flb\Desktop\NeuroMini_golden\SoftConsole\NeuroMini_MSS_CM3\NeuroMini_MSS_CM3_hw_platform\hal\CortexM3 -IC:\Users\flb\Desktop\NeuroMini_golden\SoftConsole\NeuroMini_MSS_CM3\NeuroMini_MSS_CM3_hw_platform\hal\CortexM3\GNU -O0 -ffunction-sections -fdata-sections -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o"$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+

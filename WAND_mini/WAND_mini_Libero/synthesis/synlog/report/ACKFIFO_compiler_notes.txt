@@ -1,0 +1,17 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG364 :"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\COREFIFO.v":29:7:29:32|Synthesizing module ACKFIFO_ACKFIFO_0_COREFIFO in library work.
+@N: CG364 :"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":28:7:28:43|Synthesizing module ACKFIFO_ACKFIFO_0_corefifo_sync_scntr in library work.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.v":455:7:455:14|Synthesizing module RAM64x18 in library work.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.v":372:7:372:9|Synthesizing module GND in library work.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.v":376:7:376:9|Synthesizing module VCC in library work.
+@N: CG364 :"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\ACKFIFO_ACKFIFO_0_USRAM_top.v":5:7:5:33|Synthesizing module ACKFIFO_ACKFIFO_0_USRAM_top in library work.
+@N: CG364 :"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\ACKFIFO_ACKFIFO_0_ram_wrapper.v":4:7:4:35|Synthesizing module ACKFIFO_ACKFIFO_0_ram_wrapper in library work.
+@N: CG364 :"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO.v":9:7:9:13|Synthesizing module ACKFIFO in library work.
+@N: CL159 :"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\ACKFIFO_ACKFIFO_0_ram_wrapper.v":38:25:38:30|Input WCLOCK is unused.
+@N: CL159 :"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\ACKFIFO_ACKFIFO_0_ram_wrapper.v":39:25:39:30|Input RCLOCK is unused.
+@N: CL159 :"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":96:29:96:34|Input re_top is unused.
+@N: CL159 :"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":97:29:97:42|Input empty_top_fwft is unused.
+@N: CL159 :"C:\Users\flb\Desktop\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\COREFIFO.v":158:36:158:40|Input MEMRD is unused.
+@N|Running in 64-bit mode
+

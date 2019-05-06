@@ -1,0 +1,5 @@
+define_attribute {i:NeuroMini_MSS_0.SPI_0_CLK_PAD} {syn_noprune} 1
+define_attribute {i:NeuroMini_MSS_0.SPI_0_DI_PAD} {syn_noprune} 1
+define_attribute {i:NeuroMini_MSS_0.SPI_0_DO_PAD} {syn_noprune} 1
+define_attribute {i:NeuroMini_MSS_0.SPI_0_SS0_PAD} {syn_noprune} 1
+define_attribute {i:OSC_0} {syn_noprune} 1

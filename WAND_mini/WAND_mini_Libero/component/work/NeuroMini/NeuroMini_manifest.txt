@@ -1,0 +1,22 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.8 SP3 (Version 11.8.3.6)
+
+Date      :  Wed Jun 20 15:35:17 2018
+Project   :  C:\Users\flb\Desktop\NeuroMini_golden
+Component :  NeuroMini
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/flb/Desktop/NeuroMini_golden/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3.v
+    C:/Users/flb/Desktop/NeuroMini_golden/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3_iaddr_reg.v
+    C:/Users/flb/Desktop/NeuroMini_golden/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3_muxptob3.v
+    C:/Users/flb/Desktop/NeuroMini_golden/component/work/NeuroMini/FCCC_0/NeuroMini_FCCC_0_FCCC.v
+    C:/Users/flb/Desktop/NeuroMini_golden/component/work/NeuroMini/NeuroMini.v
+    C:/Users/flb/Desktop/NeuroMini_golden/component/work/NeuroMini/OSC_0/NeuroMini_OSC_0_OSC.v
+
+HDL source files for Synopsys SynplifyPro Synthesis tool:
+    C:/Users/flb/Desktop/NeuroMini_golden/component/Actel/SgCore/OSC/2.0.101/osc_comps.v
+
+HDL source files for Mentor Precision Synthesis tool:
+    C:/Users/flb/Desktop/NeuroMini_golden/component/Actel/SgCore/OSC/2.0.101/osc_comps_pre.v
+

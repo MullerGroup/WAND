@@ -1,0 +1,7 @@
+
+. Module name, SLE, CFG, ARI1, BUFFER, MACC, RAM1K18, RAM64X18, GLOBAL, IO
+. ACKFIFO, 43, 32, 20, 0, 0, 0, 1, 2, 40
+.	. ACKFIFO_ACKFIFO_0_COREFIFO_Z1, 43, 32, 20, 0, 0, 0, 1, 0, 0
+.	.	. ACKFIFO_ACKFIFO_0_corefifo_sync_scntr_Z2, 23, 15, 20, 0, 0, 0, 0, 0, 0
+.	.	. ACKFIFO_ACKFIFO_0_ram_wrapper_16s_16s_6_6_1s_1s_3s, 0, 0, 0, 0, 0, 0, 1, 0, 0
+.	.	.	. ACKFIFO_ACKFIFO_0_USRAM_top, 0, 0, 0, 0, 0, 0, 1, 0, 0

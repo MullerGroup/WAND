@@ -1,0 +1,127 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+-include ../makefile.init
+
+RM := rm -rf
+
+# All of the sources participating in the build are defined here
+-include sources.mk
+-include subdir.mk
+-include hal/CortexM3/subdir.mk
+-include hal/CortexM3/GNU/subdir.mk
+-include drivers_config/sys_config/subdir.mk
+-include drivers/mss_uart/subdir.mk
+-include drivers/mss_sys_services/subdir.mk
+-include drivers/mss_spi/subdir.mk
+-include drivers/mss_nvm/subdir.mk
+-include drivers/mss_hpdma/subdir.mk
+-include drivers/mss_gpio/subdir.mk
+-include DSP_Lib/Source/TransformFunctions/subdir.mk
+-include DSP_Lib/Source/SupportFunctions/subdir.mk
+-include DSP_Lib/Source/StatisticsFunctions/subdir.mk
+-include DSP_Lib/Source/MatrixFunctions/subdir.mk
+-include DSP_Lib/Source/FilteringFunctions/subdir.mk
+-include DSP_Lib/Source/FastMathFunctions/subdir.mk
+-include DSP_Lib/Source/ControllerFunctions/subdir.mk
+-include DSP_Lib/Source/ComplexMathFunctions/subdir.mk
+-include DSP_Lib/Source/CommonTables/subdir.mk
+-include DSP_Lib/Source/BasicMathFunctions/subdir.mk
+-include DSP_Lib/Examples/arm_variance_example/ARM/subdir.mk
+-include DSP_Lib/Examples/arm_variance_example/ARM/RTE/Device/ARMCM7_SP/subdir.mk
+-include DSP_Lib/Examples/arm_variance_example/ARM/RTE/Device/ARMCM4_FP/subdir.mk
+-include DSP_Lib/Examples/arm_variance_example/ARM/RTE/Device/ARMCM3/subdir.mk
+-include DSP_Lib/Examples/arm_variance_example/ARM/RTE/Device/ARMCM0/subdir.mk
+-include DSP_Lib/Examples/arm_sin_cos_example/ARM/subdir.mk
+-include DSP_Lib/Examples/arm_sin_cos_example/ARM/RTE/Device/ARMCM7_SP/subdir.mk
+-include DSP_Lib/Examples/arm_sin_cos_example/ARM/RTE/Device/ARMCM4_FP/subdir.mk
+-include DSP_Lib/Examples/arm_sin_cos_example/ARM/RTE/Device/ARMCM3/subdir.mk
+-include DSP_Lib/Examples/arm_sin_cos_example/ARM/RTE/Device/ARMCM0/subdir.mk
+-include DSP_Lib/Examples/arm_signal_converge_example/ARM/subdir.mk
+-include DSP_Lib/Examples/arm_signal_converge_example/ARM/RTE/Device/ARMCM7_SP/subdir.mk
+-include DSP_Lib/Examples/arm_signal_converge_example/ARM/RTE/Device/ARMCM4_FP/subdir.mk
+-include DSP_Lib/Examples/arm_signal_converge_example/ARM/RTE/Device/ARMCM3/subdir.mk
+-include DSP_Lib/Examples/arm_signal_converge_example/ARM/RTE/Device/ARMCM0/subdir.mk
+-include DSP_Lib/Examples/arm_matrix_example/ARM/subdir.mk
+-include DSP_Lib/Examples/arm_matrix_example/ARM/RTE/Device/ARMCM7_SP/subdir.mk
+-include DSP_Lib/Examples/arm_matrix_example/ARM/RTE/Device/ARMCM4_FP/subdir.mk
+-include DSP_Lib/Examples/arm_matrix_example/ARM/RTE/Device/ARMCM3/subdir.mk
+-include DSP_Lib/Examples/arm_matrix_example/ARM/RTE/Device/ARMCM0/subdir.mk
+-include DSP_Lib/Examples/arm_linear_interp_example/ARM/subdir.mk
+-include DSP_Lib/Examples/arm_linear_interp_example/ARM/RTE/Device/ARMCM7_SP/subdir.mk
+-include DSP_Lib/Examples/arm_linear_interp_example/ARM/RTE/Device/ARMCM4_FP/subdir.mk
+-include DSP_Lib/Examples/arm_linear_interp_example/ARM/RTE/Device/ARMCM3/subdir.mk
+-include DSP_Lib/Examples/arm_linear_interp_example/ARM/RTE/Device/ARMCM0/subdir.mk
+-include DSP_Lib/Examples/arm_graphic_equalizer_example/ARM/subdir.mk
+-include DSP_Lib/Examples/arm_graphic_equalizer_example/ARM/RTE/Device/ARMCM7_SP/subdir.mk
+-include DSP_Lib/Examples/arm_graphic_equalizer_example/ARM/RTE/Device/ARMCM4_FP/subdir.mk
+-include DSP_Lib/Examples/arm_graphic_equalizer_example/ARM/RTE/Device/ARMCM3/subdir.mk
+-include DSP_Lib/Examples/arm_graphic_equalizer_example/ARM/RTE/Device/ARMCM0/subdir.mk
+-include DSP_Lib/Examples/arm_fir_example/ARM/subdir.mk
+-include DSP_Lib/Examples/arm_fir_example/ARM/RTE/Device/ARMCM7_SP/subdir.mk
+-include DSP_Lib/Examples/arm_fir_example/ARM/RTE/Device/ARMCM4_FP/subdir.mk
+-include DSP_Lib/Examples/arm_fir_example/ARM/RTE/Device/ARMCM3/subdir.mk
+-include DSP_Lib/Examples/arm_fir_example/ARM/RTE/Device/ARMCM0/subdir.mk
+-include DSP_Lib/Examples/arm_fft_bin_example/GCC/subdir.mk
+-include DSP_Lib/Examples/arm_fft_bin_example/GCC/Startup/subdir.mk
+-include DSP_Lib/Examples/arm_fft_bin_example/ARM/subdir.mk
+-include DSP_Lib/Examples/arm_fft_bin_example/ARM/RTE/Device/ARMCM7_SP/subdir.mk
+-include DSP_Lib/Examples/arm_fft_bin_example/ARM/RTE/Device/ARMCM4_FP/subdir.mk
+-include DSP_Lib/Examples/arm_fft_bin_example/ARM/RTE/Device/ARMCM3/subdir.mk
+-include DSP_Lib/Examples/arm_fft_bin_example/ARM/RTE/Device/ARMCM0/subdir.mk
+-include DSP_Lib/Examples/arm_dotproduct_example/GCC/subdir.mk
+-include DSP_Lib/Examples/arm_dotproduct_example/GCC/Startup/subdir.mk
+-include DSP_Lib/Examples/arm_dotproduct_example/ARM/subdir.mk
+-include DSP_Lib/Examples/arm_dotproduct_example/ARM/RTE/Device/ARMCM7_SP/subdir.mk
+-include DSP_Lib/Examples/arm_dotproduct_example/ARM/RTE/Device/ARMCM4_FP/subdir.mk
+-include DSP_Lib/Examples/arm_dotproduct_example/ARM/RTE/Device/ARMCM3/subdir.mk
+-include DSP_Lib/Examples/arm_dotproduct_example/ARM/RTE/Device/ARMCM0/subdir.mk
+-include DSP_Lib/Examples/arm_convolution_example/GCC/subdir.mk
+-include DSP_Lib/Examples/arm_convolution_example/GCC/Startup/subdir.mk
+-include DSP_Lib/Examples/arm_convolution_example/ARM/subdir.mk
+-include DSP_Lib/Examples/arm_convolution_example/ARM/RTE/Device/ARMCM7_SP/subdir.mk
+-include DSP_Lib/Examples/arm_convolution_example/ARM/RTE/Device/ARMCM4_FP/subdir.mk
+-include DSP_Lib/Examples/arm_convolution_example/ARM/RTE/Device/ARMCM3/subdir.mk
+-include DSP_Lib/Examples/arm_convolution_example/ARM/RTE/Device/ARMCM0/subdir.mk
+-include DSP_Lib/Examples/arm_class_marks_example/GCC/subdir.mk
+-include DSP_Lib/Examples/arm_class_marks_example/GCC/Startup/subdir.mk
+-include DSP_Lib/Examples/arm_class_marks_example/ARM/subdir.mk
+-include DSP_Lib/Examples/arm_class_marks_example/ARM/RTE/Device/ARMCM7_SP/subdir.mk
+-include DSP_Lib/Examples/arm_class_marks_example/ARM/RTE/Device/ARMCM4_FP/subdir.mk
+-include DSP_Lib/Examples/arm_class_marks_example/ARM/RTE/Device/ARMCM3/subdir.mk
+-include DSP_Lib/Examples/arm_class_marks_example/ARM/RTE/Device/ARMCM0/subdir.mk
+-include CMSIS/subdir.mk
+-include CMSIS/startup_gcc/subdir.mk
+-include objects.mk
+
+ifneq ($(MAKECMDGOALS),clean)
+ifneq ($(strip $(C_DEPS)),)
+-include $(C_DEPS)
+endif
+endif
+
+-include ../makefile.defs
+
+# Add inputs and outputs from these tool invocations to the build variables 
+
+# All Target
+all: libNeuroMini_MSS_CM3_hw_platform.a
+
+# Tool invocations
+libNeuroMini_MSS_CM3_hw_platform.a: $(OBJS) $(USER_OBJS)
+	@echo 'Building target: $@'
+	@echo 'Invoking: GNU Archiver'
+	arm-none-eabi-ar -r "libNeuroMini_MSS_CM3_hw_platform.a" $(OBJS) $(USER_OBJS) $(LIBS)
+	@echo 'Finished building target: $@'
+	@echo ' '
+
+# Other Targets
+clean::
+	-$(RM) $(OBJS)$(C_DEPS)$(ARCHIVES) libNeuroMini_MSS_CM3_hw_platform.a
+	-@echo ' '
+
+.PHONY: all clean dependents
+.SECONDARY:
+
+-include ../makefile.targets

@@ -1,0 +1,35 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../DSP_Lib/Examples/arm_class_marks_example/ARM/RTE/Device/ARMCM0/system_ARMCM0.c 
+
+S_SRCS += \
+../DSP_Lib/Examples/arm_class_marks_example/ARM/RTE/Device/ARMCM0/startup_ARMCM0.s 
+
+OBJS += \
+./DSP_Lib/Examples/arm_class_marks_example/ARM/RTE/Device/ARMCM0/startup_ARMCM0.o \
+./DSP_Lib/Examples/arm_class_marks_example/ARM/RTE/Device/ARMCM0/system_ARMCM0.o 
+
+C_DEPS += \
+./DSP_Lib/Examples/arm_class_marks_example/ARM/RTE/Device/ARMCM0/system_ARMCM0.d 
+
+
+# Each subdirectory must supply rules for building sources it contributes
+DSP_Lib/Examples/arm_class_marks_example/ARM/RTE/Device/ARMCM0/%.o: ../DSP_Lib/Examples/arm_class_marks_example/ARM/RTE/Device/ARMCM0/%.s
+	@echo 'Building file: $<'
+	@echo 'Invoking: GNU Assembler'
+	arm-none-eabi-gcc -c -mthumb -mcpu=cortex-m3 -specs=bare.specs  -o"$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+DSP_Lib/Examples/arm_class_marks_example/ARM/RTE/Device/ARMCM0/%.o: ../DSP_Lib/Examples/arm_class_marks_example/ARM/RTE/Device/ARMCM0/%.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: GNU C Compiler'
+	arm-none-eabi-gcc -mthumb -mcpu=cortex-m3 -IC:\Users\flb\Desktop\NeuroMini_golden\SoftConsole\NeuroMini_MSS_CM3\NeuroMini_MSS_CM3_hw_platform -I"C:\Users\flb\Desktop\NeuroMini_golden\SoftConsole\NeuroMini_MSS_CM3\NeuroMini_MSS_CM3_hw_platform\Include" -IC:\Users\flb\Desktop\NeuroMini_golden\SoftConsole\NeuroMini_MSS_CM3\NeuroMini_MSS_CM3_hw_platform\CMSIS -IC:\Users\flb\Desktop\NeuroMini_golden\SoftConsole\NeuroMini_MSS_CM3\NeuroMini_MSS_CM3_hw_platform\CMSIS\startup_gcc -IC:\Users\flb\Desktop\NeuroMini_golden\SoftConsole\NeuroMini_MSS_CM3\NeuroMini_MSS_CM3_hw_platform\drivers -IC:\Users\flb\Desktop\NeuroMini_golden\SoftConsole\NeuroMini_MSS_CM3\NeuroMini_MSS_CM3_hw_platform\drivers\mss_gpio -IC:\Users\flb\Desktop\NeuroMini_golden\SoftConsole\NeuroMini_MSS_CM3\NeuroMini_MSS_CM3_hw_platform\drivers\mss_hpdma -IC:\Users\flb\Desktop\NeuroMini_golden\SoftConsole\NeuroMini_MSS_CM3\NeuroMini_MSS_CM3_hw_platform\drivers\mss_nvm -IC:\Users\flb\Desktop\NeuroMini_golden\SoftConsole\NeuroMini_MSS_CM3\NeuroMini_MSS_CM3_hw_platform\drivers\mss_spi -IC:\Users\flb\Desktop\NeuroMini_golden\SoftConsole\NeuroMini_MSS_CM3\NeuroMini_MSS_CM3_hw_platform\drivers\mss_sys_services -IC:\Users\flb\Desktop\NeuroMini_golden\SoftConsole\NeuroMini_MSS_CM3\NeuroMini_MSS_CM3_hw_platform\drivers\mss_timer -IC:\Users\flb\Desktop\NeuroMini_golden\SoftConsole\NeuroMini_MSS_CM3\NeuroMini_MSS_CM3_hw_platform\drivers\mss_uart -IC:\Users\flb\Desktop\NeuroMini_golden\SoftConsole\NeuroMini_MSS_CM3\NeuroMini_MSS_CM3_hw_platform\drivers_config -IC:\Users\flb\Desktop\NeuroMini_golden\SoftConsole\NeuroMini_MSS_CM3\NeuroMini_MSS_CM3_hw_platform\drivers_config\sys_config -IC:\Users\flb\Desktop\NeuroMini_golden\SoftConsole\NeuroMini_MSS_CM3\NeuroMini_MSS_CM3_hw_platform\hal -IC:\Users\flb\Desktop\NeuroMini_golden\SoftConsole\NeuroMini_MSS_CM3\NeuroMini_MSS_CM3_hw_platform\hal\CortexM3 -IC:\Users\flb\Desktop\NeuroMini_golden\SoftConsole\NeuroMini_MSS_CM3\NeuroMini_MSS_CM3_hw_platform\hal\CortexM3\GNU -O0 -ffunction-sections -fdata-sections -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o"$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+

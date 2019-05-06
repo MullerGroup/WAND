@@ -1,0 +1,9 @@
+KEY IDE_DES_TOOL "Ide"
+KEY IDE_DES_ADB_PATH "C:\Users\flb\Desktop\NeuroMini_golden\designer\impl1\ACKFIFO.adb"
+LIST SOURCE_FILES
+ENDLIST
+LIST OPTIONAL_FILES
+VALUE "C:\Users\flb\Desktop\NeuroMini_golden\synthesis\ACKFIFO_sdc.sdc;Skipped"
+ENDLIST
+LIST VCD_FILES
+ENDLIST

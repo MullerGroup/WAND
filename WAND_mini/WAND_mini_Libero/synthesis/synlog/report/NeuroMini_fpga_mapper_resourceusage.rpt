@@ -1,0 +1,47 @@
+Resource Usage Report for NeuroMini 
+
+Mapping to part: m2s025fcsbga325std
+Cell usage:
+CCC             1 use
+CLKINT          2 uses
+INV             1 use
+MSS_025         1 use
+XTLOSC          1 use
+CFG1           24 uses
+CFG2           231 uses
+CFG3           512 uses
+CFG4           744 uses
+
+Carry cells:
+ARI1            285 uses - used for arithmetic functions
+ARI1            18 uses - used for Wide-Mux implementation
+Total ARI1      303 uses
+
+
+Sequential Cells: 
+SLE            979 uses
+
+DSP Blocks:    0 of 34 (0%)
+
+I/O ports: 20
+I/O primitives: 19
+BIBUF          2 uses
+INBUF          3 uses
+OUTBUF         13 uses
+TRIBUFF        1 use
+
+
+Global Clock Buffers: 2 of 8 (25%)
+
+
+Total LUTs:    1814
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 144; LUTs = 144;
+RAM1K18  Interface Logic : SLEs = 144; LUTs = 144;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  979 + 144 + 144 + 0 = 1267;
+Total number of LUTs after P&R:  1814 + 144 + 144 + 0 = 2102;
+

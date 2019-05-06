@@ -1,0 +1,11 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MO231 :"c:\users\flb\desktop\neuromini_golden\component\work\ackfifo\ackfifo_0\rtl\vlog\core\corefifo_sync_scntr.v":536:3:536:8|Found counter in view:work.ACKFIFO(verilog) instance ACKFIFO_0.genblk15\.fifo_corefifo_sync_scntr.memraddr_r[5:0] 
+@N: MO231 :"c:\users\flb\desktop\neuromini_golden\component\work\ackfifo\ackfifo_0\rtl\vlog\core\corefifo_sync_scntr.v":524:3:524:8|Found counter in view:work.ACKFIFO(verilog) instance ACKFIFO_0.genblk15\.fifo_corefifo_sync_scntr.memwaddr_r[5:0] 
+@N: FP130 |Promoting Net CLK_c on CLKINT  I_92 
+@N: FP130 |Promoting Net RESET_c on CLKINT  I_93 
+@N: FX1056 |Writing EDF file: C:\Users\flb\Desktop\NeuroMini_golden\synthesis\ACKFIFO.edn
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

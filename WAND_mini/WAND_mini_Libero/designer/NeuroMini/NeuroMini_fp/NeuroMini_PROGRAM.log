@@ -1,0 +1,36 @@
+Software Version: 11.8.3.6
+Driver : 3.0.0 build 1
+programmer '94847' : FlashPro4
+Opened 'P:\projects\OMNI\Libero\NeuroMini_golden\designer\NeuroMini\NeuroMini_fp\NeuroMini.pro'
+The 'open_project' command succeeded.
+IPD file 'P:/projects/OMNI/Libero/NeuroMini_golden/designer/NeuroMini/NeuroMini.ipd' has been loaded successfully.
+DESIGN : NeuroMini;  CHECKSUM : BC66;  PDB_VERSION : 1.9
+The 'set_programming_file' command succeeded.
+Warning: Programming is already enabled for device 'M2S025'.
+The 'enable_device' command succeeded.
+The 'set_programming_action' command succeeded.
+programmer '94847' : Scan Chain...
+programmer '94847' : Check Chain...
+programmer '94847' : Scan and Check Chain PASSED.
+programmer '94847' : device 'M2S025' : Executing action PROGRAM
+programmer '94847' : device 'M2S025' : Family: Igloo2
+programmer '94847' : device 'M2S025' : Product:      M2GL005
+programmer '94847' : device 'M2S025' : EXPORT ISC_ENABLE_RESULT[32] = 00616c24
+programmer '94847' : device 'M2S025' : EXPORT CRCERR[1] = 0
+programmer '94847' : device 'M2S025' : EXPORT EDCERR[1] = 0
+programmer '94847' : device 'M2S025' : Programming FPGA Array and eNVM...
+programmer '94847' : device 'M2S025' : ===================================================================================
+programmer '94847' : device 'M2S025' : EXPORT DSN[128] = f5b08477f4bbba50601be7527944b522
+programmer '94847' : device 'M2S025' : ===================================================================================
+programmer '94847' : device 'M2S025' : Finished: Fri Jul 20 13:43:24 2018 (Elapsed time 00:00:49)
+programmer '94847' : device 'M2S025' : Executing action PROGRAM PASSED.
+programmer '94847' : Chain programming PASSED.
+Chain Programming Finished: Fri Jul 20 13:43:24 2018 (Elapsed time 00:00:49)
+
+                        o - o - o - o - o - o
+
+The 'run_selected_actions' command succeeded.
+The 'set_programming_file' command succeeded.
+Project saved.
+The 'save_project' command succeeded.
+Project closed.

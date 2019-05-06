@@ -1,0 +1,1334 @@
+#Build: Synplify Pro L-2016.09M-2, Build 065R, Nov 16 2016
+#install: C:\Microsemi\Libero_SoC_v11.8\SynplifyPro
+#OS: Windows 7 6.1
+#Hostname: BWRCLOPX9020-1
+
+# Mon Jun 25 19:52:03 2018
+
+#Implementation: synthesis
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 117R, built Nov 17 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp2016q3p1, Build 127R, built Nov 24 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.v" (library work)
+@I::"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"P:\Libero\NeuroMini_golden\component\work\NeuroMini\FCCC_0\NeuroMini_FCCC_0_FCCC.v" (library work)
+@I::"P:\Libero\NeuroMini_golden\component\work\NeuroMini_MSS\NeuroMini_MSS_syn.v" (library work)
+@I::"P:\Libero\NeuroMini_golden\component\work\NeuroMini_MSS\NeuroMini_MSS.v" (library work)
+@I::"P:\Libero\NeuroMini_golden\component\Actel\SgCore\OSC\2.0.101\osc_comps.v" (library work)
+@I::"P:\Libero\NeuroMini_golden\component\work\NeuroMini\OSC_0\NeuroMini_OSC_0_OSC.v" (library work)
+@I::"P:\Libero\NeuroMini_golden\hdl\am.v" (library work)
+@I::"P:\Libero\NeuroMini_golden\hdl\cm_demux.v" (library work)
+@I::"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\corefifo_doubleSync.v" (library work)
+@I::"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\corefifo_grayToBinConv.v" (library work)
+@I::"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\corefifo_async.v" (library work)
+@I::"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\corefifo_fwft.v" (library work)
+@I::"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\corefifo_sync.v" (library work)
+@I::"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v" (library work)
+@I::"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\ACKFIFO_ACKFIFO_0_USRAM_top.v" (library work)
+@I::"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\ACKFIFO_ACKFIFO_0_ram_wrapper.v" (library work)
+@I::"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\COREFIFO.v" (library work)
+@I::"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO.v" (library work)
+@I::"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\corefifo_doubleSync.v" (library work)
+@I::"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\corefifo_grayToBinConv.v" (library work)
+@I::"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\corefifo_async.v" (library work)
+@I::"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\corefifo_fwft.v" (library work)
+@I::"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\corefifo_sync.v" (library work)
+@I::"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v" (library work)
+@I::"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\ADCFIFO_ADCFIFO_0_LSRAM_top.v" (library work)
+@I::"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\ADCFIFO_ADCFIFO_0_ram_wrapper.v" (library work)
+@I::"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\COREFIFO.v" (library work)
+@I::"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO.v" (library work)
+@I::"P:\Libero\NeuroMini_golden\hdl\deserializer.v" (library work)
+@I::"P:\Libero\NeuroMini_golden\hdl\nmic_rx.v" (library work)
+@I::"P:\Libero\NeuroMini_golden\hdl\nmic_tx.v" (library work)
+@I::"P:\Libero\NeuroMini_golden\hdl\nm_channel.v" (library work)
+@I::"P:\Libero\NeuroMini_golden\hdl\nmic_if.v" (library work)
+@I::"P:\Libero\NeuroMini_golden\hdl\cmam.v" (library work)
+@W: CG921 :"P:\Libero\NeuroMini_golden\hdl\cmam.v":14:5:14:12|a2c_data is already declared in this scope.
+@W: CG921 :"P:\Libero\NeuroMini_golden\hdl\cmam.v":14:15:14:22|c2a_data is already declared in this scope.
+@W: CG921 :"P:\Libero\NeuroMini_golden\hdl\cmam.v":14:25:14:33|c2a_valid is already declared in this scope.
+@I::"P:\Libero\NeuroMini_golden\hdl\cmam_if_wrap.v" (library work)
+@I::"P:\Libero\NeuroMini_golden\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v" (library COREAPB3_LIB)
+@I::"P:\Libero\NeuroMini_golden\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3_iaddr_reg.v" (library COREAPB3_LIB)
+@I::"P:\Libero\NeuroMini_golden\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v" (library COREAPB3_LIB)
+@I::"P:\Libero\NeuroMini_golden\component\work\NeuroMini\NeuroMini.v" (library work)
+Verilog syntax check successful!
+Selecting top level module NeuroMini
+@W: CG775 :"P:\Libero\NeuroMini_golden\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":13:0:13:7|Found Component CoreAPB3 in library COREAPB3_LIB
+@N: CG364 :"P:\Libero\NeuroMini_golden\hdl\cm_demux.v":30:7:30:14|Synthesizing module cm_demux in library work.
+
+@N: CG364 :"P:\Libero\NeuroMini_golden\hdl\deserializer.v":29:7:29:18|Synthesizing module deserializer in library work.
+
+@A: CL282 :"P:\Libero\NeuroMini_golden\hdl\deserializer.v":39:0:39:5|Feedback mux created for signal word[15:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@N: CG364 :"P:\Libero\NeuroMini_golden\hdl\nmic_rx.v":29:7:29:13|Synthesizing module nmic_rx in library work.
+
+@N: CG364 :"P:\Libero\NeuroMini_golden\hdl\nmic_tx.v":29:7:29:13|Synthesizing module nmic_tx in library work.
+
+@W: CG532 :"P:\Libero\NeuroMini_golden\hdl\nmic_tx.v":52:0:52:6|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+@A: CL282 :"P:\Libero\NeuroMini_golden\hdl\nmic_tx.v":56:0:56:5|Feedback mux created for signal crc[4:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"P:\Libero\NeuroMini_golden\hdl\nmic_tx.v":56:0:56:5|Feedback mux created for signal count[5:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@N: CG364 :"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\COREFIFO.v":29:7:29:32|Synthesizing module ACKFIFO_ACKFIFO_0_COREFIFO in library work.
+
+	FAMILY=32'b00000000000000000000000000010011
+	SYNC=32'b00000000000000000000000000000001
+	RCLK_EDGE=32'b00000000000000000000000000000001
+	WCLK_EDGE=32'b00000000000000000000000000000001
+	RE_POLARITY=32'b00000000000000000000000000000000
+	WE_POLARITY=32'b00000000000000000000000000000000
+	RWIDTH=32'b00000000000000000000000000010000
+	WWIDTH=32'b00000000000000000000000000010000
+	RDEPTH=32'b00000000000000000000000001000000
+	WDEPTH=32'b00000000000000000000000001000000
+	READ_DVALID=32'b00000000000000000000000000000000
+	WRITE_ACK=32'b00000000000000000000000000000000
+	CTRL_TYPE=32'b00000000000000000000000000000011
+	ESTOP=32'b00000000000000000000000000000001
+	FSTOP=32'b00000000000000000000000000000001
+	AE_STATIC_EN=32'b00000000000000000000000000000001
+	AF_STATIC_EN=32'b00000000000000000000000000000001
+	AEVAL=32'b00000000000000000000000000000011
+	AFVAL=32'b00000000000000000000000000111100
+	PIPE=32'b00000000000000000000000000000001
+	PREFETCH=32'b00000000000000000000000000000000
+	FWFT=32'b00000000000000000000000000000000
+	RESET_POLARITY=32'b00000000000000000000000000000000
+	OVERFLOW_EN=32'b00000000000000000000000000000000
+	UNDERFLOW_EN=32'b00000000000000000000000000000000
+	WRCNT_EN=32'b00000000000000000000000000000000
+	RDCNT_EN=32'b00000000000000000000000000000000
+	WMSB_DEPTH=32'b00000000000000000000000000000110
+	RMSB_DEPTH=32'b00000000000000000000000000000110
+	WDEPTH_CAL=32'b00000000000000000000000000000101
+	RDEPTH_CAL=32'b00000000000000000000000000000101
+	SYNC_RESET=32'b00000000000000000000000000000000
+   Generated name = ACKFIFO_ACKFIFO_0_COREFIFO_Z1
+
+@N: CG364 :"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":28:7:28:43|Synthesizing module ACKFIFO_ACKFIFO_0_corefifo_sync_scntr in library work.
+
+	WRITE_WIDTH=32'b00000000000000000000000000010000
+	WRITE_DEPTH=32'b00000000000000000000000000000110
+	FULL_WRITE_DEPTH=32'b00000000000000000000000001000000
+	READ_WIDTH=32'b00000000000000000000000000010000
+	READ_DEPTH=32'b00000000000000000000000000000110
+	FULL_READ_DEPTH=32'b00000000000000000000000001000000
+	PREFETCH=32'b00000000000000000000000000000000
+	FWFT=32'b00000000000000000000000000000000
+	WCLK_HIGH=32'b00000000000000000000000000000001
+	RESET_LOW=32'b00000000000000000000000000000000
+	WRITE_LOW=32'b00000000000000000000000000000000
+	READ_LOW=32'b00000000000000000000000000000000
+	AF_FLAG_STATIC=32'b00000000000000000000000000000001
+	AE_FLAG_STATIC=32'b00000000000000000000000000000001
+	AFULL_VAL=32'b00000000000000000000000000111100
+	AEMPTY_VAL=32'b00000000000000000000000000000011
+	ESTOP=32'b00000000000000000000000000000001
+	FSTOP=32'b00000000000000000000000000000001
+	PIPE=32'b00000000000000000000000000000001
+	REGISTER_RADDR=32'b00000000000000000000000000000001
+	READ_DVALID=32'b00000000000000000000000000000000
+	WRITE_ACK=32'b00000000000000000000000000000000
+	OVERFLOW_EN=32'b00000000000000000000000000000000
+	UNDERFLOW_EN=32'b00000000000000000000000000000000
+	WRCNT_EN=32'b00000000000000000000000000000000
+	RDCNT_EN=32'b00000000000000000000000000000000
+	SYNC_RESET=32'b00000000000000000000000000000000
+	WDEPTH_CAL=32'b00000000000000000000000000000101
+	RDEPTH_CAL=32'b00000000000000000000000000000101
+   Generated name = ACKFIFO_ACKFIFO_0_corefifo_sync_scntr_Z2
+
+@W: CG360 :"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":159:29:159:46|Removing wire almostfulli_assert, as there is no assignment to it.
+@W: CG360 :"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":160:29:160:48|Removing wire almostfulli_deassert, as there is no assignment to it.
+@W: CG360 :"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":161:29:161:40|Removing wire fulli_assert, as there is no assignment to it.
+@W: CG360 :"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":162:29:162:42|Removing wire fulli_deassert, as there is no assignment to it.
+@W: CG360 :"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":171:29:171:36|Removing wire re_top_p, as there is no assignment to it.
+@W: CL169 :"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":391:4:391:9|Pruning unused register empty_r_fwft. Make sure that there are no unused intermediate registers.
+@W: CL169 :"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":391:4:391:9|Pruning unused register aempty_r_fwft. Make sure that there are no unused intermediate registers.
+@W: CL169 :"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":369:3:369:8|Pruning unused register dvld_r2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":369:3:369:8|Pruning unused register full_reg. Make sure that there are no unused intermediate registers.
+@W: CL169 :"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":369:3:369:8|Pruning unused register re_p_d1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":369:3:369:8|Pruning unused register empty_top_fwft_r. Make sure that there are no unused intermediate registers.
+@W: CL169 :"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":296:3:296:8|Pruning unused register sc_r_fwft[6:0]. Make sure that there are no unused intermediate registers.
+@W: CL207 :"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":444:7:444:12|All reachable assignments to genblk5.wack_r assign 0, register removed by optimization.
+@W: CL207 :"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":444:7:444:12|All reachable assignments to genblk5.overflow_r assign 0, register removed by optimization.
+@W: CL207 :"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":391:4:391:9|All reachable assignments to underflow_r assign 0, register removed by optimization.
+@W: CL207 :"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":391:4:391:9|All reachable assignments to dvld_r assign 0, register removed by optimization.
+@W: CL207 :"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":259:3:259:8|All reachable assignments to rdcnt[6:0] assign 0, register removed by optimization.
+@W: CL207 :"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":239:3:239:8|All reachable assignments to wrcnt[6:0] assign 0, register removed by optimization.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.v":455:7:455:14|Synthesizing module RAM64x18 in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.v":372:7:372:9|Synthesizing module GND in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.v":376:7:376:9|Synthesizing module VCC in library work.
+
+@N: CG364 :"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\ACKFIFO_ACKFIFO_0_USRAM_top.v":5:7:5:33|Synthesizing module ACKFIFO_ACKFIFO_0_USRAM_top in library work.
+
+@N: CG364 :"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\ACKFIFO_ACKFIFO_0_ram_wrapper.v":4:7:4:35|Synthesizing module ACKFIFO_ACKFIFO_0_ram_wrapper in library work.
+
+	RWIDTH=32'b00000000000000000000000000010000
+	WWIDTH=32'b00000000000000000000000000010000
+	RDEPTH=32'b00000000000000000000000000000110
+	WDEPTH=32'b00000000000000000000000000000110
+	SYNC=32'b00000000000000000000000000000001
+	PIPE=32'b00000000000000000000000000000001
+	CTRL_TYPE=32'b00000000000000000000000000000011
+   Generated name = ACKFIFO_ACKFIFO_0_ram_wrapper_16s_16s_6_6_1s_1s_3s
+
+@W: CG360 :"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\COREFIFO.v":189:36:189:41|Removing wire EMPTY2, as there is no assignment to it.
+@W: CG360 :"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\COREFIFO.v":190:36:190:42|Removing wire AEMPTY2, as there is no assignment to it.
+@W: CG360 :"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\COREFIFO.v":191:36:191:45|Removing wire fifo_rd_en, as there is no assignment to it.
+@W: CG360 :"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\COREFIFO.v":195:36:195:46|Removing wire pf_MEMRADDR, as there is no assignment to it.
+@W: CG360 :"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\COREFIFO.v":196:36:196:48|Removing wire fwft_MEMRADDR, as there is no assignment to it.
+@W: CG360 :"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\COREFIFO.v":201:36:201:39|Removing wire pf_Q, as there is no assignment to it.
+@W: CG360 :"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\COREFIFO.v":202:36:202:41|Removing wire fwft_Q, as there is no assignment to it.
+@W: CG360 :"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\COREFIFO.v":220:36:220:45|Removing wire DVLD_async, as there is no assignment to it.
+@W: CG360 :"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\COREFIFO.v":222:36:222:44|Removing wire DVLD_sync, as there is no assignment to it.
+@W: CG360 :"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\COREFIFO.v":223:36:223:44|Removing wire fwft_dvld, as there is no assignment to it.
+@W: CG360 :"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\COREFIFO.v":224:36:224:49|Removing wire fwft_reg_valid, as there is no assignment to it.
+@W: CG360 :"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\COREFIFO.v":225:36:225:42|Removing wire pf_dvld, as there is no assignment to it.
+@W: CG133 :"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\COREFIFO.v":229:36:229:44|Object reg_valid is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\COREFIFO.v":243:36:243:41|Object reg_RD is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\COREFIFO.v":929:3:929:8|Pruning unused register RDATA_ext_r1[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\COREFIFO.v":919:3:919:8|Pruning unused register RDATA_ext_r[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\COREFIFO.v":868:3:868:8|Pruning unused register REN_d2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\COREFIFO.v":868:3:868:8|Pruning unused register RE_d2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\COREFIFO.v":868:3:868:8|Pruning unused register re_pulse_d2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\COREFIFO.v":856:3:856:8|Pruning unused register RDATA_r1[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\COREFIFO.v":846:3:846:8|Pruning unused register RDATA_r_pre[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\COREFIFO.v":836:3:836:8|Pruning unused register fwft_Q_r[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\COREFIFO.v":323:3:323:8|Pruning unused register AEMPTY1_r. Make sure that there are no unused intermediate registers.
+@W: CL169 :"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\COREFIFO.v":323:3:323:8|Pruning unused register AEMPTY1_r1. Make sure that there are no unused intermediate registers.
+@N: CG364 :"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO.v":9:7:9:13|Synthesizing module ACKFIFO in library work.
+
+@N: CG364 :"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\COREFIFO.v":29:7:29:32|Synthesizing module ADCFIFO_ADCFIFO_0_COREFIFO in library work.
+
+	FAMILY=32'b00000000000000000000000000010011
+	SYNC=32'b00000000000000000000000000000001
+	RCLK_EDGE=32'b00000000000000000000000000000001
+	WCLK_EDGE=32'b00000000000000000000000000000001
+	RE_POLARITY=32'b00000000000000000000000000000000
+	WE_POLARITY=32'b00000000000000000000000000000000
+	RWIDTH=32'b00000000000000000000000000010000
+	WWIDTH=32'b00000000000000000000000000010000
+	RDEPTH=32'b00000000000000000000010000000000
+	WDEPTH=32'b00000000000000000000010000000000
+	READ_DVALID=32'b00000000000000000000000000000000
+	WRITE_ACK=32'b00000000000000000000000000000000
+	CTRL_TYPE=32'b00000000000000000000000000000010
+	ESTOP=32'b00000000000000000000000000000001
+	FSTOP=32'b00000000000000000000000000000001
+	AE_STATIC_EN=32'b00000000000000000000000000000001
+	AF_STATIC_EN=32'b00000000000000000000000000000001
+	AEVAL=32'b00000000000000000000000001000001
+	AFVAL=32'b00000000000000000000001110111110
+	PIPE=32'b00000000000000000000000000000001
+	PREFETCH=32'b00000000000000000000000000000000
+	FWFT=32'b00000000000000000000000000000000
+	RESET_POLARITY=32'b00000000000000000000000000000000
+	OVERFLOW_EN=32'b00000000000000000000000000000000
+	UNDERFLOW_EN=32'b00000000000000000000000000000000
+	WRCNT_EN=32'b00000000000000000000000000000000
+	RDCNT_EN=32'b00000000000000000000000000000000
+	WMSB_DEPTH=32'b00000000000000000000000000001010
+	RMSB_DEPTH=32'b00000000000000000000000000001010
+	WDEPTH_CAL=32'b00000000000000000000000000001001
+	RDEPTH_CAL=32'b00000000000000000000000000001001
+	SYNC_RESET=32'b00000000000000000000000000000000
+   Generated name = ADCFIFO_ADCFIFO_0_COREFIFO_Z3
+
+@N: CG364 :"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":28:7:28:43|Synthesizing module ADCFIFO_ADCFIFO_0_corefifo_sync_scntr in library work.
+
+	WRITE_WIDTH=32'b00000000000000000000000000010000
+	WRITE_DEPTH=32'b00000000000000000000000000001010
+	FULL_WRITE_DEPTH=32'b00000000000000000000010000000000
+	READ_WIDTH=32'b00000000000000000000000000010000
+	READ_DEPTH=32'b00000000000000000000000000001010
+	FULL_READ_DEPTH=32'b00000000000000000000010000000000
+	PREFETCH=32'b00000000000000000000000000000000
+	FWFT=32'b00000000000000000000000000000000
+	WCLK_HIGH=32'b00000000000000000000000000000001
+	RESET_LOW=32'b00000000000000000000000000000000
+	WRITE_LOW=32'b00000000000000000000000000000000
+	READ_LOW=32'b00000000000000000000000000000000
+	AF_FLAG_STATIC=32'b00000000000000000000000000000001
+	AE_FLAG_STATIC=32'b00000000000000000000000000000001
+	AFULL_VAL=32'b00000000000000000000001110111110
+	AEMPTY_VAL=32'b00000000000000000000000001000001
+	ESTOP=32'b00000000000000000000000000000001
+	FSTOP=32'b00000000000000000000000000000001
+	PIPE=32'b00000000000000000000000000000001
+	REGISTER_RADDR=32'b00000000000000000000000000000001
+	READ_DVALID=32'b00000000000000000000000000000000
+	WRITE_ACK=32'b00000000000000000000000000000000
+	OVERFLOW_EN=32'b00000000000000000000000000000000
+	UNDERFLOW_EN=32'b00000000000000000000000000000000
+	WRCNT_EN=32'b00000000000000000000000000000000
+	RDCNT_EN=32'b00000000000000000000000000000000
+	SYNC_RESET=32'b00000000000000000000000000000000
+	WDEPTH_CAL=32'b00000000000000000000000000001001
+	RDEPTH_CAL=32'b00000000000000000000000000001001
+   Generated name = ADCFIFO_ADCFIFO_0_corefifo_sync_scntr_Z4
+
+@W: CG360 :"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":159:29:159:46|Removing wire almostfulli_assert, as there is no assignment to it.
+@W: CG360 :"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":160:29:160:48|Removing wire almostfulli_deassert, as there is no assignment to it.
+@W: CG360 :"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":161:29:161:40|Removing wire fulli_assert, as there is no assignment to it.
+@W: CG360 :"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":162:29:162:42|Removing wire fulli_deassert, as there is no assignment to it.
+@W: CG360 :"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":171:29:171:36|Removing wire re_top_p, as there is no assignment to it.
+@W: CL169 :"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":391:4:391:9|Pruning unused register empty_r_fwft. Make sure that there are no unused intermediate registers.
+@W: CL169 :"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":391:4:391:9|Pruning unused register aempty_r_fwft. Make sure that there are no unused intermediate registers.
+@W: CL169 :"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":369:3:369:8|Pruning unused register dvld_r2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":369:3:369:8|Pruning unused register full_reg. Make sure that there are no unused intermediate registers.
+@W: CL169 :"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":369:3:369:8|Pruning unused register re_p_d1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":369:3:369:8|Pruning unused register empty_top_fwft_r. Make sure that there are no unused intermediate registers.
+@W: CL169 :"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":296:3:296:8|Pruning unused register sc_r_fwft[10:0]. Make sure that there are no unused intermediate registers.
+@W: CL207 :"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":444:7:444:12|All reachable assignments to genblk5.wack_r assign 0, register removed by optimization.
+@W: CL207 :"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":444:7:444:12|All reachable assignments to genblk5.overflow_r assign 0, register removed by optimization.
+@W: CL207 :"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":391:4:391:9|All reachable assignments to underflow_r assign 0, register removed by optimization.
+@W: CL207 :"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":391:4:391:9|All reachable assignments to dvld_r assign 0, register removed by optimization.
+@W: CL207 :"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":259:3:259:8|All reachable assignments to rdcnt[10:0] assign 0, register removed by optimization.
+@W: CL207 :"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":239:3:239:8|All reachable assignments to wrcnt[10:0] assign 0, register removed by optimization.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.v":382:7:382:13|Synthesizing module RAM1K18 in library work.
+
+@N: CG364 :"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\ADCFIFO_ADCFIFO_0_LSRAM_top.v":5:7:5:33|Synthesizing module ADCFIFO_ADCFIFO_0_LSRAM_top in library work.
+
+@N: CG364 :"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\ADCFIFO_ADCFIFO_0_ram_wrapper.v":4:7:4:35|Synthesizing module ADCFIFO_ADCFIFO_0_ram_wrapper in library work.
+
+	RWIDTH=32'b00000000000000000000000000010000
+	WWIDTH=32'b00000000000000000000000000010000
+	RDEPTH=32'b00000000000000000000000000001010
+	WDEPTH=32'b00000000000000000000000000001010
+	SYNC=32'b00000000000000000000000000000001
+	PIPE=32'b00000000000000000000000000000001
+	CTRL_TYPE=32'b00000000000000000000000000000010
+   Generated name = ADCFIFO_ADCFIFO_0_ram_wrapper_16s_16s_10_10_1s_1s_2s
+
+@W: CG360 :"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\COREFIFO.v":189:36:189:41|Removing wire EMPTY2, as there is no assignment to it.
+@W: CG360 :"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\COREFIFO.v":190:36:190:42|Removing wire AEMPTY2, as there is no assignment to it.
+@W: CG360 :"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\COREFIFO.v":191:36:191:45|Removing wire fifo_rd_en, as there is no assignment to it.
+@W: CG360 :"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\COREFIFO.v":195:36:195:46|Removing wire pf_MEMRADDR, as there is no assignment to it.
+@W: CG360 :"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\COREFIFO.v":196:36:196:48|Removing wire fwft_MEMRADDR, as there is no assignment to it.
+@W: CG360 :"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\COREFIFO.v":201:36:201:39|Removing wire pf_Q, as there is no assignment to it.
+@W: CG360 :"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\COREFIFO.v":202:36:202:41|Removing wire fwft_Q, as there is no assignment to it.
+@W: CG360 :"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\COREFIFO.v":220:36:220:45|Removing wire DVLD_async, as there is no assignment to it.
+@W: CG360 :"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\COREFIFO.v":222:36:222:44|Removing wire DVLD_sync, as there is no assignment to it.
+@W: CG360 :"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\COREFIFO.v":223:36:223:44|Removing wire fwft_dvld, as there is no assignment to it.
+@W: CG360 :"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\COREFIFO.v":224:36:224:49|Removing wire fwft_reg_valid, as there is no assignment to it.
+@W: CG360 :"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\COREFIFO.v":225:36:225:42|Removing wire pf_dvld, as there is no assignment to it.
+@W: CG133 :"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\COREFIFO.v":229:36:229:44|Object reg_valid is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\COREFIFO.v":243:36:243:41|Object reg_RD is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\COREFIFO.v":929:3:929:8|Pruning unused register RDATA_ext_r1[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\COREFIFO.v":919:3:919:8|Pruning unused register RDATA_ext_r[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\COREFIFO.v":868:3:868:8|Pruning unused register REN_d2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\COREFIFO.v":868:3:868:8|Pruning unused register RE_d2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\COREFIFO.v":868:3:868:8|Pruning unused register re_pulse_d2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\COREFIFO.v":856:3:856:8|Pruning unused register RDATA_r1[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\COREFIFO.v":846:3:846:8|Pruning unused register RDATA_r_pre[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\COREFIFO.v":836:3:836:8|Pruning unused register fwft_Q_r[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\COREFIFO.v":323:3:323:8|Pruning unused register AEMPTY1_r. Make sure that there are no unused intermediate registers.
+@W: CL169 :"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\COREFIFO.v":323:3:323:8|Pruning unused register AEMPTY1_r1. Make sure that there are no unused intermediate registers.
+@N: CG364 :"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO.v":9:7:9:13|Synthesizing module ADCFIFO in library work.
+
+@N: CG364 :"P:\Libero\NeuroMini_golden\hdl\nm_channel.v":29:7:29:16|Synthesizing module nm_channel in library work.
+
+@W: CG360 :"P:\Libero\NeuroMini_golden\hdl\nm_channel.v":45:21:45:35|Removing wire ackfifo_data_in, as there is no assignment to it.
+@W: CG360 :"P:\Libero\NeuroMini_golden\hdl\nm_channel.v":45:56:45:70|Removing wire adcfifo_data_in, as there is no assignment to it.
+@A: CL282 :"P:\Libero\NeuroMini_golden\hdl\nm_channel.v":118:0:118:5|Feedback mux created for signal tx_data[33:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@N: CG364 :"P:\Libero\NeuroMini_golden\hdl\nmic_if.v":29:7:29:13|Synthesizing module nmic_if in library work.
+
+@W: CL271 :"P:\Libero\NeuroMini_golden\hdl\nmic_if.v":203:0:203:5|Pruning unused bits 31 to 6 of debug_reg[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CG364 :"P:\Libero\NeuroMini_golden\hdl\am.v":1:7:1:8|Synthesizing module am in library work.
+
+@N: CG364 :"P:\Libero\NeuroMini_golden\hdl\cmam.v":1:7:1:10|Synthesizing module cmam in library work.
+
+@N: CG364 :"P:\Libero\NeuroMini_golden\hdl\cmam_if_wrap.v":5:7:5:18|Synthesizing module cmam_if_wrap in library work.
+
+@N: CG364 :"P:\Libero\NeuroMini_golden\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v":13:0:13:6|Synthesizing module CAPB3II in library COREAPB3_LIB.
+
+@N: CG364 :"P:\Libero\NeuroMini_golden\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":13:0:13:7|Synthesizing module CoreAPB3 in library COREAPB3_LIB.
+
+	APB_DWIDTH=6'b100000
+	IADDR_OPTION=32'b00000000000000000000000000000000
+	APBSLOT0ENABLE=1'b1
+	APBSLOT1ENABLE=1'b0
+	APBSLOT2ENABLE=1'b0
+	APBSLOT3ENABLE=1'b0
+	APBSLOT4ENABLE=1'b0
+	APBSLOT5ENABLE=1'b0
+	APBSLOT6ENABLE=1'b0
+	APBSLOT7ENABLE=1'b0
+	APBSLOT8ENABLE=1'b0
+	APBSLOT9ENABLE=1'b0
+	APBSLOT10ENABLE=1'b0
+	APBSLOT11ENABLE=1'b0
+	APBSLOT12ENABLE=1'b0
+	APBSLOT13ENABLE=1'b0
+	APBSLOT14ENABLE=1'b0
+	APBSLOT15ENABLE=1'b0
+	SC_0=1'b0
+	SC_1=1'b0
+	SC_2=1'b0
+	SC_3=1'b0
+	SC_4=1'b0
+	SC_5=1'b0
+	SC_6=1'b0
+	SC_7=1'b0
+	SC_8=1'b0
+	SC_9=1'b0
+	SC_10=1'b0
+	SC_11=1'b0
+	SC_12=1'b0
+	SC_13=1'b0
+	SC_14=1'b0
+	SC_15=1'b0
+	MADDR_BITS=6'b010100
+	UPR_NIBBLE_POSN=4'b0110
+	FAMILY=32'b00000000000000000000000000010011
+	SYNC_RESET=32'b00000000000000000000000000000000
+	CAPB3OOl=32'b00000000000000000000000000000000
+	CAPB3IOl=32'b00000000000000000000000000000001
+	CAPB3lOl=32'b00000000000000000000000000000010
+	CAPB3OIl=32'b00000000000000000000000000000011
+	CAPB3IIl=32'b00000000000000000000000000000100
+	CAPB3lIl=32'b00000000000000000000000000000101
+	CAPB3Oll=32'b00000000000000000000000000000110
+	CAPB3Ill=32'b00000000000000000000000000000111
+	CAPB3lll=32'b00000000000000000000000000001000
+	CAPB3O0l=32'b00000000000000000000000000001001
+	CAPB3I0l=32'b00000000000000000000000000001010
+	CAPB3l0l=32'b00000000000000000000000000001011
+	CAPB3O1l=32'b00000000000000000000000000001100
+	CAPB3I1l=32'b00000000000000000000000000001101
+	CAPB3l1l=32'b00000000000000000000000000001110
+	CAPB3OO0=32'b00000000000000000000000000001111
+	CAPB3IO0=32'b00000000000000000000000000010000
+	CAPB3lO0=32'b00000000000000000000000000010001
+	CAPB3OI0=16'b0000000000000001
+	CAPB3II0=16'b0000000000000000
+	CAPB3lI0=16'b0000000000000000
+	CAPB3Ol0=16'b0000000000000000
+	CAPB3Il0=16'b0000000000000000
+	CAPB3ll0=16'b0000000000000000
+	CAPB3O00=16'b0000000000000000
+	CAPB3I00=16'b0000000000000000
+	CAPB3l00=16'b0000000000000000
+	CAPB3O10=16'b0000000000000000
+	CAPB3I10=16'b0000000000000000
+	CAPB3l10=16'b0000000000000000
+	CAPB3OO1=16'b0000000000000000
+	CAPB3IO1=16'b0000000000000000
+	CAPB3lO1=16'b0000000000000000
+	CAPB3OI1=16'b0000000000000000
+	CAPB3II1=16'b0000000000000000
+	CAPB3lI1=16'b0000000000000000
+   Generated name = CoreAPB3_Z5
+
+@W: CG360 :"P:\Libero\NeuroMini_golden\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":1495:0:1495:8|Removing wire CAPB3IlOI, as there is no assignment to it.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.v":362:7:362:12|Synthesizing module CLKINT in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.v":727:7:727:9|Synthesizing module CCC in library work.
+
+@N: CG364 :"P:\Libero\NeuroMini_golden\component\work\NeuroMini\FCCC_0\NeuroMini_FCCC_0_FCCC.v":5:7:5:27|Synthesizing module NeuroMini_FCCC_0_FCCC in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.v":228:7:228:9|Synthesizing module INV in library work.
+
+@N: CG364 :"P:\Libero\NeuroMini_golden\component\work\NeuroMini_MSS\NeuroMini_MSS_syn.v":5:7:5:13|Synthesizing module MSS_025 in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.v":286:7:286:11|Synthesizing module BIBUF in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.v":268:7:268:11|Synthesizing module INBUF in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.v":280:7:280:13|Synthesizing module TRIBUFF in library work.
+
+@N: CG364 :"P:\Libero\NeuroMini_golden\component\work\NeuroMini_MSS\NeuroMini_MSS.v":9:7:9:19|Synthesizing module NeuroMini_MSS in library work.
+
+@N: CG364 :"P:\Libero\NeuroMini_golden\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":23:7:23:12|Synthesizing module XTLOSC in library work.
+
+@N: CG364 :"P:\Libero\NeuroMini_golden\component\work\NeuroMini\OSC_0\NeuroMini_OSC_0_OSC.v":5:7:5:25|Synthesizing module NeuroMini_OSC_0_OSC in library work.
+
+@N: CG364 :"P:\Libero\NeuroMini_golden\component\work\NeuroMini\NeuroMini.v":9:7:9:15|Synthesizing module NeuroMini in library work.
+
+@W: CL157 :"P:\Libero\NeuroMini_golden\component\work\NeuroMini\OSC_0\NeuroMini_OSC_0_OSC.v":15:7:15:24|*Output RCOSC_25_50MHZ_CCC has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL157 :"P:\Libero\NeuroMini_golden\component\work\NeuroMini\OSC_0\NeuroMini_OSC_0_OSC.v":16:7:16:24|*Output RCOSC_25_50MHZ_O2F has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL157 :"P:\Libero\NeuroMini_golden\component\work\NeuroMini\OSC_0\NeuroMini_OSC_0_OSC.v":17:7:17:20|*Output RCOSC_1MHZ_CCC has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL157 :"P:\Libero\NeuroMini_golden\component\work\NeuroMini\OSC_0\NeuroMini_OSC_0_OSC.v":18:7:18:20|*Output RCOSC_1MHZ_O2F has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL157 :"P:\Libero\NeuroMini_golden\component\work\NeuroMini\OSC_0\NeuroMini_OSC_0_OSC.v":20:7:20:16|*Output XTLOSC_O2F has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL246 :"P:\Libero\NeuroMini_golden\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":407:0:407:4|Input port bits 27 to 20 of PADDR[31:0] are unused. Assign logic for all port bits or change the input port size.
+@N: CL159 :"P:\Libero\NeuroMini_golden\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":396:0:396:4|Input IADDR is unused.
+@N: CL159 :"P:\Libero\NeuroMini_golden\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":398:0:398:6|Input PRESETN is unused.
+@N: CL159 :"P:\Libero\NeuroMini_golden\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":400:0:400:3|Input PCLK is unused.
+@N: CL159 :"P:\Libero\NeuroMini_golden\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":521:0:521:7|Input PRDATAS1 is unused.
+@N: CL159 :"P:\Libero\NeuroMini_golden\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":528:0:528:7|Input PRDATAS2 is unused.
+@N: CL159 :"P:\Libero\NeuroMini_golden\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":535:0:535:7|Input PRDATAS3 is unused.
+@N: CL159 :"P:\Libero\NeuroMini_golden\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":542:0:542:7|Input PRDATAS4 is unused.
+@N: CL159 :"P:\Libero\NeuroMini_golden\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":549:0:549:7|Input PRDATAS5 is unused.
+@N: CL159 :"P:\Libero\NeuroMini_golden\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":556:0:556:7|Input PRDATAS6 is unused.
+@N: CL159 :"P:\Libero\NeuroMini_golden\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":563:0:563:7|Input PRDATAS7 is unused.
+@N: CL159 :"P:\Libero\NeuroMini_golden\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":570:0:570:7|Input PRDATAS8 is unused.
+@N: CL159 :"P:\Libero\NeuroMini_golden\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":577:0:577:7|Input PRDATAS9 is unused.
+@N: CL159 :"P:\Libero\NeuroMini_golden\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":584:0:584:8|Input PRDATAS10 is unused.
+@N: CL159 :"P:\Libero\NeuroMini_golden\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":591:0:591:8|Input PRDATAS11 is unused.
+@N: CL159 :"P:\Libero\NeuroMini_golden\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":598:0:598:8|Input PRDATAS12 is unused.
+@N: CL159 :"P:\Libero\NeuroMini_golden\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":605:0:605:8|Input PRDATAS13 is unused.
+@N: CL159 :"P:\Libero\NeuroMini_golden\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":612:0:612:8|Input PRDATAS14 is unused.
+@N: CL159 :"P:\Libero\NeuroMini_golden\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":619:0:619:8|Input PRDATAS15 is unused.
+@N: CL159 :"P:\Libero\NeuroMini_golden\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":630:0:630:7|Input PREADYS1 is unused.
+@N: CL159 :"P:\Libero\NeuroMini_golden\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":632:0:632:7|Input PREADYS2 is unused.
+@N: CL159 :"P:\Libero\NeuroMini_golden\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":634:0:634:7|Input PREADYS3 is unused.
+@N: CL159 :"P:\Libero\NeuroMini_golden\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":636:0:636:7|Input PREADYS4 is unused.
+@N: CL159 :"P:\Libero\NeuroMini_golden\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":638:0:638:7|Input PREADYS5 is unused.
+@N: CL159 :"P:\Libero\NeuroMini_golden\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":640:0:640:7|Input PREADYS6 is unused.
+@N: CL159 :"P:\Libero\NeuroMini_golden\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":642:0:642:7|Input PREADYS7 is unused.
+@N: CL159 :"P:\Libero\NeuroMini_golden\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":644:0:644:7|Input PREADYS8 is unused.
+@N: CL159 :"P:\Libero\NeuroMini_golden\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":646:0:646:7|Input PREADYS9 is unused.
+@N: CL159 :"P:\Libero\NeuroMini_golden\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":648:0:648:8|Input PREADYS10 is unused.
+@N: CL159 :"P:\Libero\NeuroMini_golden\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":650:0:650:8|Input PREADYS11 is unused.
+@N: CL159 :"P:\Libero\NeuroMini_golden\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":652:0:652:8|Input PREADYS12 is unused.
+@N: CL159 :"P:\Libero\NeuroMini_golden\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":654:0:654:8|Input PREADYS13 is unused.
+@N: CL159 :"P:\Libero\NeuroMini_golden\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":656:0:656:8|Input PREADYS14 is unused.
+@N: CL159 :"P:\Libero\NeuroMini_golden\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":658:0:658:8|Input PREADYS15 is unused.
+@N: CL159 :"P:\Libero\NeuroMini_golden\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":664:0:664:8|Input PSLVERRS1 is unused.
+@N: CL159 :"P:\Libero\NeuroMini_golden\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":666:0:666:8|Input PSLVERRS2 is unused.
+@N: CL159 :"P:\Libero\NeuroMini_golden\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":668:0:668:8|Input PSLVERRS3 is unused.
+@N: CL159 :"P:\Libero\NeuroMini_golden\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":670:0:670:8|Input PSLVERRS4 is unused.
+@N: CL159 :"P:\Libero\NeuroMini_golden\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":672:0:672:8|Input PSLVERRS5 is unused.
+@N: CL159 :"P:\Libero\NeuroMini_golden\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":674:0:674:8|Input PSLVERRS6 is unused.
+@N: CL159 :"P:\Libero\NeuroMini_golden\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":676:0:676:8|Input PSLVERRS7 is unused.
+@N: CL159 :"P:\Libero\NeuroMini_golden\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":678:0:678:8|Input PSLVERRS8 is unused.
+@N: CL159 :"P:\Libero\NeuroMini_golden\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":680:0:680:8|Input PSLVERRS9 is unused.
+@N: CL159 :"P:\Libero\NeuroMini_golden\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":682:0:682:9|Input PSLVERRS10 is unused.
+@N: CL159 :"P:\Libero\NeuroMini_golden\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":684:0:684:9|Input PSLVERRS11 is unused.
+@N: CL159 :"P:\Libero\NeuroMini_golden\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":686:0:686:9|Input PSLVERRS12 is unused.
+@N: CL159 :"P:\Libero\NeuroMini_golden\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":688:0:688:9|Input PSLVERRS13 is unused.
+@N: CL159 :"P:\Libero\NeuroMini_golden\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":690:0:690:9|Input PSLVERRS14 is unused.
+@N: CL159 :"P:\Libero\NeuroMini_golden\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":692:0:692:9|Input PSLVERRS15 is unused.
+@W: CL156 :"P:\Libero\NeuroMini_golden\hdl\nmic_if.v":46:11:46:16|*Input cm_txd[7:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"P:\Libero\NeuroMini_golden\hdl\nmic_if.v":46:19:46:28|*Input cm_txvalid[7:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@N: CL159 :"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\ADCFIFO_ADCFIFO_0_ram_wrapper.v":37:25:37:31|Input RESET_N is unused.
+@N: CL159 :"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\ADCFIFO_ADCFIFO_0_ram_wrapper.v":38:25:38:30|Input WCLOCK is unused.
+@N: CL159 :"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\ADCFIFO_ADCFIFO_0_ram_wrapper.v":39:25:39:30|Input RCLOCK is unused.
+@N: CL159 :"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":96:29:96:34|Input re_top is unused.
+@N: CL159 :"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":97:29:97:42|Input empty_top_fwft is unused.
+@W: CL156 :"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\COREFIFO.v":189:36:189:41|*Input EMPTY2 to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@N: CL159 :"P:\Libero\NeuroMini_golden\component\work\ADCFIFO\ADCFIFO_0\rtl\vlog\core\COREFIFO.v":158:36:158:40|Input MEMRD is unused.
+@N: CL159 :"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\ACKFIFO_ACKFIFO_0_ram_wrapper.v":38:25:38:30|Input WCLOCK is unused.
+@N: CL159 :"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\ACKFIFO_ACKFIFO_0_ram_wrapper.v":39:25:39:30|Input RCLOCK is unused.
+@N: CL159 :"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":96:29:96:34|Input re_top is unused.
+@N: CL159 :"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\corefifo_sync_scntr.v":97:29:97:42|Input empty_top_fwft is unused.
+@W: CL156 :"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\COREFIFO.v":189:36:189:41|*Input EMPTY2 to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@N: CL159 :"P:\Libero\NeuroMini_golden\component\work\ACKFIFO\ACKFIFO_0\rtl\vlog\core\COREFIFO.v":158:36:158:40|Input MEMRD is unused.
+@N: CL201 :"P:\Libero\NeuroMini_golden\hdl\nmic_tx.v":56:0:56:5|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10
+@N: CL201 :"P:\Libero\NeuroMini_golden\hdl\cm_demux.v":129:0:129:5|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10
+
+At c_ver Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 80MB peak: 82MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Jun 25 19:52:06 2018
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 117R, built Nov 17 2016
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 72MB peak: 72MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Jun 25 19:52:08 2018
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Jun 25 19:52:08 2018
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 117R, built Nov 17 2016
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 74MB peak: 74MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Jun 25 19:52:10 2018
+
+###########################################################]
+Pre-mapping Report
+
+# Mon Jun 25 19:52:10 2018
+
+Synopsys Generic Technology Pre-mapping, Version map201609actrcp1, Build 005R, Built Jan 25 2017 01:01:33
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-2
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@A: MF827 |No constraint file specified.
+@L: P:\Libero\NeuroMini_golden\synthesis\NeuroMini_scck.rpt 
+Printing clock  summary report in "P:\Libero\NeuroMini_golden\synthesis\NeuroMini_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 111MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 111MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 111MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 111MB)
+
+@N: MO111 :"p:\libero\neuromini_golden\component\work\neuromini\osc_0\neuromini_osc_0_osc.v":17:7:17:20|Tristate driver RCOSC_1MHZ_CCC (in view: work.NeuroMini_OSC_0_OSC(verilog)) on net RCOSC_1MHZ_CCC (in view: work.NeuroMini_OSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"p:\libero\neuromini_golden\component\work\neuromini\osc_0\neuromini_osc_0_osc.v":18:7:18:20|Tristate driver RCOSC_1MHZ_O2F (in view: work.NeuroMini_OSC_0_OSC(verilog)) on net RCOSC_1MHZ_O2F (in view: work.NeuroMini_OSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"p:\libero\neuromini_golden\component\work\neuromini\osc_0\neuromini_osc_0_osc.v":15:7:15:24|Tristate driver RCOSC_25_50MHZ_CCC (in view: work.NeuroMini_OSC_0_OSC(verilog)) on net RCOSC_25_50MHZ_CCC (in view: work.NeuroMini_OSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"p:\libero\neuromini_golden\component\work\neuromini\osc_0\neuromini_osc_0_osc.v":16:7:16:24|Tristate driver RCOSC_25_50MHZ_O2F (in view: work.NeuroMini_OSC_0_OSC(verilog)) on net RCOSC_25_50MHZ_O2F (in view: work.NeuroMini_OSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"p:\libero\neuromini_golden\component\work\neuromini\osc_0\neuromini_osc_0_osc.v":20:7:20:16|Tristate driver XTLOSC_O2F (in view: work.NeuroMini_OSC_0_OSC(verilog)) on net XTLOSC_O2F (in view: work.NeuroMini_OSC_0_OSC(verilog)) has its enable tied to GND.
+@N: BN362 :"p:\libero\neuromini_golden\hdl\nmic_if.v":203:0:203:5|Removing sequential instance debug_reg[5:0] (in view: work.nmic_if(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+syn_allowed_resources : blockrams=31  set on top level netlist NeuroMini
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 144MB)
+
+
+
+Clock Summary
+*****************
+
+Start                                            Requested     Requested     Clock        Clock                   Clock
+Clock                                            Frequency     Period        Type         Group                   Load 
+-----------------------------------------------------------------------------------------------------------------------
+NeuroMini_FCCC_0_FCCC|GL0_net_inferred_clock     100.0 MHz     10.000        inferred     Inferred_clkgroup_0     1021 
+System                                           100.0 MHz     10.000        system       system_clkgroup         0    
+=======================================================================================================================
+
+@W: MT530 :"p:\libero\neuromini_golden\hdl\cm_demux.v":129:0:129:5|Found inferred clock NeuroMini_FCCC_0_FCCC|GL0_net_inferred_clock which controls 1021 sequential elements including cmam_if_wrap_0.cmam_if.nif.cmd_inst.state[2:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file P:\Libero\NeuroMini_golden\synthesis\NeuroMini.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 144MB)
+
+Encoding state machine state[2:0] (in view: work.cm_demux(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine state[2:0] (in view: work.nmic_tx_0(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine state[2:0] (in view: work.nmic_tx_1(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine state[2:0] (in view: work.nmic_tx_2(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine state[2:0] (in view: work.nmic_tx_3(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+@N: BN362 :"p:\libero\neuromini_golden\hdl\am.v":133:1:133:6|Removing sequential instance a2n_data[1] (in view: work.am(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :"p:\libero\neuromini_golden\hdl\cm_demux.v":163:0:163:5|Removing sequential instance rx_data[4] (in view: work.cm_demux(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"p:\libero\neuromini_golden\hdl\cm_demux.v":163:0:163:5|Removing sequential instance rx_data[5] (in view: work.cm_demux(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"p:\libero\neuromini_golden\hdl\cm_demux.v":163:0:163:5|Removing sequential instance rx_data[6] (in view: work.cm_demux(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"p:\libero\neuromini_golden\hdl\cm_demux.v":163:0:163:5|Removing sequential instance rx_data[7] (in view: work.cm_demux(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"p:\libero\neuromini_golden\hdl\cm_demux.v":163:0:163:5|Removing sequential instance rx_frame[4] (in view: work.cm_demux(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"p:\libero\neuromini_golden\hdl\cm_demux.v":163:0:163:5|Removing sequential instance rx_frame[5] (in view: work.cm_demux(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"p:\libero\neuromini_golden\hdl\cm_demux.v":163:0:163:5|Removing sequential instance rx_frame[6] (in view: work.cm_demux(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"p:\libero\neuromini_golden\hdl\cm_demux.v":163:0:163:5|Removing sequential instance rx_frame[7] (in view: work.cm_demux(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 144MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 56MB peak: 144MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Jun 25 19:52:12 2018
+
+###########################################################]
+Map & Optimize Report
+
+# Mon Jun 25 19:52:13 2018
+
+Synopsys Generic Technology Mapper, Version map201609actrcp1, Build 005R, Built Jan 25 2017 01:01:33
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-2
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 101MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 135MB peak: 137MB)
+
+@N: MO111 :"p:\libero\neuromini_golden\component\work\neuromini\osc_0\neuromini_osc_0_osc.v":20:7:20:16|Tristate driver XTLOSC_O2F (in view: work.NeuroMini_OSC_0_OSC(verilog)) on net XTLOSC_O2F (in view: work.NeuroMini_OSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"p:\libero\neuromini_golden\component\work\neuromini\osc_0\neuromini_osc_0_osc.v":18:7:18:20|Tristate driver RCOSC_1MHZ_O2F (in view: work.NeuroMini_OSC_0_OSC(verilog)) on net RCOSC_1MHZ_O2F (in view: work.NeuroMini_OSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"p:\libero\neuromini_golden\component\work\neuromini\osc_0\neuromini_osc_0_osc.v":17:7:17:20|Tristate driver RCOSC_1MHZ_CCC (in view: work.NeuroMini_OSC_0_OSC(verilog)) on net RCOSC_1MHZ_CCC (in view: work.NeuroMini_OSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"p:\libero\neuromini_golden\component\work\neuromini\osc_0\neuromini_osc_0_osc.v":16:7:16:24|Tristate driver RCOSC_25_50MHZ_O2F (in view: work.NeuroMini_OSC_0_OSC(verilog)) on net RCOSC_25_50MHZ_O2F (in view: work.NeuroMini_OSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"p:\libero\neuromini_golden\component\work\neuromini\osc_0\neuromini_osc_0_osc.v":15:7:15:24|Tristate driver RCOSC_25_50MHZ_CCC (in view: work.NeuroMini_OSC_0_OSC(verilog)) on net RCOSC_25_50MHZ_CCC (in view: work.NeuroMini_OSC_0_OSC(verilog)) has its enable tied to GND.
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: BN362 :"p:\libero\neuromini_golden\hdl\am.v":54:1:54:6|Removing sequential instance nm_onoff[1:0] (in view: work.am(verilog)) of type view:PrimLib.sdffs(prim) because it does not drive other instances.
+@N: BN362 :"p:\libero\neuromini_golden\hdl\am.v":54:1:54:6|Removing sequential instance nm_isPSwitch (in view: work.am(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :"p:\libero\neuromini_golden\hdl\am.v":133:1:133:6|Removing sequential instance nm_switch[1:0] (in view: work.am(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+Encoding state machine state[2:0] (in view: work.cm_demux(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+@N: BN362 :"p:\libero\neuromini_golden\hdl\cm_demux.v":163:0:163:5|Removing sequential instance rx_data[4] (in view: work.cm_demux(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"p:\libero\neuromini_golden\hdl\cm_demux.v":163:0:163:5|Removing sequential instance rx_data[5] (in view: work.cm_demux(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"p:\libero\neuromini_golden\hdl\cm_demux.v":163:0:163:5|Removing sequential instance rx_data[6] (in view: work.cm_demux(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"p:\libero\neuromini_golden\hdl\cm_demux.v":163:0:163:5|Removing sequential instance rx_data[7] (in view: work.cm_demux(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"p:\libero\neuromini_golden\hdl\cm_demux.v":163:0:163:5|Removing sequential instance rx_frame[4] (in view: work.cm_demux(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"p:\libero\neuromini_golden\hdl\cm_demux.v":163:0:163:5|Removing sequential instance rx_frame[5] (in view: work.cm_demux(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"p:\libero\neuromini_golden\hdl\cm_demux.v":163:0:163:5|Removing sequential instance rx_frame[6] (in view: work.cm_demux(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"p:\libero\neuromini_golden\hdl\cm_demux.v":163:0:163:5|Removing sequential instance rx_frame[7] (in view: work.cm_demux(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: MO230 :"p:\libero\neuromini_golden\component\work\adcfifo\adcfifo_0\rtl\vlog\core\corefifo_sync_scntr.v":281:4:281:9|Found up-down counter in view:work.nm_channel(verilog) instance adcfifo.ADCFIFO_0.genblk15\.fifo_corefifo_sync_scntr.sc_r[10:0]  
+@N: MO231 :"p:\libero\neuromini_golden\component\work\adcfifo\adcfifo_0\rtl\vlog\core\corefifo_sync_scntr.v":536:3:536:8|Found counter in view:work.nm_channel(verilog) instance adcfifo.ADCFIFO_0.genblk15\.fifo_corefifo_sync_scntr.memraddr_r[9:0] 
+@N: MO231 :"p:\libero\neuromini_golden\component\work\adcfifo\adcfifo_0\rtl\vlog\core\corefifo_sync_scntr.v":524:3:524:8|Found counter in view:work.nm_channel(verilog) instance adcfifo.ADCFIFO_0.genblk15\.fifo_corefifo_sync_scntr.memwaddr_r[9:0] 
+@N: MO231 :"p:\libero\neuromini_golden\component\work\ackfifo\ackfifo_0\rtl\vlog\core\corefifo_sync_scntr.v":536:3:536:8|Found counter in view:work.nm_channel(verilog) instance ackfifo.ACKFIFO_0.genblk15\.fifo_corefifo_sync_scntr.memraddr_r[5:0] 
+@N: MO231 :"p:\libero\neuromini_golden\component\work\ackfifo\ackfifo_0\rtl\vlog\core\corefifo_sync_scntr.v":524:3:524:8|Found counter in view:work.nm_channel(verilog) instance ackfifo.ACKFIFO_0.genblk15\.fifo_corefifo_sync_scntr.memwaddr_r[5:0] 
+@N: MO231 :"p:\libero\neuromini_golden\hdl\nmic_rx.v":52:0:52:5|Found counter in view:work.nmic_rx(verilog) instance bitCt[10:0] 
+Encoding state machine state[2:0] (in view: work.nmic_tx(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+@N: MO231 :"p:\libero\neuromini_golden\hdl\am.v":54:1:54:6|Found counter in view:work.am(verilog) instance training_cntr[12:0] 
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 147MB peak: 148MB)
+
+@N: BN362 :"p:\libero\neuromini_golden\hdl\am.v":133:1:133:6|Removing sequential instance cmam_if_wrap_0.cmam_if.am_if.a2n_data[1] (in view: work.NeuroMini(verilog)) because it does not drive other instances.
+@A: BN291 :"p:\libero\neuromini_golden\hdl\am.v":133:1:133:6|Boundary register cmam_if_wrap_0.cmam_if.am_if.a2n_data[1] (in view: work.NeuroMini(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 145MB peak: 149MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 151MB peak: 162MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 151MB peak: 162MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 151MB peak: 162MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 151MB peak: 162MB)
+
+@N: BN362 :"p:\libero\neuromini_golden\hdl\am.v":133:1:133:6|Removing sequential instance cmam_if_wrap_0.cmam_if.am_if.a2n_valid[1] (in view: work.NeuroMini(verilog)) because it does not drive other instances.
+@A: BN291 :"p:\libero\neuromini_golden\hdl\am.v":133:1:133:6|Boundary register cmam_if_wrap_0.cmam_if.am_if.a2n_valid[1] (in view: work.NeuroMini(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"p:\libero\neuromini_golden\hdl\am.v":54:1:54:6|Removing sequential instance cmam_if_wrap_0.cmam_if.am_if.nm_rst_flag[1] (in view: work.NeuroMini(verilog)) because it does not drive other instances.
+
+Finished preparing to map (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 151MB peak: 162MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 181MB peak: 185MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:02s		    -4.35ns		1940 /       979
+   2		0h:00m:02s		    -4.35ns		1797 /       979
+   3		0h:00m:02s		    -4.35ns		1797 /       979
+   4		0h:00m:02s		    -4.35ns		1797 /       979
+
+   5		0h:00m:02s		    -4.10ns		1809 /       979
+   6		0h:00m:03s		    -3.63ns		1812 /       979
+   7		0h:00m:03s		    -3.45ns		1819 /       979
+   8		0h:00m:03s		    -3.45ns		1820 /       979
+
+
+   9		0h:00m:03s		    -3.45ns		1817 /       979
+  10		0h:00m:03s		    -3.45ns		1818 /       979
+@N: FP130 |Promoting Net Mario_Libero_MSS_0_MSS_RESET_N_M2F on CLKINT  I_638 
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 188MB peak: 190MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 190MB peak: 190MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 1000 clock pin(s) of sequential element(s)
+0 instances converted, 1000 sequential instances remain driven by gated/generated clocks
+
+======================================================================= Gated/Generated Clocks =======================================================================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance                    Explanation                                                
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       FCCC_0.CCC_INST     CCC                    1000       NeuroMini_MSS_0.MSS_ADLIB_INST     No gated clock conversion method for cell cell:work.MSS_025
+======================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 157MB peak: 191MB)
+
+Writing Analyst data base P:\Libero\NeuroMini_golden\synthesis\synwork\NeuroMini_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 188MB peak: 191MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: P:\Libero\NeuroMini_golden\synthesis\NeuroMini.edn
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+L-2016.09M-2
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 189MB peak: 192MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 188MB peak: 192MB)
+
+@W: MT246 :"p:\libero\neuromini_golden\component\work\neuromini\osc_0\neuromini_osc_0_osc.v":23:47:23:54|Blackbox XTLOSC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT246 :"p:\libero\neuromini_golden\component\work\neuromini\fccc_0\neuromini_fccc_0_fccc.v":20:36:20:43|Blackbox CCC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT420 |Found inferred clock NeuroMini_FCCC_0_FCCC|GL0_net_inferred_clock with period 10.00ns. Please declare a user-defined clock on object "n:FCCC_0.GL0_net"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Mon Jun 25 19:52:18 2018
+#
+
+
+Top view:               NeuroMini
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -2.697
+
+                                                 Requested     Estimated     Requested     Estimated                Clock        Clock              
+Starting Clock                                   Frequency     Frequency     Period        Period        Slack      Type         Group              
+----------------------------------------------------------------------------------------------------------------------------------------------------
+NeuroMini_FCCC_0_FCCC|GL0_net_inferred_clock     100.0 MHz     65.0 MHz      10.000        15.394        -2.697     inferred     Inferred_clkgroup_0
+System                                           100.0 MHz     895.2 MHz     10.000        1.117         8.883      system       system_clkgroup    
+====================================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                      |    rise  to  rise    |    fall  to  fall   |    rise  to  fall    |    fall  to  rise 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                      Ending                                        |  constraint  slack   |  constraint  slack  |  constraint  slack   |  constraint  slack
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                        System                                        |  10.000      8.883   |  No paths    -      |  No paths    -       |  No paths    -    
+NeuroMini_FCCC_0_FCCC|GL0_net_inferred_clock  NeuroMini_FCCC_0_FCCC|GL0_net_inferred_clock  |  10.000      -1.382  |  10.000      4.614  |  5.000       -2.697  |  5.000       0.548
+====================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: NeuroMini_FCCC_0_FCCC|GL0_net_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                     Starting                                                                           Arrival           
+Instance                                             Reference                                        Type     Pin     Net              Time        Slack 
+                                                     Clock                                                                                                
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.cm_tx_ctr[1]     NeuroMini_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       cm_tx_ctr[1]     0.108       -2.697
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.cm_tx_ctr[0]     NeuroMini_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       cm_tx_ctr[0]     0.108       -2.673
+cmam_if_wrap_0.cmam_if.nif.rst_data[1]               NeuroMini_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       rst_data[1]      0.108       -2.496
+cmam_if_wrap_0.cmam_if.nif.rst_data[0]               NeuroMini_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       rst_data[0]      0.108       -2.396
+cmam_if_wrap_0.cmam_if.nif.rst_data[6]               NeuroMini_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       rst_data[6]      0.108       -2.337
+cmam_if_wrap_0.cmam_if.nif.rst_data[4]               NeuroMini_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       rst_data[4]      0.108       -2.237
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.cm_tx_ctr[2]     NeuroMini_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       cm_tx_ctr[2]     0.108       -2.216
+cmam_if_wrap_0.cmam_if.nif.rst_data[2]               NeuroMini_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       rst_data[2]      0.087       -2.177
+cmam_if_wrap_0.cmam_if.nif.nmc2.ntx.a2n_data         NeuroMini_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       cm_txd[2]        0.087       -2.134
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.cm_tx_ctr[3]     NeuroMini_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       cm_tx_ctr[3]     0.108       -2.089
+==========================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                  Starting                                                                      Required           
+Instance                                          Reference                                        Type     Pin     Net         Time         Slack 
+                                                  Clock                                                                                            
+---------------------------------------------------------------------------------------------------------------------------------------------------
+cmam_if_wrap_0.cmam_if.am_if.training_cntr[0]     NeuroMini_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      SLn     N_833_i     4.662        -2.697
+cmam_if_wrap_0.cmam_if.am_if.training_cntr[1]     NeuroMini_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      SLn     N_833_i     4.662        -2.697
+cmam_if_wrap_0.cmam_if.am_if.training_cntr[2]     NeuroMini_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      SLn     N_833_i     4.662        -2.697
+cmam_if_wrap_0.cmam_if.am_if.training_cntr[3]     NeuroMini_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      SLn     N_833_i     4.662        -2.697
+cmam_if_wrap_0.cmam_if.am_if.training_cntr[4]     NeuroMini_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      SLn     N_833_i     4.662        -2.697
+cmam_if_wrap_0.cmam_if.am_if.training_cntr[5]     NeuroMini_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      SLn     N_833_i     4.662        -2.697
+cmam_if_wrap_0.cmam_if.am_if.training_cntr[6]     NeuroMini_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      SLn     N_833_i     4.662        -2.697
+cmam_if_wrap_0.cmam_if.am_if.training_cntr[7]     NeuroMini_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      SLn     N_833_i     4.662        -2.697
+cmam_if_wrap_0.cmam_if.am_if.training_cntr[8]     NeuroMini_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      SLn     N_833_i     4.662        -2.697
+cmam_if_wrap_0.cmam_if.am_if.training_cntr[9]     NeuroMini_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      SLn     N_833_i     4.662        -2.697
+===================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.338
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.662
+
+    - Propagation time:                      7.360
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -2.697
+
+    Number of logic level(s):                7
+    Starting point:                          cmam_if_wrap_0.cmam_if.nif.cmd_inst.cm_tx_ctr[1] / Q
+    Ending point:                            cmam_if_wrap_0.cmam_if.am_if.training_cntr[0] / SLn
+    The start point is clocked by            NeuroMini_FCCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            NeuroMini_FCCC_0_FCCC|GL0_net_inferred_clock [falling] on pin CLK
+
+Instance / Net                                                               Pin      Pin               Arrival     No. of    
+Name                                                                Type     Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------------------
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.cm_tx_ctr[1]                    SLE      Q        Out     0.108     0.108       -         
+cm_tx_ctr[1]                                                        Net      -        -       1.095     -           21        
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.c2a_data_iv_0_m2_0_1_0_wmux     ARI1     B        In      -         1.204       -         
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.c2a_data_iv_0_m2_0_1_0_wmux     ARI1     Y        Out     0.165     1.368       -         
+c2a_data_iv_0_m2_0_1_0_y0                                           Net      -        -       0.372     -           1         
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.c2a_data_iv_0_m2_0_1_wmux_0     ARI1     A        In      -         1.741       -         
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.c2a_data_iv_0_m2_0_1_wmux_0     ARI1     Y        Out     0.100     1.841       -         
+N_583                                                               Net      -        -       1.126     -           3         
+cmam_if_wrap_0.cmam_if.am_if.un1_reset_0_sqmuxa_1_i_o2_4_1_1_0      CFG4     D        In      -         2.967       -         
+cmam_if_wrap_0.cmam_if.am_if.un1_reset_0_sqmuxa_1_i_o2_4_1_1_0      CFG4     Y        Out     0.326     3.294       -         
+un1_reset_0_sqmuxa_1_i_o2_4_1_1_0                                   Net      -        -       0.556     -           1         
+cmam_if_wrap_0.cmam_if.am_if.un1_reset_0_sqmuxa_1_i_o2_4_1_1        CFG3     A        In      -         3.849       -         
+cmam_if_wrap_0.cmam_if.am_if.un1_reset_0_sqmuxa_1_i_o2_4_1_1        CFG3     Y        Out     0.100     3.949       -         
+un1_reset_0_sqmuxa_1_i_o2_4_1_0                                     Net      -        -       0.556     -           1         
+cmam_if_wrap_0.cmam_if.am_if.un1_reset_0_sqmuxa_1_i_o2_4_1          CFG4     C        In      -         4.505       -         
+cmam_if_wrap_0.cmam_if.am_if.un1_reset_0_sqmuxa_1_i_o2_4_1          CFG4     Y        Out     0.226     4.731       -         
+un1_reset_0_sqmuxa_1_i_o2_4_1                                       Net      -        -       0.630     -           2         
+cmam_if_wrap_0.cmam_if.am_if.un1_reset_0_sqmuxa_1_i_a2              CFG4     C        In      -         5.361       -         
+cmam_if_wrap_0.cmam_if.am_if.un1_reset_0_sqmuxa_1_i_a2              CFG4     Y        Out     0.223     5.584       -         
+N_833                                                               Net      -        -       0.630     -           2         
+cmam_if_wrap_0.cmam_if.am_if.un1_reset_0_sqmuxa_1_i_a2_RNIJDHC      CFG1     A        In      -         6.214       -         
+cmam_if_wrap_0.cmam_if.am_if.un1_reset_0_sqmuxa_1_i_a2_RNIJDHC      CFG1     Y        Out     0.100     6.314       -         
+N_833_i                                                             Net      -        -       1.045     -           13        
+cmam_if_wrap_0.cmam_if.am_if.training_cntr[0]                       SLE      SLn      In      -         7.360       -         
+==============================================================================================================================
+Total path delay (propagation time + setup) of 7.697 is 1.686(21.9%) logic and 6.011(78.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      5.000
+    - Setup time:                            0.338
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.662
+
+    - Propagation time:                      7.360
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -2.697
+
+    Number of logic level(s):                7
+    Starting point:                          cmam_if_wrap_0.cmam_if.nif.cmd_inst.cm_tx_ctr[1] / Q
+    Ending point:                            cmam_if_wrap_0.cmam_if.am_if.training_cntr[12] / SLn
+    The start point is clocked by            NeuroMini_FCCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            NeuroMini_FCCC_0_FCCC|GL0_net_inferred_clock [falling] on pin CLK
+
+Instance / Net                                                               Pin      Pin               Arrival     No. of    
+Name                                                                Type     Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------------------
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.cm_tx_ctr[1]                    SLE      Q        Out     0.108     0.108       -         
+cm_tx_ctr[1]                                                        Net      -        -       1.095     -           21        
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.c2a_data_iv_0_m2_0_1_0_wmux     ARI1     B        In      -         1.204       -         
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.c2a_data_iv_0_m2_0_1_0_wmux     ARI1     Y        Out     0.165     1.368       -         
+c2a_data_iv_0_m2_0_1_0_y0                                           Net      -        -       0.372     -           1         
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.c2a_data_iv_0_m2_0_1_wmux_0     ARI1     A        In      -         1.741       -         
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.c2a_data_iv_0_m2_0_1_wmux_0     ARI1     Y        Out     0.100     1.841       -         
+N_583                                                               Net      -        -       1.126     -           3         
+cmam_if_wrap_0.cmam_if.am_if.un1_reset_0_sqmuxa_1_i_o2_4_1_1_0      CFG4     D        In      -         2.967       -         
+cmam_if_wrap_0.cmam_if.am_if.un1_reset_0_sqmuxa_1_i_o2_4_1_1_0      CFG4     Y        Out     0.326     3.294       -         
+un1_reset_0_sqmuxa_1_i_o2_4_1_1_0                                   Net      -        -       0.556     -           1         
+cmam_if_wrap_0.cmam_if.am_if.un1_reset_0_sqmuxa_1_i_o2_4_1_1        CFG3     A        In      -         3.849       -         
+cmam_if_wrap_0.cmam_if.am_if.un1_reset_0_sqmuxa_1_i_o2_4_1_1        CFG3     Y        Out     0.100     3.949       -         
+un1_reset_0_sqmuxa_1_i_o2_4_1_0                                     Net      -        -       0.556     -           1         
+cmam_if_wrap_0.cmam_if.am_if.un1_reset_0_sqmuxa_1_i_o2_4_1          CFG4     C        In      -         4.505       -         
+cmam_if_wrap_0.cmam_if.am_if.un1_reset_0_sqmuxa_1_i_o2_4_1          CFG4     Y        Out     0.226     4.731       -         
+un1_reset_0_sqmuxa_1_i_o2_4_1                                       Net      -        -       0.630     -           2         
+cmam_if_wrap_0.cmam_if.am_if.un1_reset_0_sqmuxa_1_i_a2              CFG4     C        In      -         5.361       -         
+cmam_if_wrap_0.cmam_if.am_if.un1_reset_0_sqmuxa_1_i_a2              CFG4     Y        Out     0.223     5.584       -         
+N_833                                                               Net      -        -       0.630     -           2         
+cmam_if_wrap_0.cmam_if.am_if.un1_reset_0_sqmuxa_1_i_a2_RNIJDHC      CFG1     A        In      -         6.214       -         
+cmam_if_wrap_0.cmam_if.am_if.un1_reset_0_sqmuxa_1_i_a2_RNIJDHC      CFG1     Y        Out     0.100     6.314       -         
+N_833_i                                                             Net      -        -       1.045     -           13        
+cmam_if_wrap_0.cmam_if.am_if.training_cntr[12]                      SLE      SLn      In      -         7.360       -         
+==============================================================================================================================
+Total path delay (propagation time + setup) of 7.697 is 1.686(21.9%) logic and 6.011(78.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      5.000
+    - Setup time:                            0.338
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.662
+
+    - Propagation time:                      7.360
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -2.697
+
+    Number of logic level(s):                7
+    Starting point:                          cmam_if_wrap_0.cmam_if.nif.cmd_inst.cm_tx_ctr[1] / Q
+    Ending point:                            cmam_if_wrap_0.cmam_if.am_if.training_cntr[11] / SLn
+    The start point is clocked by            NeuroMini_FCCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            NeuroMini_FCCC_0_FCCC|GL0_net_inferred_clock [falling] on pin CLK
+
+Instance / Net                                                               Pin      Pin               Arrival     No. of    
+Name                                                                Type     Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------------------
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.cm_tx_ctr[1]                    SLE      Q        Out     0.108     0.108       -         
+cm_tx_ctr[1]                                                        Net      -        -       1.095     -           21        
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.c2a_data_iv_0_m2_0_1_0_wmux     ARI1     B        In      -         1.204       -         
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.c2a_data_iv_0_m2_0_1_0_wmux     ARI1     Y        Out     0.165     1.368       -         
+c2a_data_iv_0_m2_0_1_0_y0                                           Net      -        -       0.372     -           1         
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.c2a_data_iv_0_m2_0_1_wmux_0     ARI1     A        In      -         1.741       -         
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.c2a_data_iv_0_m2_0_1_wmux_0     ARI1     Y        Out     0.100     1.841       -         
+N_583                                                               Net      -        -       1.126     -           3         
+cmam_if_wrap_0.cmam_if.am_if.un1_reset_0_sqmuxa_1_i_o2_4_1_1_0      CFG4     D        In      -         2.967       -         
+cmam_if_wrap_0.cmam_if.am_if.un1_reset_0_sqmuxa_1_i_o2_4_1_1_0      CFG4     Y        Out     0.326     3.294       -         
+un1_reset_0_sqmuxa_1_i_o2_4_1_1_0                                   Net      -        -       0.556     -           1         
+cmam_if_wrap_0.cmam_if.am_if.un1_reset_0_sqmuxa_1_i_o2_4_1_1        CFG3     A        In      -         3.849       -         
+cmam_if_wrap_0.cmam_if.am_if.un1_reset_0_sqmuxa_1_i_o2_4_1_1        CFG3     Y        Out     0.100     3.949       -         
+un1_reset_0_sqmuxa_1_i_o2_4_1_0                                     Net      -        -       0.556     -           1         
+cmam_if_wrap_0.cmam_if.am_if.un1_reset_0_sqmuxa_1_i_o2_4_1          CFG4     C        In      -         4.505       -         
+cmam_if_wrap_0.cmam_if.am_if.un1_reset_0_sqmuxa_1_i_o2_4_1          CFG4     Y        Out     0.226     4.731       -         
+un1_reset_0_sqmuxa_1_i_o2_4_1                                       Net      -        -       0.630     -           2         
+cmam_if_wrap_0.cmam_if.am_if.un1_reset_0_sqmuxa_1_i_a2              CFG4     C        In      -         5.361       -         
+cmam_if_wrap_0.cmam_if.am_if.un1_reset_0_sqmuxa_1_i_a2              CFG4     Y        Out     0.223     5.584       -         
+N_833                                                               Net      -        -       0.630     -           2         
+cmam_if_wrap_0.cmam_if.am_if.un1_reset_0_sqmuxa_1_i_a2_RNIJDHC      CFG1     A        In      -         6.214       -         
+cmam_if_wrap_0.cmam_if.am_if.un1_reset_0_sqmuxa_1_i_a2_RNIJDHC      CFG1     Y        Out     0.100     6.314       -         
+N_833_i                                                             Net      -        -       1.045     -           13        
+cmam_if_wrap_0.cmam_if.am_if.training_cntr[11]                      SLE      SLn      In      -         7.360       -         
+==============================================================================================================================
+Total path delay (propagation time + setup) of 7.697 is 1.686(21.9%) logic and 6.011(78.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      5.000
+    - Setup time:                            0.338
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.662
+
+    - Propagation time:                      7.360
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -2.697
+
+    Number of logic level(s):                7
+    Starting point:                          cmam_if_wrap_0.cmam_if.nif.cmd_inst.cm_tx_ctr[1] / Q
+    Ending point:                            cmam_if_wrap_0.cmam_if.am_if.training_cntr[10] / SLn
+    The start point is clocked by            NeuroMini_FCCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            NeuroMini_FCCC_0_FCCC|GL0_net_inferred_clock [falling] on pin CLK
+
+Instance / Net                                                               Pin      Pin               Arrival     No. of    
+Name                                                                Type     Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------------------
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.cm_tx_ctr[1]                    SLE      Q        Out     0.108     0.108       -         
+cm_tx_ctr[1]                                                        Net      -        -       1.095     -           21        
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.c2a_data_iv_0_m2_0_1_0_wmux     ARI1     B        In      -         1.204       -         
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.c2a_data_iv_0_m2_0_1_0_wmux     ARI1     Y        Out     0.165     1.368       -         
+c2a_data_iv_0_m2_0_1_0_y0                                           Net      -        -       0.372     -           1         
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.c2a_data_iv_0_m2_0_1_wmux_0     ARI1     A        In      -         1.741       -         
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.c2a_data_iv_0_m2_0_1_wmux_0     ARI1     Y        Out     0.100     1.841       -         
+N_583                                                               Net      -        -       1.126     -           3         
+cmam_if_wrap_0.cmam_if.am_if.un1_reset_0_sqmuxa_1_i_o2_4_1_1_0      CFG4     D        In      -         2.967       -         
+cmam_if_wrap_0.cmam_if.am_if.un1_reset_0_sqmuxa_1_i_o2_4_1_1_0      CFG4     Y        Out     0.326     3.294       -         
+un1_reset_0_sqmuxa_1_i_o2_4_1_1_0                                   Net      -        -       0.556     -           1         
+cmam_if_wrap_0.cmam_if.am_if.un1_reset_0_sqmuxa_1_i_o2_4_1_1        CFG3     A        In      -         3.849       -         
+cmam_if_wrap_0.cmam_if.am_if.un1_reset_0_sqmuxa_1_i_o2_4_1_1        CFG3     Y        Out     0.100     3.949       -         
+un1_reset_0_sqmuxa_1_i_o2_4_1_0                                     Net      -        -       0.556     -           1         
+cmam_if_wrap_0.cmam_if.am_if.un1_reset_0_sqmuxa_1_i_o2_4_1          CFG4     C        In      -         4.505       -         
+cmam_if_wrap_0.cmam_if.am_if.un1_reset_0_sqmuxa_1_i_o2_4_1          CFG4     Y        Out     0.226     4.731       -         
+un1_reset_0_sqmuxa_1_i_o2_4_1                                       Net      -        -       0.630     -           2         
+cmam_if_wrap_0.cmam_if.am_if.un1_reset_0_sqmuxa_1_i_a2              CFG4     C        In      -         5.361       -         
+cmam_if_wrap_0.cmam_if.am_if.un1_reset_0_sqmuxa_1_i_a2              CFG4     Y        Out     0.223     5.584       -         
+N_833                                                               Net      -        -       0.630     -           2         
+cmam_if_wrap_0.cmam_if.am_if.un1_reset_0_sqmuxa_1_i_a2_RNIJDHC      CFG1     A        In      -         6.214       -         
+cmam_if_wrap_0.cmam_if.am_if.un1_reset_0_sqmuxa_1_i_a2_RNIJDHC      CFG1     Y        Out     0.100     6.314       -         
+N_833_i                                                             Net      -        -       1.045     -           13        
+cmam_if_wrap_0.cmam_if.am_if.training_cntr[10]                      SLE      SLn      In      -         7.360       -         
+==============================================================================================================================
+Total path delay (propagation time + setup) of 7.697 is 1.686(21.9%) logic and 6.011(78.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      5.000
+    - Setup time:                            0.338
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.662
+
+    - Propagation time:                      7.360
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -2.697
+
+    Number of logic level(s):                7
+    Starting point:                          cmam_if_wrap_0.cmam_if.nif.cmd_inst.cm_tx_ctr[1] / Q
+    Ending point:                            cmam_if_wrap_0.cmam_if.am_if.training_cntr[9] / SLn
+    The start point is clocked by            NeuroMini_FCCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            NeuroMini_FCCC_0_FCCC|GL0_net_inferred_clock [falling] on pin CLK
+
+Instance / Net                                                               Pin      Pin               Arrival     No. of    
+Name                                                                Type     Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------------------
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.cm_tx_ctr[1]                    SLE      Q        Out     0.108     0.108       -         
+cm_tx_ctr[1]                                                        Net      -        -       1.095     -           21        
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.c2a_data_iv_0_m2_0_1_0_wmux     ARI1     B        In      -         1.204       -         
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.c2a_data_iv_0_m2_0_1_0_wmux     ARI1     Y        Out     0.165     1.368       -         
+c2a_data_iv_0_m2_0_1_0_y0                                           Net      -        -       0.372     -           1         
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.c2a_data_iv_0_m2_0_1_wmux_0     ARI1     A        In      -         1.741       -         
+cmam_if_wrap_0.cmam_if.nif.cmd_inst.c2a_data_iv_0_m2_0_1_wmux_0     ARI1     Y        Out     0.100     1.841       -         
+N_583                                                               Net      -        -       1.126     -           3         
+cmam_if_wrap_0.cmam_if.am_if.un1_reset_0_sqmuxa_1_i_o2_4_1_1_0      CFG4     D        In      -         2.967       -         
+cmam_if_wrap_0.cmam_if.am_if.un1_reset_0_sqmuxa_1_i_o2_4_1_1_0      CFG4     Y        Out     0.326     3.294       -         
+un1_reset_0_sqmuxa_1_i_o2_4_1_1_0                                   Net      -        -       0.556     -           1         
+cmam_if_wrap_0.cmam_if.am_if.un1_reset_0_sqmuxa_1_i_o2_4_1_1        CFG3     A        In      -         3.849       -         
+cmam_if_wrap_0.cmam_if.am_if.un1_reset_0_sqmuxa_1_i_o2_4_1_1        CFG3     Y        Out     0.100     3.949       -         
+un1_reset_0_sqmuxa_1_i_o2_4_1_0                                     Net      -        -       0.556     -           1         
+cmam_if_wrap_0.cmam_if.am_if.un1_reset_0_sqmuxa_1_i_o2_4_1          CFG4     C        In      -         4.505       -         
+cmam_if_wrap_0.cmam_if.am_if.un1_reset_0_sqmuxa_1_i_o2_4_1          CFG4     Y        Out     0.226     4.731       -         
+un1_reset_0_sqmuxa_1_i_o2_4_1                                       Net      -        -       0.630     -           2         
+cmam_if_wrap_0.cmam_if.am_if.un1_reset_0_sqmuxa_1_i_a2              CFG4     C        In      -         5.361       -         
+cmam_if_wrap_0.cmam_if.am_if.un1_reset_0_sqmuxa_1_i_a2              CFG4     Y        Out     0.223     5.584       -         
+N_833                                                               Net      -        -       0.630     -           2         
+cmam_if_wrap_0.cmam_if.am_if.un1_reset_0_sqmuxa_1_i_a2_RNIJDHC      CFG1     A        In      -         6.214       -         
+cmam_if_wrap_0.cmam_if.am_if.un1_reset_0_sqmuxa_1_i_a2_RNIJDHC      CFG1     Y        Out     0.100     6.314       -         
+N_833_i                                                             Net      -        -       1.045     -           13        
+cmam_if_wrap_0.cmam_if.am_if.training_cntr[9]                       SLE      SLn      In      -         7.360       -         
+==============================================================================================================================
+Total path delay (propagation time + setup) of 7.697 is 1.686(21.9%) logic and 6.011(78.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                   Starting                                                                Arrival          
+Instance           Reference     Type       Pin        Net                                 Time        Slack
+                   Clock                                                                                    
+------------------------------------------------------------------------------------------------------------
+OSC_0.I_XTLOSC     System        XTLOSC     CLKOUT     OSC_0_XTLOSC_CCC_OUT_XTLOSC_CCC     0.000       8.883
+============================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                    Starting                                                              Required          
+Instance            Reference     Type     Pin        Net                                 Time         Slack
+                    Clock                                                                                   
+------------------------------------------------------------------------------------------------------------
+FCCC_0.CCC_INST     System        CCC      XTLOSC     OSC_0_XTLOSC_CCC_OUT_XTLOSC_CCC     10.000       8.883
+============================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         10.000
+
+    - Propagation time:                      1.117
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 8.883
+
+    Number of logic level(s):                0
+    Starting point:                          OSC_0.I_XTLOSC / CLKOUT
+    Ending point:                            FCCC_0.CCC_INST / XTLOSC
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            System [rising]
+
+Instance / Net                                 Pin        Pin               Arrival     No. of    
+Name                                Type       Name       Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------
+OSC_0.I_XTLOSC                      XTLOSC     CLKOUT     Out     0.000     0.000       -         
+OSC_0_XTLOSC_CCC_OUT_XTLOSC_CCC     Net        -          -       1.117     -           1         
+FCCC_0.CCC_INST                     CCC        XTLOSC     In      -         1.117       -         
+==================================================================================================
+Total path delay (propagation time + setup) of 1.117 is 0.000(0.0%) logic and 1.117(100.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 188MB peak: 192MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 188MB peak: 192MB)
+
+---------------------------------------
+Resource Usage Report for NeuroMini 
+
+Mapping to part: m2s025fcsbga325std
+Cell usage:
+CCC             1 use
+CLKINT          2 uses
+INV             1 use
+MSS_025         1 use
+XTLOSC          1 use
+CFG1           24 uses
+CFG2           231 uses
+CFG3           512 uses
+CFG4           744 uses
+
+Carry cells:
+ARI1            285 uses - used for arithmetic functions
+ARI1            18 uses - used for Wide-Mux implementation
+Total ARI1      303 uses
+
+
+Sequential Cells: 
+SLE            979 uses
+
+DSP Blocks:    0 of 34 (0%)
+
+I/O ports: 20
+I/O primitives: 19
+BIBUF          2 uses
+INBUF          3 uses
+OUTBUF         13 uses
+TRIBUFF        1 use
+
+
+Global Clock Buffers: 2 of 8 (25%)
+
+
+RAM/ROM usage summary
+Total Block RAMs (RAM1K18) : 4 of 31 (12%)
+Total Block RAMs (RAM64x18) : 4 of 34 (11%)
+
+Total LUTs:    1814
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 144; LUTs = 144;
+RAM1K18  Interface Logic : SLEs = 144; LUTs = 144;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  979 + 144 + 144 + 0 = 1267;
+Total number of LUTs after P&R:  1814 + 144 + 144 + 0 = 2102;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 33MB peak: 192MB)
+
+Process took 0h:00m:06s realtime, 0h:00m:05s cputime
+# Mon Jun 25 19:52:19 2018
+
+###########################################################]

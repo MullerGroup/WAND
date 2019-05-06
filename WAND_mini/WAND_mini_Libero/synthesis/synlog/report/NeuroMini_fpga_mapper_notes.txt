@@ -1,0 +1,34 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MO111 :"p:\libero\neuromini_golden\component\work\neuromini\osc_0\neuromini_osc_0_osc.v":20:7:20:16|Tristate driver XTLOSC_O2F (in view: work.NeuroMini_OSC_0_OSC(verilog)) on net XTLOSC_O2F (in view: work.NeuroMini_OSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"p:\libero\neuromini_golden\component\work\neuromini\osc_0\neuromini_osc_0_osc.v":18:7:18:20|Tristate driver RCOSC_1MHZ_O2F (in view: work.NeuroMini_OSC_0_OSC(verilog)) on net RCOSC_1MHZ_O2F (in view: work.NeuroMini_OSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"p:\libero\neuromini_golden\component\work\neuromini\osc_0\neuromini_osc_0_osc.v":17:7:17:20|Tristate driver RCOSC_1MHZ_CCC (in view: work.NeuroMini_OSC_0_OSC(verilog)) on net RCOSC_1MHZ_CCC (in view: work.NeuroMini_OSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"p:\libero\neuromini_golden\component\work\neuromini\osc_0\neuromini_osc_0_osc.v":16:7:16:24|Tristate driver RCOSC_25_50MHZ_O2F (in view: work.NeuroMini_OSC_0_OSC(verilog)) on net RCOSC_25_50MHZ_O2F (in view: work.NeuroMini_OSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"p:\libero\neuromini_golden\component\work\neuromini\osc_0\neuromini_osc_0_osc.v":15:7:15:24|Tristate driver RCOSC_25_50MHZ_CCC (in view: work.NeuroMini_OSC_0_OSC(verilog)) on net RCOSC_25_50MHZ_CCC (in view: work.NeuroMini_OSC_0_OSC(verilog)) has its enable tied to GND.
+@N: BN362 :"p:\libero\neuromini_golden\hdl\am.v":54:1:54:6|Removing sequential instance nm_onoff[1:0] (in view: work.am(verilog)) of type view:PrimLib.sdffs(prim) because it does not drive other instances.
+@N: BN362 :"p:\libero\neuromini_golden\hdl\am.v":54:1:54:6|Removing sequential instance nm_isPSwitch (in view: work.am(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :"p:\libero\neuromini_golden\hdl\am.v":133:1:133:6|Removing sequential instance nm_switch[1:0] (in view: work.am(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :"p:\libero\neuromini_golden\hdl\cm_demux.v":163:0:163:5|Removing sequential instance rx_data[4] (in view: work.cm_demux(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"p:\libero\neuromini_golden\hdl\cm_demux.v":163:0:163:5|Removing sequential instance rx_data[5] (in view: work.cm_demux(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"p:\libero\neuromini_golden\hdl\cm_demux.v":163:0:163:5|Removing sequential instance rx_data[6] (in view: work.cm_demux(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"p:\libero\neuromini_golden\hdl\cm_demux.v":163:0:163:5|Removing sequential instance rx_data[7] (in view: work.cm_demux(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"p:\libero\neuromini_golden\hdl\cm_demux.v":163:0:163:5|Removing sequential instance rx_frame[4] (in view: work.cm_demux(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"p:\libero\neuromini_golden\hdl\cm_demux.v":163:0:163:5|Removing sequential instance rx_frame[5] (in view: work.cm_demux(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"p:\libero\neuromini_golden\hdl\cm_demux.v":163:0:163:5|Removing sequential instance rx_frame[6] (in view: work.cm_demux(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"p:\libero\neuromini_golden\hdl\cm_demux.v":163:0:163:5|Removing sequential instance rx_frame[7] (in view: work.cm_demux(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: MO230 :"p:\libero\neuromini_golden\component\work\adcfifo\adcfifo_0\rtl\vlog\core\corefifo_sync_scntr.v":281:4:281:9|Found up-down counter in view:work.nm_channel(verilog) instance adcfifo.ADCFIFO_0.genblk15\.fifo_corefifo_sync_scntr.sc_r[10:0]  
+@N: MO231 :"p:\libero\neuromini_golden\component\work\adcfifo\adcfifo_0\rtl\vlog\core\corefifo_sync_scntr.v":536:3:536:8|Found counter in view:work.nm_channel(verilog) instance adcfifo.ADCFIFO_0.genblk15\.fifo_corefifo_sync_scntr.memraddr_r[9:0] 
+@N: MO231 :"p:\libero\neuromini_golden\component\work\adcfifo\adcfifo_0\rtl\vlog\core\corefifo_sync_scntr.v":524:3:524:8|Found counter in view:work.nm_channel(verilog) instance adcfifo.ADCFIFO_0.genblk15\.fifo_corefifo_sync_scntr.memwaddr_r[9:0] 
+@N: MO231 :"p:\libero\neuromini_golden\component\work\ackfifo\ackfifo_0\rtl\vlog\core\corefifo_sync_scntr.v":536:3:536:8|Found counter in view:work.nm_channel(verilog) instance ackfifo.ACKFIFO_0.genblk15\.fifo_corefifo_sync_scntr.memraddr_r[5:0] 
+@N: MO231 :"p:\libero\neuromini_golden\component\work\ackfifo\ackfifo_0\rtl\vlog\core\corefifo_sync_scntr.v":524:3:524:8|Found counter in view:work.nm_channel(verilog) instance ackfifo.ACKFIFO_0.genblk15\.fifo_corefifo_sync_scntr.memwaddr_r[5:0] 
+@N: MO231 :"p:\libero\neuromini_golden\hdl\nmic_rx.v":52:0:52:5|Found counter in view:work.nmic_rx(verilog) instance bitCt[10:0] 
+@N: MO231 :"p:\libero\neuromini_golden\hdl\am.v":54:1:54:6|Found counter in view:work.am(verilog) instance training_cntr[12:0] 
+@N: BN362 :"p:\libero\neuromini_golden\hdl\am.v":133:1:133:6|Removing sequential instance cmam_if_wrap_0.cmam_if.am_if.a2n_data[1] (in view: work.NeuroMini(verilog)) because it does not drive other instances.
+@N: BN362 :"p:\libero\neuromini_golden\hdl\am.v":133:1:133:6|Removing sequential instance cmam_if_wrap_0.cmam_if.am_if.a2n_valid[1] (in view: work.NeuroMini(verilog)) because it does not drive other instances.
+@N: BN362 :"p:\libero\neuromini_golden\hdl\am.v":54:1:54:6|Removing sequential instance cmam_if_wrap_0.cmam_if.am_if.nm_rst_flag[1] (in view: work.NeuroMini(verilog)) because it does not drive other instances.
+@N: FP130 |Promoting Net Mario_Libero_MSS_0_MSS_RESET_N_M2F on CLKINT  I_638 
+@N: FX1056 |Writing EDF file: P:\Libero\NeuroMini_golden\synthesis\NeuroMini.edn
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

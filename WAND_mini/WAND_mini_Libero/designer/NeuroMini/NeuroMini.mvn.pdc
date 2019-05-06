@@ -1,0 +1,60 @@
+# Microsemi Physical design constraints file
+
+# Version: v11.8 SP3 11.8.3.6
+
+# Design Name:  
+
+# Input Netlist Format: EDIF 
+
+# Family: SmartFusion2 , Die: M2S025 , Package: 325 FCSBGA , Speed grade: STD 
+
+# Date generated: Mon Jun 25 19:52:30 2018 
+
+
+#
+# IO banks setting
+#
+
+set_iobank Bank1 -vcci 1.80 -fixed no
+set_iobank Bank2 -vcci 1.80 -fixed no
+set_iobank Bank7 -vcci 1.20 -fixed no
+
+#
+# Local clock constraints
+#
+
+
+#
+# Region constraints
+#
+
+
+#
+# I/O constraints
+#
+
+set_io C2N_DATA -DIRECTION OUTPUT -iostd LVCMOS12 -pinname F19 -fixed yes
+set_io C2N_VALID -DIRECTION OUTPUT -iostd LVCMOS12 -pinname E18 -fixed yes
+set_io GPIO0 -DIRECTION OUTPUT -pinname Y1 -fixed yes
+set_io GPIO0_R -DIRECTION OUTPUT -pinname G1 -fixed yes
+set_io GPIO1 -DIRECTION OUTPUT -pinname AA2 -fixed yes
+set_io GPIO1_R -DIRECTION OUTPUT -pinname G2 -fixed yes
+set_io GPIO2 -DIRECTION OUTPUT -pinname T3 -fixed yes
+set_io GPIO2_R -DIRECTION OUTPUT -pinname F2 -fixed yes
+set_io GPIO3 -DIRECTION OUTPUT -pinname U4 -fixed yes
+set_io GPIO3_R -DIRECTION OUTPUT -pinname F1 -fixed yes
+set_io GPIO4 -DIRECTION OUTPUT -pinname Y2 -fixed yes
+set_io MMUART_RXD -DIRECTION INPUT -pinname D1 -fixed yes
+set_io MMUART_TXD -DIRECTION OUTPUT -pinname E1 -fixed yes
+set_io N2C_DATA -DIRECTION INPUT -iostd LVCMOS12 -pinname F20 -fixed yes
+set_io NM_CLK -DIRECTION OUTPUT -pinname W1 -fixed yes
+set_io SPI_0_CLK -DIRECTION INOUT -pinname U2 -fixed yes
+set_io SPI_0_DI -DIRECTION INPUT -pinname U1 -fixed yes
+set_io SPI_0_DO -DIRECTION OUTPUT -pinname P4 -fixed yes
+set_io SPI_0_SS0 -DIRECTION INOUT -pinname P5 -fixed yes
+set_io XTL -DIRECTION INPUT -pinname AA4
+
+#
+# Core cell constraints
+#
+

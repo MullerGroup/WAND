@@ -1,0 +1,9 @@
+KEY IDE_DES_TOOL "Ide"
+KEY IDE_DES_ADB_PATH "C:\Users\flb\Desktop\NeuroMini_golden\designer\impl1\Mario_Libero.adb"
+LIST SOURCE_FILES
+ENDLIST
+LIST OPTIONAL_FILES
+VALUE "C:\Users\flb\Desktop\NeuroMini_golden\synthesis\Mario_Libero_sdc.sdc;Skipped"
+ENDLIST
+LIST VCD_FILES
+ENDLIST

@@ -1,0 +1,307 @@
+Software Version: 11.8.3.6
+creating folder: P:\fred\OMNI\Libero\mario_laptop_sf2_newarch\Mario_SF2_noam\z
+Driver : 3.0.0 build 1
+programmer '94784' : FlashPro4
+Created new project 'P:\fred\OMNI\Libero\mario_laptop_sf2_newarch\Mario_SF2_noam\z\x.pro'
+Error: PDB Configuration is not enabled for this device.
+programmer '94784' : Scan Chain...
+programmer '94784' : Scan Chain PASSED.
+FlashPro has set the Pre IR to 0 and the Post IR to 0 according to the device you have selected.
+Project closed.
+Software Version: 11.8.3.6
+Driver : 3.0.0 build 1
+programmer '94784' : FlashPro4
+Opened
+'C:\Users\flb.EECS\Desktop\mario_laptop_sf2_newarch\Mario_SF2_noam\designer\Mario_Libero\Mario_\
+Libero_fp\Mario_Libero.pro'
+Error: Use SmartDebug application to debug this device.
+Warning: The current chain is not empty. Construct Chain Automatically will need to remove all
+         devices of the current chain first, so all current chain settings will be lost.
+         Do you want to proceed? [YES]
+Construct Chain...
+programmer '94784' : Scan Chain...
+programmer '94784' : Scan Chain PASSED.
+Construct Chain PASSED.
+Error: No programming file loaded for device 'M2S/M2GL060(T|TS)'. Please load a programming
+       file.
+Error: No programming file loaded for device 'M2S/M2GL060(T|TS)'. Please load a programming
+       file.
+Error: Failed to run Action.
+Software Version: 11.8.3.6
+Driver : 3.0.0 build 1
+programmer '94784' : FlashPro4
+Opened
+'C:\Users\flb.EECS\Desktop\mario_laptop_sf2_newarch\Mario_SF2_noam\designer\Mario_Libero\Mario_\
+Libero_fp\Mario_Libero.pro'
+The 'open_project' command succeeded.
+IPD file
+'C:/Users/flb.EECS/Desktop/mario_laptop_sf2_newarch/Mario_SF2_noam/designer/Mario_Libero/Mario_\
+Libero.ipd' has been loaded successfully.
+DESIGN : Mario_Libero;  CHECKSUM : 6439;  PDB_VERSION : 1.9
+The 'set_programming_file' command succeeded.
+Warning: Programming is already enabled for device 'M2S060T'.
+The 'enable_device' command succeeded.
+The 'set_programming_action' command succeeded.
+programmer '94784' : Scan Chain...
+programmer '94784' : Check Chain...
+programmer '94784' : Scan and Check Chain PASSED.
+programmer '94784' : device 'M2S060T' : Executing action PROGRAM
+programmer '94784' : device 'M2S060T' : EXPORT ISC_ENABLE_RESULT[32] = 005d6624
+programmer '94784' : device 'M2S060T' : EXPORT CRCERR[1] = 0
+programmer '94784' : device 'M2S060T' : EXPORT EDCERR[1] = 0
+programmer '94784' : device 'M2S060T' : Programming FPGA Array and eNVM...
+programmer '94784' : device 'M2S060T' :
+===================================================================================
+programmer '94784' : device 'M2S060T' : EXPORT DSN[128] = 728cc47a08077a1de1a67f5f114827de
+programmer '94784' : device 'M2S060T' :
+===================================================================================
+programmer '94784' : device 'M2S060T' : Finished: Fri Apr 20 18:08:41 2018 (Elapsed time
+00:01:07)
+programmer '94784' : device 'M2S060T' : Executing action PROGRAM PASSED.
+programmer '94784' : Chain programming PASSED.
+Chain Programming Finished: Fri Apr 20 18:08:41 2018 (Elapsed time 00:01:07)
+
+                        o - o - o - o - o - o
+
+The 'run_selected_actions' command succeeded.
+The 'set_programming_file' command succeeded.
+Project saved.
+The 'save_project' command succeeded.
+Project closed.
+The 'close_project' command succeeded.
+The Execute Script command succeeded.
+Error: Project
+       'C:\Users\subnets\Desktop\Mario_SF2\Mario_SF2\designer\Mario_Libero\Mario_Libero_fp\Mari\
+       o_Libero.pro' doesn't exist.
+Error: The command 'open_project' failed.
+Error: Failure when executing Tcl script. [ Line 1 ]
+Error: The Execute Script command failed.
+Software Version: 11.8.3.6
+Driver : 3.0.0 build 1
+programmer '94784' : FlashPro4
+Warning: The programmer with id '94847' in the project file cannot be detected and connected.
+Opened
+'P:\fred\OMNI\Libero\Mario-CM_Flex-EMG_golden\Mario_SF2\designer\Mario_Libero\Mario_Libero_fp\M\
+ario_Libero.pro'
+The 'open_project' command succeeded.
+IPD file
+'P:/fred/OMNI/Libero/Mario-CM_Flex-EMG_golden/Mario_SF2/designer/Mario_Libero/Mario_Libero.ipd'
+has been loaded successfully.
+DESIGN : Mario_Libero;  CHECKSUM : FF13;  PDB_VERSION : 1.9
+The 'set_programming_file' command succeeded.
+Warning: Programming is already enabled for device 'M2S060T'.
+The 'enable_device' command succeeded.
+The 'set_programming_action' command succeeded.
+programmer '94784' : Scan Chain...
+programmer '94784' : Check Chain...
+programmer '94784' : Scan and Check Chain PASSED.
+programmer '94784' : device 'M2S060T' : Executing action PROGRAM
+programmer '94784' : device 'M2S060T' : Family: SmartFusion2
+programmer '94784' : device 'M2S060T' : Product:      M2S060
+programmer '94784' : device 'M2S060T' : EXPORT ISC_ENABLE_RESULT[32] = 005d6624
+programmer '94784' : device 'M2S060T' : EXPORT CRCERR[1] = 0
+programmer '94784' : device 'M2S060T' : EXPORT EDCERR[1] = 0
+programmer '94784' : device 'M2S060T' : Programming FPGA Array and eNVM...
+programmer '94784' : device 'M2S060T' :
+===================================================================================
+programmer '94784' : device 'M2S060T' : EXPORT DSN[128] = 728cc47a08077a1de1a67f5f114827de
+programmer '94784' : device 'M2S060T' :
+===================================================================================
+programmer '94784' : device 'M2S060T' : Finished: Fri Apr 20 18:23:48 2018 (Elapsed time
+00:01:07)
+programmer '94784' : device 'M2S060T' : Executing action PROGRAM PASSED.
+programmer '94784' : Chain programming PASSED.
+Chain Programming Finished: Fri Apr 20 18:23:48 2018 (Elapsed time 00:01:07)
+
+                        o - o - o - o - o - o
+
+The 'run_selected_actions' command succeeded.
+The 'set_programming_file' command succeeded.
+Project saved.
+The 'save_project' command succeeded.
+Project closed.
+The 'close_project' command succeeded.
+The Execute Script command succeeded.
+Software Version: 11.8.3.6
+STAPL file
+'C:\Users\flb.EECS\Desktop\mario_laptop_sf2_newarch\Mario_SF2_noam\designer\Mario_Libero\export\
+\Mario_Libero.stp' has been loaded successfully.
+DESIGN : Mario_Libero;  CHECKSUM : 7AD1;  ALG_VERSION : 2
+Driver : 3.0.0 build 1
+programmer '94784' : FlashPro4
+Opened 'P:\fred\OMNI\Libero\mario_laptop_sf2_newarch\Mario_SF2_noam\flashpro\New Arch NoAM\New
+Arch NoAM.pro'
+Project closed.
+Software Version: 11.8.3.6
+Driver : 3.0.0 build 1
+programmer '94784' : FlashPro4
+Opened
+'P:\fred\OMNI\Libero\Mario-CM_Flex-EMG_golden\Mario_SF2\designer\Mario_Libero\Mario_Libero_fp\M\
+ario_Libero.pro'
+Software Version: 11.8.3.6
+Driver : 3.0.0 build 1
+programmer '94784' : FlashPro4
+Opened
+'P:\fred\OMNI\Libero\Mario-CM_Flex-EMG_golden\Mario_SF2\designer\Mario_Libero\Mario_Libero_fp\M\
+ario_Libero.pro'
+The 'open_project' command succeeded.
+IPD file
+'P:/fred/OMNI/Libero/Mario-CM_Flex-EMG_golden/Mario_SF2/designer/Mario_Libero/Mario_Libero.ipd'
+has been loaded successfully.
+DESIGN : Mario_Libero;  CHECKSUM : FF13;  PDB_VERSION : 1.9
+The 'set_programming_file' command succeeded.
+Warning: Programming is already enabled for device 'M2S060T'.
+The 'enable_device' command succeeded.
+The 'set_programming_action' command succeeded.
+programmer '94784' : Scan Chain...
+programmer '94784' : Check Chain...
+programmer '94784' : Scan and Check Chain PASSED.
+programmer '94784' : device 'M2S060T' : Executing action PROGRAM
+programmer '94784' : device 'M2S060T' : EXPORT ISC_ENABLE_RESULT[32] = 005d6624
+programmer '94784' : device 'M2S060T' : EXPORT CRCERR[1] = 0
+programmer '94784' : device 'M2S060T' : EXPORT EDCERR[1] = 0
+programmer '94784' : device 'M2S060T' : Programming FPGA Array and eNVM...
+programmer '94784' : device 'M2S060T' :
+===================================================================================
+programmer '94784' : device 'M2S060T' : EXPORT DSN[128] = 728cc47a08077a1de1a67f5f114827de
+programmer '94784' : device 'M2S060T' :
+===================================================================================
+programmer '94784' : device 'M2S060T' : Finished: Fri Apr 20 18:27:36 2018 (Elapsed time
+00:01:07)
+programmer '94784' : device 'M2S060T' : Executing action PROGRAM PASSED.
+programmer '94784' : Chain programming PASSED.
+Chain Programming Finished: Fri Apr 20 18:27:36 2018 (Elapsed time 00:01:07)
+
+                        o - o - o - o - o - o
+
+The 'run_selected_actions' command succeeded.
+The 'set_programming_file' command succeeded.
+Project saved.
+The 'save_project' command succeeded.
+Project closed.
+The 'close_project' command succeeded.
+The Execute Script command succeeded.
+Software Version: 11.8.3.6
+Driver : 3.0.0 build 1
+programmer '94784' : FlashPro4
+Opened
+'P:\fred\OMNI\Libero\Mario-CM_Flex-EMG_golden\Mario_SF2\designer\Mario_Libero\Mario_Libero_fp\M\
+ario_Libero.pro'
+The 'open_project' command succeeded.
+IPD file
+'P:/fred/OMNI/Libero/Mario-CM_Flex-EMG_golden/Mario_SF2/designer/Mario_Libero/Mario_Libero.ipd'
+has been loaded successfully.
+DESIGN : Mario_Libero;  CHECKSUM : FF13;  PDB_VERSION : 1.9
+The 'set_programming_file' command succeeded.
+Warning: Programming is already enabled for device 'M2S060T'.
+The 'enable_device' command succeeded.
+The 'set_programming_action' command succeeded.
+programmer '94784' : Scan Chain...
+programmer '94784' : Check Chain...
+programmer '94784' : Scan and Check Chain PASSED.
+programmer '94784' : device 'M2S060T' : Executing action PROGRAM
+programmer '94784' : device 'M2S060T' : EXPORT ISC_ENABLE_RESULT[32] = 005c6524
+programmer '94784' : device 'M2S060T' : EXPORT CRCERR[1] = 0
+programmer '94784' : device 'M2S060T' : EXPORT EDCERR[1] = 0
+programmer '94784' : device 'M2S060T' : Programming FPGA Array and eNVM...
+programmer '94784' : device 'M2S060T' :
+===================================================================================
+programmer '94784' : device 'M2S060T' : EXPORT DSN[128] = ba7eb0f3591724088602bb3161d300b2
+programmer '94784' : device 'M2S060T' :
+===================================================================================
+programmer '94784' : device 'M2S060T' : Finished: Fri Apr 20 18:48:45 2018 (Elapsed time
+00:01:07)
+programmer '94784' : device 'M2S060T' : Executing action PROGRAM PASSED.
+programmer '94784' : Chain programming PASSED.
+Chain Programming Finished: Fri Apr 20 18:48:45 2018 (Elapsed time 00:01:07)
+
+                        o - o - o - o - o - o
+
+The 'run_selected_actions' command succeeded.
+The 'set_programming_file' command succeeded.
+Project saved.
+The 'save_project' command succeeded.
+Project closed.
+The 'close_project' command succeeded.
+The Execute Script command succeeded.
+Software Version: 11.8.3.6
+Driver : 3.0.0 build 1
+programmer '94784' : FlashPro4
+Opened
+'P:\fred\OMNI\Libero\Mario-CM_Flex-EMG_golden\Mario_SF2\designer\Mario_Libero\Mario_Libero_fp\M\
+ario_Libero.pro'
+The 'open_project' command succeeded.
+IPD file
+'P:/fred/OMNI/Libero/Mario-CM_Flex-EMG_golden/Mario_SF2/designer/Mario_Libero/Mario_Libero.ipd'
+has been loaded successfully.
+DESIGN : Mario_Libero;  CHECKSUM : FF13;  PDB_VERSION : 1.9
+The 'set_programming_file' command succeeded.
+Warning: Programming is already enabled for device 'M2S060T'.
+The 'enable_device' command succeeded.
+The 'set_programming_action' command succeeded.
+programmer '94784' : Scan Chain...
+programmer '94784' : Check Chain...
+programmer '94784' : Scan and Check Chain PASSED.
+programmer '94784' : device 'M2S060T' : Executing action PROGRAM
+programmer '94784' : device 'M2S060T' : EXPORT ISC_ENABLE_RESULT[32] = 005f6824
+programmer '94784' : device 'M2S060T' : EXPORT CRCERR[1] = 0
+programmer '94784' : device 'M2S060T' : EXPORT EDCERR[1] = 0
+programmer '94784' : device 'M2S060T' : Programming FPGA Array and eNVM...
+programmer '94784' : device 'M2S060T' :
+===================================================================================
+programmer '94784' : device 'M2S060T' : EXPORT DSN[128] = 1432dad1e0a807e00103f602006a726f
+programmer '94784' : device 'M2S060T' :
+===================================================================================
+programmer '94784' : device 'M2S060T' : Finished: Fri Apr 20 19:02:59 2018 (Elapsed time
+00:01:07)
+programmer '94784' : device 'M2S060T' : Executing action PROGRAM PASSED.
+programmer '94784' : Chain programming PASSED.
+Chain Programming Finished: Fri Apr 20 19:02:59 2018 (Elapsed time 00:01:07)
+
+                        o - o - o - o - o - o
+
+The 'run_selected_actions' command succeeded.
+The 'set_programming_file' command succeeded.
+Project saved.
+The 'save_project' command succeeded.
+Project closed.
+The 'close_project' command succeeded.
+The Execute Script command succeeded.
+Software Version: 11.8.3.6
+Driver : 3.0.0 build 1
+programmer '94784' : FlashPro4
+Opened 'P:\fred\OMNI\Libero\Mario-CM_Flex-EMG_golden\Mario_SF2\flashpro\Mario_Libero.pro'
+The 'open_project' command succeeded.
+IPD file 'P:/fred/OMNI/Libero/Mario-CM_Flex-EMG_golden/Mario_SF2/flashpro/Mario_Libero.ipd' has
+been loaded successfully.
+DESIGN : Mario_Libero;  CHECKSUM : FF13;  PDB_VERSION : 1.9
+The 'set_programming_file' command succeeded.
+Warning: Programming is already enabled for device 'M2S060T'.
+The 'enable_device' command succeeded.
+The 'set_programming_action' command succeeded.
+programmer '94784' : Scan Chain...
+programmer '94784' : Check Chain...
+programmer '94784' : Scan and Check Chain PASSED.
+programmer '94784' : device 'M2S060T' : Executing action PROGRAM
+programmer '94784' : device 'M2S060T' : EXPORT ISC_ENABLE_RESULT[32] = 005f6824
+programmer '94784' : device 'M2S060T' : EXPORT CRCERR[1] = 0
+programmer '94784' : device 'M2S060T' : EXPORT EDCERR[1] = 0
+programmer '94784' : device 'M2S060T' : Programming FPGA Array and eNVM...
+programmer '94784' : device 'M2S060T' :
+===================================================================================
+programmer '94784' : device 'M2S060T' : EXPORT DSN[128] = 1432dad1e0a807e00103f602006a726f
+programmer '94784' : device 'M2S060T' :
+===================================================================================
+programmer '94784' : device 'M2S060T' : Finished: Fri Apr 20 19:06:36 2018 (Elapsed time
+00:01:07)
+programmer '94784' : device 'M2S060T' : Executing action PROGRAM PASSED.
+programmer '94784' : Chain programming PASSED.
+Chain Programming Finished: Fri Apr 20 19:06:36 2018 (Elapsed time 00:01:07)
+
+                        o - o - o - o - o - o
+
+The 'run_selected_actions' command succeeded.
+The 'set_programming_file' command succeeded.
+Project saved.
+The 'save_project' command succeeded.
+Project closed.
